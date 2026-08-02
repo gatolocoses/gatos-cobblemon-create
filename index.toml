@@ -361,6 +361,194 @@ file = "config/notenoughanimations.json"
 hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ancient_azure_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ancient_citrine_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ancient_feather_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ancient_gigaton_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ancient_great_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ancient_heavy_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ancient_ivory_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ancient_jet_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ancient_leaden_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ancient_poke_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ancient_roseate_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ancient_slate_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ancient_ultra_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ancient_verdant_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ancient_wing_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/azure_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/beast_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/citrine_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/dive_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/dream_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/dusk_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/fast_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/friend_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/great_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/heal_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/heavy_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/level_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/love_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/lure_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/luxury_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/master_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/moon_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/nest_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/net_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/park_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/poke_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/premier_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/quick_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/repeat_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/roseate_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/safari_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/slate_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/sport_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/timer_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ultra_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/verdant_ball.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-create-only-poke-balls/pack.mcmeta"
+hash = "86b38498522132072a1d64ba5864326d3f9eb2a7caffe253d5996e97d4f89462"
+
+[[files]]
 file = "config/placebo.cfg"
 hash = "6bbc71c6dc18b1ba4952e1bc54ed2b98c3a90f04cec4257ec3f7566cdf0c0e2a"
 
@@ -643,6 +831,11 @@ metafile = true
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "e92633222b9275744ba9ae7a90781494f67933924b56ea8287c5dc7553e77e17"
+metafile = true
+
+[[files]]
+file = "mods/paxi.pw.toml"
+hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
 metafile = true
 
 [[files]]
