@@ -496,6 +496,11 @@ hash = "2e082857985c7550efdad38a1997b9805051b07fb61b0cd30921e786a8521130"
 metafile = true
 
 [[files]]
+file = "mods/create-cobblemon-balls-overhaul.pw.toml"
+hash = "e7b9c94edbeddb25bff134d66678e6949e5ab3be9f6c5fe0aabc8ea6f0f19988"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
