@@ -1,0 +1,8 @@
+.git/
+.gitignore
+.packwizignore
+README.md
+client-template/
+*.mrpack
+*.zip
+packwiz-installer-bootstrap.jar

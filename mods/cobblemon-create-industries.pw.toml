@@ -1,0 +1,13 @@
+name = "Cobblemon: Create Industries (3D Production Models)"
+filename = "cobblemon_industries-neoforge-1.5.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7BX9lbH9/versions/EOMncLWr/cobblemon_industries-neoforge-1.5.0.jar"
+hash-format = "sha512"
+hash = "3dbb6f9ae75c9c174c401156e43d2e6ec1258ed04451258b7d191d30c143ffa569d0aed78dd811056c28a17c9ba3949258381fc622554f19b0fbd384a3724ef6"
+
+[update]
+[update.modrinth]
+mod-id = "7BX9lbH9"
+version = "EOMncLWr"
