@@ -1,0 +1,8 @@
+name = "Gato's Recipe Share"
+filename = "gatos_recipe_share-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/gatolocoses/gatos-cobblemon-create/main/mods/gatos_recipe_share-1.0.0.jar"
+hash-format = "sha512"
+hash = "5c5154dc9bf0f2ea47401caa9847d8628d62c9a57facc79a75c690670a44aae51f65ac2cbeb8533b331516598c091326006965e093b47c567c084e34f8dfb03a"

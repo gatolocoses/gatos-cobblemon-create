@@ -361,6 +361,258 @@ file = "config/notenoughanimations.json"
 hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/bronze_ore_hammer.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/copper_ore_hammer.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/aluminum/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/aluminum/dust_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/aluminum/dust_from_raw.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/brass/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/bronze/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/cinnabar/dust_from_gem.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/cinnabar/gem_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/constantan/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/copper/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/copper/dust_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/copper/dust_from_raw.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/diamond/dust_from_gem.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/diamond/dust_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/electrum/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/enderium/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/fluorite/dust_from_gem.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/fluorite/gem_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/gold/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/gold/dust_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/gold/dust_from_raw.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/invar/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/iridium/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/iridium/dust_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/iridium/dust_from_raw.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/iron/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/iron/dust_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/iron/dust_from_raw.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/lead/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/lead/dust_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/lead/dust_from_raw.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/lumium/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/netherite/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/netherite/scrap_from_debris.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/nickel/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/nickel/dust_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/nickel/dust_from_raw.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/osmium/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/osmium/dust_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/osmium/dust_from_raw.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/peridot/dust_from_gem.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/peridot/gem_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/platinum/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/platinum/dust_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/platinum/dust_from_raw.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/ruby/dust_from_gem.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/ruby/gem_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/salt/dust_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/sapphire/dust_from_gem.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/sapphire/gem_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/signalum/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/silver/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/silver/dust_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/silver/dust_from_raw.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/steel/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/sulfur/dust_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/tin/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/tin/dust_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/tin/dust_from_raw.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/uranium/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/uranium/dust_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/uranium/dust_from_raw.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
 file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/zinc/dust_from_ingot.json"
 hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
 
@@ -406,6 +658,18 @@ hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
 
 [[files]]
 file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/zinc/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/invar_ore_hammer.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/iron_ore_hammer.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/platinum_ore_hammer.json"
 hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
 
 [[files]]
@@ -852,6 +1116,11 @@ metafile = true
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "fe6ba31f06abbcbe17a07d16718e3bbaef7a96e83540b3d5c44cd7d9b5af7091"
+metafile = true
+
+[[files]]
+file = "mods/gatos-recipe-share.pw.toml"
+hash = "d52ad8abf76d3a82c21e0694d6c880ea9e14d2ab41c27de6aa1b1a521cb4282d"
 metafile = true
 
 [[files]]

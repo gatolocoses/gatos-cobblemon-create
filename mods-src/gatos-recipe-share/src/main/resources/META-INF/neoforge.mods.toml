@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="gatos_recipe_share"
+version="1.0.0"
+displayName="Gato's Recipe Share"
+authors="gatolocoses"
+description='''
+Share exact EMI recipes with clickable links in multiplayer chat.
+'''
+
+[[dependencies.gatos_recipe_share]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.247,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.gatos_recipe_share]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.gatos_recipe_share]]
+modId="emi"
+type="required"
+versionRange="[1.1.24,)"
+ordering="AFTER"
+side="CLIENT"
