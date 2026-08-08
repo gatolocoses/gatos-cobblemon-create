@@ -373,6 +373,82 @@ file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recip
 hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
 
 [[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/aluminum/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/aluminum/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/brass/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/brass/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/bronze/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/bronze/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/constantan/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/constantan/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/copper/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/copper/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/diamond/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/diamond/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/electrum/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/electrum/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/enderium/alloy_blending_from_dust.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/enderium/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/enderium/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/gold/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/gold/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
 file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/aluminum/dust_from_ingot.json"
 hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
 
@@ -629,6 +705,122 @@ file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recip
 hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
 
 [[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/invar/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/invar/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/iridium/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/iridium/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/iron/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/iron/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/lead/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/lead/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/lumium/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/lumium/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/netherite/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/netherite/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/nickel/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/nickel/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/osmium/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/osmium/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/platinum/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/platinum/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/signalum/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/signalum/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/silver/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/silver/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/steel/alloy_blending_from_dust.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/steel/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/steel/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/tin/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/tin/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/uranium/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/uranium/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
 file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/zinc/block_from_ingot.json"
 hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
 
@@ -707,6 +899,10 @@ hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
 [[files]]
 file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/smelting/zinc/raw_smelting.json"
 hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/c/tags/item/hidden_from_recipe_viewers.json"
+hash = "dd9b5aa1b6e3354f2a0a53c5da6002b89146c03e88872b78eca52a3694bc83b5"
 
 [[files]]
 file = "config/paxi/datapacks/gatos-alltheores-integration/data/gatos/neoforge/biome_modifier/remove_alltheores_end.json"
@@ -1129,7 +1325,7 @@ metafile = true
 
 [[files]]
 file = "mods/gatos-recipe-share.pw.toml"
-hash = "9d3721f89d6736a83893634a6dcdeece74d9955a4f93579708f462aafdc472b1"
+hash = "bb18f40ec95ed0058cb4d2a94901ffc1c172cf4b7557d9ddff0379820fd436af"
 metafile = true
 
 [[files]]

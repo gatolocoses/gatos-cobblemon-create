@@ -2,33 +2,47 @@ package com.gatolocoses.recipeshare;
 
 import com.mojang.brigadier.arguments.StringArgumentType;
 import net.minecraft.commands.Commands;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.item.CreativeModeTab.TabVisibility;
+import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import net.neoforged.neoforge.network.PacketDistributor;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
+import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 import java.util.UUID;
 
 @Mod(GatosRecipeShare.MOD_ID)
 public final class GatosRecipeShare {
     public static final String MOD_ID = "gatos_recipe_share";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+    private static final Set<ResourceLocation> DISABLED_HAMMERS = Set.of(
+            ResourceLocation.fromNamespaceAndPath("alltheores", "bronze_ore_hammer"),
+            ResourceLocation.fromNamespaceAndPath("alltheores", "copper_ore_hammer"),
+            ResourceLocation.fromNamespaceAndPath("alltheores", "invar_ore_hammer"),
+            ResourceLocation.fromNamespaceAndPath("alltheores", "iron_ore_hammer"),
+            ResourceLocation.fromNamespaceAndPath("alltheores", "platinum_ore_hammer"));
     private static final Map<UUID, Long> LAST_SHARE_TICK = new HashMap<>();
 
     public GatosRecipeShare(IEventBus modBus) {
         modBus.addListener(GatosRecipeShare::registerPayloads);
+        modBus.addListener(GatosRecipeShare::removeDisabledCreativeItems);
         NeoForge.EVENT_BUS.addListener(GatosRecipeShare::registerCommands);
         NeoForge.EVENT_BUS.addListener(GatosRecipeShare::playerLoggedOut);
+        NeoForge.EVENT_BUS.addListener(GatosRecipeShare::removeDisabledInventoryItems);
     }
 
     private static void registerPayloads(RegisterPayloadHandlersEvent event) {
@@ -77,5 +91,27 @@ public final class GatosRecipeShare {
 
     private static void playerLoggedOut(PlayerEvent.PlayerLoggedOutEvent event) {
         LAST_SHARE_TICK.remove(event.getEntity().getUUID());
+    }
+
+    private static void removeDisabledCreativeItems(BuildCreativeModeTabContentsEvent event) {
+        for (ResourceLocation id : DISABLED_HAMMERS) {
+            BuiltInRegistries.ITEM.getOptional(id).ifPresent(item ->
+                    event.remove(item.getDefaultInstance(), TabVisibility.PARENT_AND_SEARCH_TABS));
+        }
+    }
+
+    private static void removeDisabledInventoryItems(PlayerTickEvent.Post event) {
+        var player = event.getEntity();
+        if (player.level().isClientSide || player.tickCount % 20 != 0) {
+            return;
+        }
+
+        var inventory = player.getInventory();
+        for (int slot = 0; slot < inventory.getContainerSize(); slot++) {
+            ItemStack stack = inventory.getItem(slot);
+            if (!stack.isEmpty() && DISABLED_HAMMERS.contains(BuiltInRegistries.ITEM.getKey(stack.getItem()))) {
+                inventory.setItem(slot, ItemStack.EMPTY);
+            }
+        }
     }
 }

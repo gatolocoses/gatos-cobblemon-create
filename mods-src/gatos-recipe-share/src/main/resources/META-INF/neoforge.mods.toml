@@ -4,11 +4,11 @@ license="MIT"
 
 [[mods]]
 modId="gatos_recipe_share"
-version="1.1.0"
+version="1.2.0"
 displayName="Gato's Recipe Share"
 authors="gatolocoses"
 description='''
-Share exact EMI recipes with clickable links in multiplayer chat.
+Share exact EMI recipes with clickable links in multiplayer chat and enforce pack compatibility rules.
 '''
 
 [[mixins]]
