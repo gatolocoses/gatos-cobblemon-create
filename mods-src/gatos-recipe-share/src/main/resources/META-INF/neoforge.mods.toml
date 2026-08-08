@@ -4,12 +4,15 @@ license="MIT"
 
 [[mods]]
 modId="gatos_recipe_share"
-version="1.0.0"
+version="1.1.0"
 displayName="Gato's Recipe Share"
 authors="gatolocoses"
 description='''
 Share exact EMI recipes with clickable links in multiplayer chat.
 '''
+
+[[mixins]]
+config="gatos_recipe_share.mixins.json"
 
 [[dependencies.gatos_recipe_share]]
 modId="neoforge"

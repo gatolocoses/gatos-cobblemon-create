@@ -1,6 +1,6 @@
 # Gato's Recipe Share
 
-Adds a share button to serializable EMI recipes. Clicking it broadcasts a multiplayer chat link that opens the exact recipe in EMI for any player who clicks it.
+Adds a share button to serializable EMI recipes. Clicking it broadcasts a multiplayer chat link that previews the recipe on hover and opens the exact recipe in EMI when clicked.
 
 Build with Java 21:
 

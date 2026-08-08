@@ -4,7 +4,7 @@
 README.md
 client-template/
 mods-src/
-mods/gatos_recipe_share-1.0.0.jar
+mods/gatos_recipe_share-*.jar
 *.mrpack
 *.zip
 packwiz-installer-bootstrap.jar

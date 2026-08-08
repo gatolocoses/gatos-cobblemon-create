@@ -27,11 +27,18 @@ neoForge {
     runs {
         client {
             client()
+            if (project.hasProperty('quickPlayServer')) {
+                programArguments.addAll '--quickPlayMultiplayer', project.quickPlayServer
+            }
+            if (project.hasProperty('smokeTest')) {
+                systemProperty 'gatos_recipe_share.smokeTest', 'true'
+            }
         }
 
         server {
             server()
             programArgument '--nogui'
+            programArguments.addAll '--port', '25566'
         }
     }
 
@@ -47,7 +54,7 @@ configurations {
 }
 
 dependencies {
-    compileOnly "dev.emi:emi-neoforge:${emi_version}:api"
+    compileOnly "dev.emi:emi-neoforge:${emi_version}"
     localRuntime "dev.emi:emi-neoforge:${emi_version}"
 }
 
@@ -56,6 +63,7 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 tasks.named('jar') {
+    exclude 'com/gatolocoses/recipeshare/ClientSmokeTest.class'
     from('LICENSE') {
         into 'META-INF'
     }

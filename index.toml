@@ -174,7 +174,7 @@ hash = "d5eae891d3f22d57f8de6c71458da8d6b49370ac21efb5a4349469efb7dbf9fe"
 
 [[files]]
 file = "config/emi.css"
-hash = "460e1975629887dd9dc2a9e6fe6777d4e268ef0d6510d97467089a173f3c5168"
+hash = "b2fefce8b997851759990d1ec0c71d4be631e435857eb7b19516e4806986ac34"
 
 [[files]]
 file = "config/enderio/base-client.toml"
@@ -1129,7 +1129,7 @@ metafile = true
 
 [[files]]
 file = "mods/gatos-recipe-share.pw.toml"
-hash = "d52ad8abf76d3a82c21e0694d6c880ea9e14d2ab41c27de6aa1b1a521cb4282d"
+hash = "9d3721f89d6736a83893634a6dcdeece74d9955a4f93579708f462aafdc472b1"
 metafile = true
 
 [[files]]

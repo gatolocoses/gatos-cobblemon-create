@@ -12,6 +12,8 @@ import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import net.neoforged.neoforge.network.PacketDistributor;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -20,6 +22,7 @@ import java.util.UUID;
 @Mod(GatosRecipeShare.MOD_ID)
 public final class GatosRecipeShare {
     public static final String MOD_ID = "gatos_recipe_share";
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     private static final Map<UUID, Long> LAST_SHARE_TICK = new HashMap<>();
 
     public GatosRecipeShare(IEventBus modBus) {
@@ -58,12 +61,12 @@ public final class GatosRecipeShare {
     private static void registerCommands(RegisterCommandsEvent event) {
         event.getDispatcher().register(Commands.literal("gatorecipe")
                 .then(Commands.literal("view")
-                        .then(Commands.argument("recipe", StringArgumentType.word())
+                        .then(Commands.argument("recipe", StringArgumentType.greedyString())
                                 .executes(context -> {
                                     ServerPlayer player = context.getSource().getPlayerOrException();
                                     String value = StringArgumentType.getString(context, "recipe");
                                     ResourceLocation recipeId = ResourceLocation.tryParse(value);
-                                    if (recipeId == null) {
+                                    if (recipeId == null || value.length() > 256) {
                                         context.getSource().sendFailure(Component.literal("Invalid recipe link"));
                                         return 0;
                                     }
