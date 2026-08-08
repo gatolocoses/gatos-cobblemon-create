@@ -475,7 +475,7 @@
 	 * These are typically developer facing and compatibility related, and not useful
 	 * for players.
 	 */
-	show-recipe-decorators: false;
+	show-recipe-decorators: true;
 
 	/**
 	 * Whether stacks in the index should display a highlight if they have a recipe
