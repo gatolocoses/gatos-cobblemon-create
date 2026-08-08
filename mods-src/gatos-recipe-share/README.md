@@ -4,6 +4,8 @@ Adds a share button to serializable EMI recipes. Clicking it broadcasts a multip
 
 The mod also enforces pack-level disabled-item rules, including removal of AllTheOres ore hammers from creative tabs and player inventories.
 
+Sending `ya a dormir` in chat sets the server time to `0`.
+
 Build with Java 21:
 
 ```sh

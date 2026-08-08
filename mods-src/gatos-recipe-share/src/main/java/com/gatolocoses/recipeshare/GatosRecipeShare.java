@@ -11,6 +11,7 @@ import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.neoforge.event.ServerChatEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
@@ -41,6 +42,7 @@ public final class GatosRecipeShare {
         modBus.addListener(GatosRecipeShare::registerPayloads);
         modBus.addListener(GatosRecipeShare::removeDisabledCreativeItems);
         NeoForge.EVENT_BUS.addListener(GatosRecipeShare::registerCommands);
+        NeoForge.EVENT_BUS.addListener(GatosRecipeShare::setMorningFromChat);
         NeoForge.EVENT_BUS.addListener(GatosRecipeShare::playerLoggedOut);
         NeoForge.EVENT_BUS.addListener(GatosRecipeShare::removeDisabledInventoryItems);
     }
@@ -91,6 +93,16 @@ public final class GatosRecipeShare {
 
     private static void playerLoggedOut(PlayerEvent.PlayerLoggedOutEvent event) {
         LAST_SHARE_TICK.remove(event.getEntity().getUUID());
+    }
+
+    private static void setMorningFromChat(ServerChatEvent event) {
+        if (!event.getRawText().trim().equalsIgnoreCase("ya a dormir")) {
+            return;
+        }
+
+        for (var level : event.getPlayer().getServer().getAllLevels()) {
+            level.setDayTime(0);
+        }
     }
 
     private static void removeDisabledCreativeItems(BuildCreativeModeTabContentsEvent event) {

@@ -1325,7 +1325,7 @@ metafile = true
 
 [[files]]
 file = "mods/gatos-recipe-share.pw.toml"
-hash = "bb18f40ec95ed0058cb4d2a94901ffc1c172cf4b7557d9ddff0379820fd436af"
+hash = "46576e58fdd0d0e1124a538e3c5055065b5d0db953534d00fa56d36bf3eb7fbb"
 metafile = true
 
 [[files]]
