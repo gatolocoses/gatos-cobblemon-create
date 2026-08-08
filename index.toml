@@ -17,6 +17,10 @@ file = "config/ae2-common.toml"
 hash = "0b13fbe2bd57729f040dc9574e6fc826b30b8bfc75da69d244440a9fdd8477c7"
 
 [[files]]
+file = "config/almostunified/unification/materials.json"
+hash = "6d26f3092956b05dc0b2df262e7929bc282a3080f00a4d929ceba04add154da6"
+
+[[files]]
 file = "config/apotheosis/apothic_attributes.cfg"
 hash = "0ce3691bf114d731d9af982f809af2ca88c6cdb2173597f2d82513cdd5610a41"
 
@@ -976,6 +980,11 @@ metafile = true
 [[files]]
 file = "mods/ae2.pw.toml"
 hash = "ed45c352a49b65c7221e57d979d0c6935522dfef4968aa5b7421f4d3e670ce40"
+metafile = true
+
+[[files]]
+file = "mods/almostunified.pw.toml"
+hash = "3805fe2877cffdae5e7bf74d85069a2535daa39a0f3ed766755be49294a07680"
 metafile = true
 
 [[files]]
