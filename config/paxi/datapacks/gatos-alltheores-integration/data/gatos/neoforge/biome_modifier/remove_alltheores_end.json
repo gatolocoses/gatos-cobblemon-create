@@ -1,0 +1,24 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#c:is_end",
+  "features": [
+    "alltheores:ore_aluminum_placed",
+    "alltheores:ore_cinnabar_placed",
+    "alltheores:ore_fluorite_placed",
+    "alltheores:ore_iridium_placed",
+    "alltheores:ore_lead_placed",
+    "alltheores:ore_nickel_placed",
+    "alltheores:ore_osmium_placed",
+    "alltheores:ore_peridot_placed",
+    "alltheores:ore_platinum_placed",
+    "alltheores:ore_ruby_placed",
+    "alltheores:ore_salt_placed",
+    "alltheores:ore_sapphire_placed",
+    "alltheores:ore_silver_placed",
+    "alltheores:ore_sulfur_placed",
+    "alltheores:ore_tin_placed",
+    "alltheores:ore_uranium_placed",
+    "alltheores:ore_zinc_placed"
+  ],
+  "steps": ["underground_ores"]
+}

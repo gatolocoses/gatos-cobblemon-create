@@ -361,6 +361,102 @@ file = "config/notenoughanimations.json"
 hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/zinc/dust_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/zinc/dust_from_ore.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/hammer/zinc/dust_from_raw.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/zinc/block_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/zinc/gear.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/zinc/ingot_from_block.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/zinc/ingot_from_nugget.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/zinc/nugget_from_ingot.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/zinc/plate.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/zinc/raw_block_from_raw.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/zinc/raw_from_raw_block.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/crafting/zinc/rod.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/smelting/zinc/dust_blasting.json"
+hash = "2b5341f77f9eba8cc5178a886310f03e95a081f549507ab25e0da6ce77768882"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/smelting/zinc/dust_smelting.json"
+hash = "c169accc683b59fe08575f16b2b17de6433f0942728b4ce2fc02cbe7fd254c1f"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/smelting/zinc/ore_blasting.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/smelting/zinc/ore_smelting.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/smelting/zinc/raw_blasting.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/smelting/zinc/raw_block_blasting.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/smelting/zinc/raw_block_smelting.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/smelting/zinc/raw_smelting.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/gatos/neoforge/biome_modifier/remove_alltheores_end.json"
+hash = "22b5f0520aa1081c7cb202619853fc3005c43ce0223a304aed9aa8f8226ba872"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/gatos/neoforge/biome_modifier/remove_alltheores_nether.json"
+hash = "b1c1e3944709c3db9d22ae5bf185711a74d25bf151b5904f6d1b57b4451e6345"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/data/gatos/neoforge/biome_modifier/remove_alltheores_overworld.json"
+hash = "6deaede582954cdeaac2b00e22ad1ffbc1906289b210c6c9f66c1dc09b5ad007"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-alltheores-integration/pack.mcmeta"
+hash = "9920381c8fb3791cb5d6195a18e656807dca5b803793d7dcd2e6b7da01aca08c"
+
+[[files]]
 file = "config/paxi/datapacks/gatos-create-only-poke-balls/data/cobblemon/recipe/ancient_azure_ball.json"
 hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
 
@@ -649,6 +745,11 @@ hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
 metafile = true
 
 [[files]]
+file = "mods/ato.pw.toml"
+hash = "2caa0a932f416d3a6d6dd2921840856395b56b04417292938ddb1796b72bf448"
+metafile = true
+
+[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "c9aca350959a8936b054c7164fb55d789ab1e0d38cff2af48b78f70af2bc0c6d"
 metafile = true
@@ -841,6 +942,11 @@ metafile = true
 [[files]]
 file = "mods/placebo.pw.toml"
 hash = "2f9f0f8c05ce7e410a70cfed595e623fe8031df89a8a9ba9a8aaaa419eb4d18b"
+metafile = true
+
+[[files]]
+file = "mods/powah.pw.toml"
+hash = "dc9fec9f7c8410ed73c1d9dec65df90b83af5a62a86e6a33b55dec5641f49f17"
 metafile = true
 
 [[files]]
