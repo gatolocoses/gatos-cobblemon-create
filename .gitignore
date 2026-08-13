@@ -1,5 +1,6 @@
 *.mrpack
 *.zip
+!custom-assets/*.zip
 packwiz-installer-bootstrap.jar
 mods-src/**/.gradle/
 mods-src/**/build/

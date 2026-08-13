@@ -8,3 +8,4 @@ mods/gatos_recipe_share-*.jar
 *.mrpack
 *.zip
 packwiz-installer-bootstrap.jar
+custom-assets/
