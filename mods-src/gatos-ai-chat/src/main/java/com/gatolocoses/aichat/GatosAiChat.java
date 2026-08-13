@@ -1,14 +1,21 @@
 package com.gatolocoses.aichat;
 
 import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import net.minecraft.ChatFormatting;
 import net.minecraft.commands.Commands;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
@@ -46,6 +53,8 @@ public final class GatosAiChat {
     public static final ModConfigSpec.ConfigValue<String> SYSTEM_PROMPT;
     public static final ModConfigSpec.IntValue HISTORY_SIZE;
     public static final ModConfigSpec.BooleanValue WEB_SEARCH;
+    public static final ModConfigSpec.BooleanValue TOOLS_ENABLED;
+    public static final ModConfigSpec.BooleanValue INVENTORY_CONTEXT;
 
     static {
         ModConfigSpec.Builder builder = new ModConfigSpec.Builder();
@@ -63,13 +72,19 @@ public final class GatosAiChat {
                 .define("model", "deepseek-v4-flash");
         SYSTEM_PROMPT = builder
                 .comment("System prompt sent with every request.")
-                .define("systemPrompt", "You are a friendly AI assistant on a Minecraft server. Answer in the language the player uses and keep answers concise.");
+                .define("systemPrompt", "You are a friendly AI assistant inside a Minecraft multiplayer server. You chat with players in their language. You can search the web when needed. You can also call tools to see live game data on demand: get_player_info (position, dimension, biome, health, food, XP level, game mode, held item), get_player_inventory (items and counts a player has), list_players (who is online and where), get_server_info (in-game time, weather, difficulty, dimensions), and get_biome (biome at a player or at coordinates). Use the tools whenever the answer depends on live game state instead of guessing. Keep answers concise.");
         HISTORY_SIZE = builder
                 .comment("Number of previous chat messages kept as context per player. 0 disables memory.")
-                .defineInRange("historySize", 8, 0, 64);
+                .defineInRange("historySize", 20, 0, 64);
         WEB_SEARCH = builder
                 .comment("Enable web search through Open WebUI for every request.")
                 .define("webSearch", true);
+        TOOLS_ENABLED = builder
+                .comment("Allow the AI to call read-only tools to fetch server and player data on demand.")
+                .define("toolsEnabled", true);
+        INVENTORY_CONTEXT = builder
+                .comment("Always include the asking player's inventory in every request. With toolsEnabled the AI can request it on demand.")
+                .define("inventoryContext", false);
         CONFIG_SPEC = builder.build();
     }
 
@@ -105,6 +120,10 @@ public final class GatosAiChat {
                         })
                         .then(Commands.argument("key", StringArgumentType.greedyString())
                                 .executes(context -> {
+                                    if (!context.getSource().hasPermission(2)) {
+                                        context.getSource().sendFailure(Component.literal("Only server operators can set the API key."));
+                                        return 0;
+                                    }
                                     ServerPlayer player = context.getSource().getPlayerOrException();
                                     API_KEY.set(StringArgumentType.getString(context, "key"));
                                     try {
@@ -122,6 +141,9 @@ public final class GatosAiChat {
                             player.sendSystemMessage(Component.literal("[AI] baseUrl=" + BASE_URL.get()
                                     + " | model=" + MODEL.get()
                                     + " | historySize=" + HISTORY_SIZE.get()
+                                    + " | webSearch=" + WEB_SEARCH.get()
+                                    + " | tools=" + TOOLS_ENABLED.get()
+                                    + " | inventoryContext=" + INVENTORY_CONTEXT.get()
                                     + " | apiKey=" + keyState).withStyle(ChatFormatting.GRAY));
                             return 1;
                         }))
@@ -156,6 +178,8 @@ public final class GatosAiChat {
         ask(event.getPlayer(), prompt);
     }
 
+    private static final int MAX_TOOL_ITERATIONS = 4;
+
     private static void ask(ServerPlayer player, String prompt) {
         MinecraftServer server = player.getServer();
         if (server == null) {
@@ -173,10 +197,14 @@ public final class GatosAiChat {
         trimHistory(history);
 
         JsonArray messages = new JsonArray();
-        if (!SYSTEM_PROMPT.get().isBlank()) {
+        String systemContent = SYSTEM_PROMPT.get();
+        if (INVENTORY_CONTEXT.get()) {
+            systemContent = systemContent + "\n\n" + inventoryContext(player);
+        }
+        if (!systemContent.isBlank()) {
             JsonObject system = new JsonObject();
             system.addProperty("role", "system");
-            system.addProperty("content", SYSTEM_PROMPT.get());
+            system.addProperty("content", systemContent);
             messages.add(system);
         }
         for (HistoryEntry entry : history) {
@@ -186,16 +214,21 @@ public final class GatosAiChat {
             messages.add(message);
         }
 
+        player.sendSystemMessage(Component.literal("[AI] Thinking...").withStyle(ChatFormatting.GRAY));
+        sendCompletion(server, player, messages, 0);
+    }
+
+    private static void sendCompletion(MinecraftServer server, ServerPlayer player, JsonArray messages, int iteration) {
         JsonObject body = new JsonObject();
         body.addProperty("model", MODEL.get());
         body.add("messages", messages);
+        if (TOOLS_ENABLED.get()) {
+            body.add("tools", toolSpecs());
+        }
         if (WEB_SEARCH.get()) {
             JsonObject features = new JsonObject();
             features.addProperty("web_search", true);
             body.add("features", features);
-            JsonObject params = new JsonObject();
-            params.addProperty("function_calling", "legacy");
-            body.add("params", params);
         }
 
         HttpRequest request;
@@ -204,7 +237,7 @@ public final class GatosAiChat {
                     .uri(URI.create(BASE_URL.get().replaceAll("/+$", "") + "/chat/completions"))
                     .timeout(Duration.ofSeconds(90))
                     .header("Content-Type", "application/json")
-                    .header("Authorization", "Bearer " + apiKey)
+                    .header("Authorization", "Bearer " + API_KEY.get())
                     .POST(HttpRequest.BodyPublishers.ofString(body.toString()))
                     .build();
         } catch (IllegalArgumentException e) {
@@ -213,27 +246,68 @@ public final class GatosAiChat {
             return;
         }
 
-        player.sendSystemMessage(Component.literal("[AI] Thinking...").withStyle(ChatFormatting.GRAY));
-
         HTTP_CLIENT.sendAsync(request, HttpResponse.BodyHandlers.ofString())
                 .orTimeout(95, TimeUnit.SECONDS)
-                .thenAccept(response -> server.execute(() -> handleResponse(server, player, history, response)))
+                .thenAccept(response -> server.execute(() -> handleCompletion(server, player, messages, iteration, response)))
                 .exceptionally(throwable -> {
-                    server.execute(() -> {
-                        player.sendSystemMessage(Component.literal("[AI] Request failed: " + friendlyError(throwable)).withStyle(ChatFormatting.RED));
-                    });
+                    server.execute(() ->
+                            player.sendSystemMessage(Component.literal("[AI] Request failed: " + friendlyError(throwable)).withStyle(ChatFormatting.RED)));
                     return null;
                 });
     }
 
-    private static void handleResponse(MinecraftServer server, ServerPlayer player, Deque<HistoryEntry> history, HttpResponse<String> response) {
-        String answer = extractContent(response);
-        if (answer == null) {
+    private static void handleCompletion(MinecraftServer server, ServerPlayer player, JsonArray messages, int iteration, HttpResponse<String> response) {
+        if (response.statusCode() < 200 || response.statusCode() >= 300) {
             String status = response.statusCode() + " " + (response.body() == null ? "" : response.body().substring(0, Math.min(300, response.body().length())));
             player.sendSystemMessage(Component.literal("[AI] API error: " + status).withStyle(ChatFormatting.RED));
             return;
         }
 
+        JsonObject message;
+        try {
+            message = JsonParser.parseString(response.body()).getAsJsonObject()
+                    .getAsJsonArray("choices").get(0).getAsJsonObject()
+                    .getAsJsonObject("message");
+        } catch (Exception e) {
+            LOGGER.error("Failed to parse AI chat response", e);
+            player.sendSystemMessage(Component.literal("[AI] Failed to read the AI response.").withStyle(ChatFormatting.RED));
+            return;
+        }
+
+        JsonArray toolCalls = message.getAsJsonArray("tool_calls");
+        if (toolCalls != null && !toolCalls.isEmpty() && iteration < MAX_TOOL_ITERATIONS) {
+            messages.add(message.deepCopy());
+            for (JsonElement element : toolCalls) {
+                JsonObject call = element.getAsJsonObject();
+                String callId = call.get("id") == null || call.get("id").isJsonNull() ? "" : call.get("id").getAsString();
+                JsonObject function = call.getAsJsonObject("function");
+                String name = function.get("name").getAsString();
+                JsonObject args = new JsonObject();
+                try {
+                    JsonElement parsed = JsonParser.parseString(function.get("arguments").getAsString());
+                    if (parsed.isJsonObject()) {
+                        args = parsed.getAsJsonObject();
+                    }
+                } catch (Exception ignored) {
+                }
+
+                JsonObject result = new JsonObject();
+                result.addProperty("role", "tool");
+                result.addProperty("tool_call_id", callId);
+                result.addProperty("content", executeTool(server, player, name, args));
+                messages.add(result);
+            }
+            sendCompletion(server, player, messages, iteration + 1);
+            return;
+        }
+
+        String answer = message.get("content") == null || message.get("content").isJsonNull() ? null : message.get("content").getAsString();
+        if (answer == null || answer.isBlank()) {
+            player.sendSystemMessage(Component.literal("[AI] The AI did not produce an answer.").withStyle(ChatFormatting.RED));
+            return;
+        }
+
+        Deque<HistoryEntry> history = HISTORY.computeIfAbsent(player.getUUID(), id -> new ArrayDeque<>());
         history.addLast(new HistoryEntry("assistant", answer));
         trimHistory(history);
 
@@ -243,20 +317,185 @@ public final class GatosAiChat {
         }
     }
 
-    private static String extractContent(HttpResponse<String> response) {
+    private static JsonArray toolSpecs() {
+        JsonArray tools = new JsonArray();
+        tools.add(tool("get_player_info",
+                "Information about a Minecraft player: position, dimension, biome, health, food, XP level, game mode, and held item. Omit \"player\" for the player who asked.",
+                "{\"type\":\"object\",\"properties\":{\"player\":{\"type\":\"string\",\"description\":\"Player name. Omit for the asking player.\"}}}"));
+        tools.add(tool("get_player_inventory",
+                "The inventory contents (item: count) of a Minecraft player. Omit \"player\" for the asking player.",
+                "{\"type\":\"object\",\"properties\":{\"player\":{\"type\":\"string\",\"description\":\"Player name. Omit for the asking player.\"}}}"));
+        tools.add(tool("list_players",
+                "The players currently online on the Minecraft server with their dimension, position, and health.",
+                "{\"type\":\"object\",\"properties\":{}}"));
+        tools.add(tool("get_server_info",
+                "Current Minecraft server state: in-game day and time, weather, difficulty, and the list of dimensions.",
+                "{\"type\":\"object\",\"properties\":{}}"));
+        tools.add(tool("get_biome",
+                "The biome at a position. Provide a player name, or provide x, z, and optional y and dimension.",
+                "{\"type\":\"object\",\"properties\":{\"player\":{\"type\":\"string\"},\"x\":{\"type\":\"number\"},\"y\":{\"type\":\"number\"},\"z\":{\"type\":\"number\"},\"dimension\":{\"type\":\"string\",\"description\":\"Dimension id, e.g. minecraft:overworld. Defaults to minecraft:overworld.\"}}}"));
+        return tools;
+    }
+
+    private static JsonObject tool(String name, String description, String parameters) {
+        JsonObject function = new JsonObject();
+        function.addProperty("name", name);
+        function.addProperty("description", description);
+        function.add("parameters", JsonParser.parseString(parameters));
+        JsonObject tool = new JsonObject();
+        tool.addProperty("type", "function");
+        tool.add("function", function);
+        return tool;
+    }
+
+    private static String executeTool(MinecraftServer server, ServerPlayer asker, String name, JsonObject args) {
         try {
-            if (response.statusCode() < 200 || response.statusCode() >= 300) {
-                return null;
-            }
-            JsonObject root = JsonParser.parseString(response.body()).getAsJsonObject();
-            return root.getAsJsonArray("choices")
-                    .get(0).getAsJsonObject()
-                    .getAsJsonObject("message")
-                    .get("content").getAsString();
+            return switch (name) {
+                case "get_player_info" -> playerInfo(resolvePlayer(server, asker, args));
+                case "get_player_inventory" -> playerInventory(resolvePlayer(server, asker, args));
+                case "list_players" -> listPlayers(server);
+                case "get_server_info" -> serverInfo(server);
+                case "get_biome" -> biomeInfo(server, asker, args);
+                default -> "{\"error\":\"Unknown tool: " + name + "\"}";
+            };
         } catch (Exception e) {
-            LOGGER.error("Failed to parse AI chat response", e);
-            return null;
+            return "{\"error\":\"Tool failed\"}";
         }
+    }
+
+    private static ServerPlayer resolvePlayer(MinecraftServer server, ServerPlayer asker, JsonObject args) {
+        if (args.has("player") && !args.get("player").getAsString().isBlank()) {
+            return server.getPlayerList().getPlayerByName(args.get("player").getAsString());
+        }
+        return asker;
+    }
+
+    private static String playerInfo(ServerPlayer player) {
+        if (player == null) {
+            return "{\"error\":\"Player not found\"}";
+        }
+        JsonObject info = new JsonObject();
+        info.addProperty("name", player.getGameProfile().getName());
+        info.addProperty("dimension", player.serverLevel().dimension().location().toString());
+        info.addProperty("biome", biomeAt(player.serverLevel(), player.blockPosition()));
+        info.addProperty("x", Math.round(player.getX()));
+        info.addProperty("y", Math.round(player.getY()));
+        info.addProperty("z", Math.round(player.getZ()));
+        info.addProperty("health", Math.round(player.getHealth()));
+        info.addProperty("maxHealth", Math.round(player.getMaxHealth()));
+        info.addProperty("food", player.getFoodData().getFoodLevel());
+        info.addProperty("xpLevel", player.experienceLevel);
+        info.addProperty("gameMode", player.gameMode.getGameModeForPlayer().getName());
+        info.addProperty("heldItem", player.getMainHandItem().isEmpty() ? "nothing" : player.getMainHandItem().getHoverName().getString());
+        return info.toString();
+    }
+
+    private static String playerInventory(ServerPlayer player) {
+        if (player == null) {
+            return "{\"error\":\"Player not found\"}";
+        }
+        JsonObject result = new JsonObject();
+        result.addProperty("player", player.getGameProfile().getName());
+        JsonArray items = new JsonArray();
+        var inventory = player.getInventory();
+        for (int slot = 0; slot < inventory.getContainerSize(); slot++) {
+            ItemStack stack = inventory.getItem(slot);
+            if (!stack.isEmpty()) {
+                items.add(stack.getHoverName().getString() + ": " + stack.getCount());
+            }
+        }
+        result.add("items", items);
+        return result.toString();
+    }
+
+    private static String listPlayers(MinecraftServer server) {
+        JsonObject result = new JsonObject();
+        JsonArray players = new JsonArray();
+        for (ServerPlayer p : server.getPlayerList().getPlayers()) {
+            JsonObject info = new JsonObject();
+            info.addProperty("name", p.getGameProfile().getName());
+            info.addProperty("dimension", p.serverLevel().dimension().location().toString());
+            info.addProperty("x", Math.round(p.getX()));
+            info.addProperty("y", Math.round(p.getY()));
+            info.addProperty("z", Math.round(p.getZ()));
+            info.addProperty("health", Math.round(p.getHealth()));
+            players.add(info);
+        }
+        result.add("players", players);
+        return result.toString();
+    }
+
+    private static String serverInfo(MinecraftServer server) {
+        JsonObject info = new JsonObject();
+        ServerLevel overworld = server.overworld();
+        info.addProperty("day", overworld.getDayTime() / 24000L);
+        info.addProperty("timeOfDay", overworld.getDayTime() % 24000L);
+        info.addProperty("raining", overworld.isRaining());
+        info.addProperty("thundering", overworld.isThundering());
+        info.addProperty("difficulty", server.getWorldData().getDifficulty().getKey());
+        info.addProperty("onlinePlayers", server.getPlayerList().getPlayerCount());
+        info.addProperty("serverTickCount", server.getTickCount());
+        JsonArray dimensions = new JsonArray();
+        for (ServerLevel level : server.getAllLevels()) {
+            dimensions.add(level.dimension().location().toString());
+        }
+        info.add("dimensions", dimensions);
+        return info.toString();
+    }
+
+    private static String biomeInfo(MinecraftServer server, ServerPlayer asker, JsonObject args) {
+        ServerLevel level = asker.serverLevel();
+        double x = asker.getX();
+        double y = asker.getY();
+        double z = asker.getZ();
+        if (args.has("player") && !args.get("player").getAsString().isBlank()) {
+            ServerPlayer target = server.getPlayerList().getPlayerByName(args.get("player").getAsString());
+            if (target == null) {
+                return "{\"error\":\"Player not found\"}";
+            }
+            level = target.serverLevel();
+            x = target.getX();
+            y = target.getY();
+            z = target.getZ();
+        } else if (args.has("x") && args.has("z")) {
+            x = args.get("x").getAsDouble();
+            z = args.get("z").getAsDouble();
+            y = args.has("y") ? args.get("y").getAsDouble() : 64;
+            if (args.has("dimension")) {
+                ResourceLocation dimensionId = ResourceLocation.tryParse(args.get("dimension").getAsString());
+                ServerLevel targetLevel = dimensionId == null ? null : server.getLevel(ResourceKey.create(Registries.DIMENSION, dimensionId));
+                if (targetLevel != null) {
+                    level = targetLevel;
+                }
+            }
+        }
+        JsonObject result = new JsonObject();
+        result.addProperty("dimension", level.dimension().location().toString());
+        result.addProperty("x", Math.round(x));
+        result.addProperty("y", Math.round(y));
+        result.addProperty("z", Math.round(z));
+        result.addProperty("biome", biomeAt(level, BlockPos.containing(x, y, z)));
+        return result.toString();
+    }
+
+    private static String biomeAt(ServerLevel level, BlockPos pos) {
+        return level.getBiome(pos).unwrapKey()
+                .map(key -> key.location().toString())
+                .orElse("unknown");
+    }
+
+    private static String inventoryContext(ServerPlayer player) {
+        StringBuilder context = new StringBuilder("The player \"")
+                .append(player.getGameProfile().getName())
+                .append("\" has the following items in their inventory (item: count):");
+        var inventory = player.getInventory();
+        for (int slot = 0; slot < inventory.getContainerSize(); slot++) {
+            ItemStack stack = inventory.getItem(slot);
+            if (!stack.isEmpty()) {
+                context.append("\n- ").append(stack.getHoverName().getString()).append(": ").append(stack.getCount());
+            }
+        }
+        return context.toString();
     }
 
     private static String friendlyError(Throwable throwable) {

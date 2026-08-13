@@ -1,8 +1,8 @@
 name = "Gato's AI Chat"
-filename = "gatos_ai_chat-1.0.0.jar"
+filename = "gatos_ai_chat-1.1.0.jar"
 side = "server"
 
 [download]
-url = "https://raw.githubusercontent.com/gatolocoses/gatos-cobblemon-create/main/mods/gatos_ai_chat-1.0.0.jar"
+url = "https://raw.githubusercontent.com/gatolocoses/gatos-cobblemon-create/main/mods/gatos_ai_chat-1.1.0.jar"
 hash-format = "sha512"
-hash = "3881610a365abbb8bd0b847e1a78864e523010acde0dac2eea71763182b454e6d8da334a8e0db57c1c80112049b3e757ea3fec6d612ddb13a2429507c9f47973"
+hash = "9ca5ca55bb7f905c755d555b03ff24a2ca79efaaf07f018314d6f084bd1c80fae0fdec37f2eff68e7326ee159d22d916bb501ae0d65836323de15a36cac8ec96"
