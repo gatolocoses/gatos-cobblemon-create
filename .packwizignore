@@ -1,1 +1,10 @@
-!config/paxi/resourcepacks/*.zip
+.git/
+.gitignore
+.packwizignore
+README.md
+client-template/
+mods-src/
+mods/gatos_recipe_share-*.jar
+*.mrpack
+*.zip
+packwiz-installer-bootstrap.jar
