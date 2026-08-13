@@ -1,5 +1,6 @@
 *.mrpack
 *.zip
+!config/paxi/resourcepacks/*.zip
 packwiz-installer-bootstrap.jar
 mods-src/**/.gradle/
 mods-src/**/build/
