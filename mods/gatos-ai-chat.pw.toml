@@ -5,4 +5,4 @@ side = "server"
 [download]
 url = "https://raw.githubusercontent.com/gatolocoses/gatos-cobblemon-create/main/mods/gatos_ai_chat-1.1.0.jar"
 hash-format = "sha512"
-hash = "9ca5ca55bb7f905c755d555b03ff24a2ca79efaaf07f018314d6f084bd1c80fae0fdec37f2eff68e7326ee159d22d916bb501ae0d65836323de15a36cac8ec96"
+hash = "67ac29924a4eb5d0aa2af0562939e87b89d91e03b8e9d5db9a72cc954edb3fe8cfd50a90d64289213db276d58acad23c80e785dccf7517e36a1b4cd94b4d36ee"

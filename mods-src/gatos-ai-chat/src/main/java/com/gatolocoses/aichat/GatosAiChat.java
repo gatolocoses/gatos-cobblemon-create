@@ -33,8 +33,10 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.time.Duration;
 import java.util.ArrayDeque;
+import java.util.ArrayList;
 import java.util.Deque;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.UUID;
@@ -72,7 +74,7 @@ public final class GatosAiChat {
                 .define("model", "deepseek-v4-flash");
         SYSTEM_PROMPT = builder
                 .comment("System prompt sent with every request.")
-                .define("systemPrompt", "You are a friendly AI assistant inside a Minecraft multiplayer server. You chat with players in their language. You can search the web when needed. You can also call tools to see live game data on demand: get_player_info (position, dimension, biome, health, food, XP level, game mode, held item), get_player_inventory (items and counts a player has), list_players (who is online and where), get_server_info (in-game time, weather, difficulty, dimensions), and get_biome (biome at a player or at coordinates). Use the tools whenever the answer depends on live game state instead of guessing. Keep answers concise.");
+                .define("systemPrompt", "You are a friendly AI assistant inside a Minecraft multiplayer server. You chat with players in their language. You can call tools on demand: web_search (query the web for current information), get_player_info (position, dimension, biome, health, food, XP level, game mode, held item), get_player_inventory (items and counts a player has), list_players (who is online and where), get_server_info (in-game time, weather, difficulty, dimensions), and get_biome (biome at a player or at coordinates). Use the tools whenever the answer depends on live data instead of guessing. Keep answers concise.");
         HISTORY_SIZE = builder
                 .comment("Number of previous chat messages kept as context per player. 0 disables memory.")
                 .defineInRange("historySize", 20, 0, 64);
@@ -225,11 +227,6 @@ public final class GatosAiChat {
         if (TOOLS_ENABLED.get()) {
             body.add("tools", toolSpecs());
         }
-        if (WEB_SEARCH.get()) {
-            JsonObject features = new JsonObject();
-            features.addProperty("web_search", true);
-            body.add("features", features);
-        }
 
         HttpRequest request;
         try {
@@ -277,6 +274,8 @@ public final class GatosAiChat {
         JsonArray toolCalls = message.getAsJsonArray("tool_calls");
         if (toolCalls != null && !toolCalls.isEmpty() && iteration < MAX_TOOL_ITERATIONS) {
             messages.add(message.deepCopy());
+            List<JsonObject> results = new ArrayList<>();
+            List<CompletableFuture<Void>> asyncTasks = new ArrayList<>();
             for (JsonElement element : toolCalls) {
                 JsonObject call = element.getAsJsonObject();
                 String callId = call.get("id") == null || call.get("id").isJsonNull() ? "" : call.get("id").getAsString();
@@ -294,10 +293,25 @@ public final class GatosAiChat {
                 JsonObject result = new JsonObject();
                 result.addProperty("role", "tool");
                 result.addProperty("tool_call_id", callId);
-                result.addProperty("content", executeTool(server, player, name, args));
-                messages.add(result);
+                if ("web_search".equals(name)) {
+                    String query = args.has("query") && !args.get("query").isJsonNull() ? args.get("query").getAsString() : "";
+                    results.add(result);
+                    asyncTasks.add(searchWeb(query).thenAccept(content -> result.addProperty("content", content)));
+                } else {
+                    result.addProperty("content", executeTool(server, player, name, args));
+                    results.add(result);
+                }
             }
-            sendCompletion(server, player, messages, iteration + 1);
+            if (asyncTasks.isEmpty()) {
+                results.forEach(messages::add);
+                sendCompletion(server, player, messages, iteration + 1);
+            } else {
+                CompletableFuture.allOf(asyncTasks.toArray(new CompletableFuture[0]))
+                        .thenRun(() -> server.execute(() -> {
+                            results.forEach(messages::add);
+                            sendCompletion(server, player, messages, iteration + 1);
+                        }));
+            }
             return;
         }
 
@@ -319,6 +333,11 @@ public final class GatosAiChat {
 
     private static JsonArray toolSpecs() {
         JsonArray tools = new JsonArray();
+        if (WEB_SEARCH.get()) {
+            tools.add(tool("web_search",
+                    "Search the web for current information. Returns titles, links, and snippets of the top results.",
+                    "{\"type\":\"object\",\"properties\":{\"query\":{\"type\":\"string\",\"description\":\"Search query\"}},\"required\":[\"query\"]}"));
+        }
         tools.add(tool("get_player_info",
                 "Information about a Minecraft player: position, dimension, biome, health, food, XP level, game mode, and held item. Omit \"player\" for the player who asked.",
                 "{\"type\":\"object\",\"properties\":{\"player\":{\"type\":\"string\",\"description\":\"Player name. Omit for the asking player.\"}}}"));
@@ -346,6 +365,51 @@ public final class GatosAiChat {
         tool.addProperty("type", "function");
         tool.add("function", function);
         return tool;
+    }
+
+    private static CompletableFuture<String> searchWeb(String query) {
+        JsonObject body = new JsonObject();
+        JsonArray queries = new JsonArray();
+        queries.add(query);
+        body.add("queries", queries);
+
+        HttpRequest request;
+        try {
+            request = HttpRequest.newBuilder()
+                    .uri(URI.create(BASE_URL.get().replaceAll("/+$", "") + "/api/v1/retrieval/process/web/search"))
+                    .timeout(Duration.ofSeconds(60))
+                    .header("Content-Type", "application/json")
+                    .header("Authorization", "Bearer " + API_KEY.get())
+                    .POST(HttpRequest.BodyPublishers.ofString(body.toString()))
+                    .build();
+        } catch (IllegalArgumentException e) {
+            return CompletableFuture.completedFuture("{\"error\":\"Invalid base URL\"}");
+        }
+
+        return HTTP_CLIENT.sendAsync(request, HttpResponse.BodyHandlers.ofString())
+                .thenApply(response -> {
+                    if (response.statusCode() < 200 || response.statusCode() >= 300) {
+                        return "{\"error\":\"Web search failed with HTTP " + response.statusCode() + "\"}";
+                    }
+                    try {
+                        JsonObject root = JsonParser.parseString(response.body()).getAsJsonObject();
+                        JsonArray items = root.getAsJsonArray("items");
+                        JsonArray results = new JsonArray();
+                        int max = items == null ? 0 : Math.min(items.size(), 5);
+                        for (int i = 0; i < max; i++) {
+                            JsonObject item = items.get(i).getAsJsonObject();
+                            JsonObject entry = new JsonObject();
+                            entry.addProperty("title", item.has("title") ? item.get("title").getAsString() : "");
+                            entry.addProperty("link", item.has("link") ? item.get("link").getAsString() : "");
+                            entry.addProperty("snippet", item.has("snippet") ? item.get("snippet").getAsString() : "");
+                            results.add(entry);
+                        }
+                        return results.toString();
+                    } catch (Exception e) {
+                        return "{\"error\":\"Could not parse search results\"}";
+                    }
+                })
+                .exceptionally(throwable -> "{\"error\":\"Web search failed\"}");
     }
 
     private static String executeTool(MinecraftServer server, ServerPlayer asker, String name, JsonObject args) {
