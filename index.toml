@@ -1246,6 +1246,11 @@ hash = "f920f707995d836b8d0629910557b08520d07d38bf16076098c90a99ac714d24"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-pokenav.pw.toml"
+hash = "6dc0747f249a105ef38d1a75a74736ec276bbf791a5bafd87a47a93a23b25b43"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
 metafile = true
@@ -1567,6 +1572,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/low-on-fire.pw.toml"
 hash = "0ce41000cbbb72e9c03ae3738500aae1056f1102ddc4e5a46784ec18cabf6ca7"
+metafile = true
+
+[[files]]
+file = "resourcepacks/maxis-journeymap-cobblemon-icons.pw.toml"
+hash = "f04e626d892c2fdc8a7f62c80899b4f852e3a09107eff449d4c36d0783caa05d"
 metafile = true
 
 [[files]]
