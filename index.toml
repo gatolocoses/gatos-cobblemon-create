@@ -1336,9 +1336,18 @@ hash = "fe6ba31f06abbcbe17a07d16718e3bbaef7a96e83540b3d5c44cd7d9b5af7091"
 metafile = true
 
 [[files]]
+file = "mods/gatos-ai-chat.pw.toml"
+hash = "053bc4ced53597cd5b44b30251ce31467f0a1990ed68baaa25a1845bcf679c53"
+metafile = true
+
+[[files]]
 file = "mods/gatos-recipe-share.pw.toml"
 hash = "6237e01cff2743ac19b578777c24d7e899869334998d4c1a79a5c579d4345219"
 metafile = true
+
+[[files]]
+file = "mods/gatos_ai_chat-1.0.0.jar"
+hash = "5e05c58530f235ae7458f32804d69fcf9ca791878b3ccb842a5a47423eb6ff9e"
 
 [[files]]
 file = "mods/geckolib.pw.toml"

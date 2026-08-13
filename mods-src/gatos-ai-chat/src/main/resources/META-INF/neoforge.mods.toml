@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="gatos_ai_chat"
+version="1.0.0"
+displayName="Gato's AI Chat"
+authors="gatolocoses"
+description='''
+Chat with an AI in Minecraft chat using any OpenAI-compatible API.
+'''
+
+[[dependencies.gatos_ai_chat]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.247,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.gatos_ai_chat]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"

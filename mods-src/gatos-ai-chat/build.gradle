@@ -1,0 +1,52 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.143'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = project.neo_version
+
+    parchment {
+        minecraftVersion = '1.21.1'
+        mappingsVersion = '2024.11.17'
+    }
+
+    runs {
+        server {
+            server()
+            programArgument '--nogui'
+            programArguments.addAll '--port', '25567'
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.named('jar') {
+    from('LICENSE') {
+        into 'META-INF'
+    }
+}
+
+tasks.register('installPackJar', Copy) {
+    dependsOn tasks.named('jar')
+    from tasks.named('jar')
+    into layout.projectDirectory.dir('../../mods')
+}
