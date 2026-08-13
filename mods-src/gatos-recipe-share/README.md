@@ -6,6 +6,8 @@ The mod also enforces pack-level disabled-item rules, including removal of AllTh
 
 Sending `ya a dormir` in chat sets the server time to `0`.
 
+JourneyMap teleports are fully disabled on dedicated servers, including for operators and creative players.
+
 Build with Java 21:
 
 ```sh

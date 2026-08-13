@@ -3,6 +3,10 @@
   "minVersion": "0.8",
   "package": "com.gatolocoses.recipeshare.mixin",
   "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "JourneyMapPermissionsMixin",
+    "JourneyMapTeleportMixin"
+  ],
   "client": [
     "GuiGraphicsMixin",
     "RecipeDisplayMixin"

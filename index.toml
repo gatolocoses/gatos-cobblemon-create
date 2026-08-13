@@ -1109,6 +1109,18 @@ file = "config/paxi/datapacks/gatos-create-only-poke-balls/pack.mcmeta"
 hash = "86b38498522132072a1d64ba5864326d3f9eb2a7caffe253d5996e97d4f89462"
 
 [[files]]
+file = "config/paxi/datapacks/gatos-custom-recipes/data/enderio/recipe/sag_milling/certus_quartz_crystal.json"
+hash = "00b5859121e24dab402779ef87a190270e631c93b7192c18fe672443bb87db9d"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-custom-recipes/data/enderio/recipe/sag_milling/fluix_crystal.json"
+hash = "2162f1a64039afd0359209f98226d1391be3c54975650df44c0cbacea10a689b"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-custom-recipes/pack.mcmeta"
+hash = "f4a113b5b4249e82d7f0f3d0fa5bc0d0eb698431ec0feb53fbdfa4ec4320a542"
+
+[[files]]
 file = "config/placebo.cfg"
 hash = "6bbc71c6dc18b1ba4952e1bc54ed2b98c3a90f04cec4257ec3f7566cdf0c0e2a"
 
@@ -1325,7 +1337,7 @@ metafile = true
 
 [[files]]
 file = "mods/gatos-recipe-share.pw.toml"
-hash = "46576e58fdd0d0e1124a538e3c5055065b5d0db953534d00fa56d36bf3eb7fbb"
+hash = "6237e01cff2743ac19b578777c24d7e899869334998d4c1a79a5c579d4345219"
 metafile = true
 
 [[files]]
