@@ -131,6 +131,13 @@ public final class GatosAiChat {
                             HISTORY.remove(player.getUUID());
                             player.sendSystemMessage(Component.literal("[AI] Chat history cleared.").withStyle(ChatFormatting.GRAY));
                             return 1;
+                        }))
+                .then(Commands.literal("new")
+                        .executes(context -> {
+                            ServerPlayer player = context.getSource().getPlayerOrException();
+                            HISTORY.remove(player.getUUID());
+                            player.sendSystemMessage(Component.literal("[AI] Started a new conversation.").withStyle(ChatFormatting.GRAY));
+                            return 1;
                         })));
     }
 

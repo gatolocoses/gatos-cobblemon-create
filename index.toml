@@ -1337,7 +1337,7 @@ metafile = true
 
 [[files]]
 file = "mods/gatos-ai-chat.pw.toml"
-hash = "053bc4ced53597cd5b44b30251ce31467f0a1990ed68baaa25a1845bcf679c53"
+hash = "cc861657742687d8d5e389c84396df089287ca6fd4f76c4e80b72a3e94d23bbd"
 metafile = true
 
 [[files]]
@@ -1347,7 +1347,7 @@ metafile = true
 
 [[files]]
 file = "mods/gatos_ai_chat-1.0.0.jar"
-hash = "5e05c58530f235ae7458f32804d69fcf9ca791878b3ccb842a5a47423eb6ff9e"
+hash = "fc84c4838ec2b9f0da676c3b5d0fc53554ec26ce7f53e03b7a414b3aad07208c"
 
 [[files]]
 file = "mods/geckolib.pw.toml"

@@ -7,7 +7,7 @@ Chat with an AI directly in Minecraft chat. Wired by default to Gato's Open WebU
 - `!ai <message>` in chat or `/ai <message>` asks the AI. Replies are sent only to you.
 - `/ai key <key>` sets the API key in game and saves it to the server config file (`config/gatos_ai_chat-server.toml` on the server filesystem only — it is never committed to the pack repository). Running `/ai key` without an argument explains where to get one.
 - `/ai config` shows the current base URL, model, history size, and whether a key is set (the key itself is never shown).
-- `/ai clear` clears your conversation history.
+- `/ai clear` or `/ai new` clears your conversation history and starts fresh.
 
 The mod ships with no API key. On first use it asks for one; keys are entered by players with `/ai key <key>` and are only stored on the server, never in the pack or on GitHub.
 
