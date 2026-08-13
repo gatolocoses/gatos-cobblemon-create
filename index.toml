@@ -1,6 +1,22 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "c7b75b4af47cf0c826ff0ea9a378e6269b11ae340c23da7e59557ca681bd380e"
+
+[[files]]
+file = "client-template/instance.cfg"
+hash = "fcbefa2d99c0656bbd26d0c2c59cc298149bd3514a652118686d382aaaf83252"
+
+[[files]]
+file = "client-template/minecraft/packwiz-installer-bootstrap.jar"
+hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
+
+[[files]]
+file = "client-template/mmc-pack.json"
+hash = "35bc6dee23cc51804796ab4bfc81422d547731fc39ccd0a31064f03dc75c420f"
+
+[[files]]
 file = "config/DistantHorizons.toml"
 hash = "694ed995f7b4e33e4c2e749127ba747f16a9f4cd5236f8cdbf8a01058a92315c"
 
@@ -1185,6 +1201,802 @@ file = "config/yungscavebiomes-neoforge-1_21_1.toml"
 hash = "3be6874eada8f1920b8dc30f9345c07afc7d5a7d4621f642f78c57cbe1756b27"
 
 [[files]]
+file = "mods-src/gatos-ai-chat/.gradle/9.2.1/checksums/checksums.lock"
+hash = "047ddc44f60ff6b03ba38690ae8b9241ebec46a37b3ac52a972e3fa1abc84a15"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/.gradle/9.2.1/executionHistory/executionHistory.bin"
+hash = "e2da76ba18e41955781be6630b1fe24039fa24fd337026e05816624c5a3ce45d"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/.gradle/9.2.1/executionHistory/executionHistory.lock"
+hash = "0247673c90a2bb03c125c162e906de79e2f1a7c38216219d36fd575be600f59e"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/.gradle/9.2.1/fileChanges/last-build.bin"
+hash = "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/.gradle/9.2.1/fileHashes/fileHashes.bin"
+hash = "a69c1aaf430d9f24438f05d2592219a2ac6517ab008c8f5e48a9bf1a6e664bce"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/.gradle/9.2.1/fileHashes/fileHashes.lock"
+hash = "4179daa69c94be332988519f50cbe9769a28a541375ce5bf0ad320b3d7df7fc2"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/.gradle/9.2.1/fileHashes/resourceHashesCache.bin"
+hash = "7ce0435f50b1ef1587b052ef4272d2160ed531c94f5f352eb49359d2d5d50d16"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/.gradle/9.2.1/gc.properties"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/.gradle/buildOutputCleanup/buildOutputCleanup.lock"
+hash = "d819e3adf73c833a7f2d682ffe98305e59b7a3c3e7949973f18cd842e832ff11"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/.gradle/buildOutputCleanup/cache.properties"
+hash = "0a70bc51256673b7dd153864723d35a3ec0318aa1f9216438896196dba1f9eb2"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/.gradle/buildOutputCleanup/outputFiles.bin"
+hash = "5569238b2de446234eeff171887ee0f8f9ecfda23cdc4aa2795923539f9c0b6e"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/.gradle/file-system.probe"
+hash = "9c1732ca0aaa1a87845a96f51b3ea4f2351934b876d9b5a00074426d25cc2bf1"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/.gradle/vcs-1/gc.properties"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/LICENSE"
+hash = "c8f6f8eba78ad422595dbf64d3669d8b99a77fe100e01d24694a04e68a793e40"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/README.md"
+hash = "87704467710b023f9d0394ffeb813b853e7709c86f9c1dcfdd9afe2af30a28f0"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/build.gradle"
+hash = "3a4db297b9b5f292964e7ae036a02b958c0b450a1f524e4b5cbff3271fb209e6"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/build/classes/java/main/com/gatolocoses/aichat/GatosAiChat$HistoryEntry.class"
+hash = "a69c29ddf28d0351f9b9ebb372196f754a62f9c4d30aee6b86d6aa8dd6da4033"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/build/classes/java/main/com/gatolocoses/aichat/GatosAiChat.class"
+hash = "1fd07e22edce52ec4c5ad01c414bfcb0af1713812c0194af8ec45f82f3f80fe4"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/build/libs/gatos_ai_chat-1.1.0.jar"
+hash = "8dd08f5187e843508c510c0916df9ba4e39ff8494350cdf257c4894e04e341bc"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/build/moddev/artifacts/neoforge-21.1.247-client-extra-aka-minecraft-resources.jar"
+hash = "8e9cf6f4b6eafb1c6bf745a67a61dd1736f31865cad409e5b2bec918667dab5e"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/build/moddev/artifacts/neoforge-21.1.247-merged.jar"
+hash = "5e4cb6487df459c0092bc4319374fcbb9148fab6013c181ad91c089462e91411"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/build/moddev/artifacts/neoforge-21.1.247-sources.jar"
+hash = "08bbce6d1e7b3c39a3ca131f9415d8a8a049358a64c0a514cfd4a1c503164511"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/build/moddev/artifacts/neoforge-21.1.247.jar"
+hash = "a8a8b2bd697478ad2432caee2cd3a06d96d89ef6ffc00db12a7edaa282534c9c"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/build/resources/main/META-INF/neoforge.mods.toml"
+hash = "49eb032d472b2718b06ab092f6c8ce75e88b39d0e35e2a5c43c4b02954210603"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/build/tmp/compileJava/previous-compilation-data.bin"
+hash = "f93e5fea773c2bd5d7be3356a66f0d065630d61be36265577be56c19d9dcf6f7"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/build/tmp/createMinecraftArtifacts/nfrt-problem-report.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/build/tmp/createMinecraftArtifacts/nfrt_artifact_manifest.properties"
+hash = "7399f7b09d7b911904015c66217cf9c0bb98ac3d15d20acdf223038f59f3395c"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/build/tmp/jar/MANIFEST.MF"
+hash = "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/gradle.properties"
+hash = "5139b5a38d5bda0fdaf55b02e524b493e187ba833fa04863a7c0a26bf1e908cc"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/gradle/wrapper/gradle-wrapper.jar"
+hash = "423cb469ccc0ecc31f0e4e1c309976198ccb734cdcbb7029d4bda0f18f57e8d9"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/gradle/wrapper/gradle-wrapper.properties"
+hash = "9efd7948359a68d9c80aa8d5df1717af1415c440b59d493040d3cfbd13885383"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/gradlew"
+hash = "fb68debc1b1acf8ec55dc0d5e5495e1dedd0bd6b61f304bee61613eeb2bd9b92"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/gradlew.bat"
+hash = "fedad02c18e266ec094995a5751b7fe1eb6e74f66bf75db64fae2e50eb22c234"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/banned-ips.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/banned-players.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/config/fml.toml"
+hash = "cc127c6067eb9e23289edc1c774afd71456456eef06c688af6731a72d3bba5e5"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/config/gatos_ai_chat-server-1.toml.bak"
+hash = "cf8c8b630ff23079e269bf4c3fe1ccf319ee4150c4805c3815405f19cafec18a"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/config/gatos_ai_chat-server.toml"
+hash = "d6577c48e6ba6beb96cfa265a68e8c3a010f6f098578f38c4ad886138833d19c"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/config/neoforge-common.toml"
+hash = "e6f7578cf8c11ade0a47e36bf3863fc96f84cdf4bb679c0fceabb1e8a2f42399"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/config/neoforge-server.toml"
+hash = "0f1415d7fef6d7f6194275501d500b633dd3310aea40d64128edd1b096372f60"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/logs/2026-08-12-1.log.gz"
+hash = "447f34b016fd8f3786f77995f26de244e1d2c242ddab17f3e1023067e96904ba"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/logs/2026-08-12-2.log.gz"
+hash = "9bbeacc8b590f639a094d631df07ae440bb42190c02f8ac775e13bac5c04455f"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/logs/debug-1.log.gz"
+hash = "447f34b016fd8f3786f77995f26de244e1d2c242ddab17f3e1023067e96904ba"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/logs/debug-2.log.gz"
+hash = "9bbeacc8b590f639a094d631df07ae440bb42190c02f8ac775e13bac5c04455f"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/logs/debug.log"
+hash = "0de6d5621b1a8c271991488332202d188137a0e22856a291f188f76dac667475"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/logs/latest.log"
+hash = "0de6d5621b1a8c271991488332202d188137a0e22856a291f188f76dac667475"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/ops.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/server.properties"
+hash = "5b5faeafb23b3d9f090b169f20902b0878b7d9da381a6ae0378f33de960f2188"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/usercache.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/whitelist.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/DIM-1/data/neoforge_data_attachments.dat"
+hash = "95486bd4cbd73d4d98f343e42a5792ef5315214015acca508842844d73247562"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/DIM-1/data/raids.dat"
+hash = "f018f318263a52bedbcd9c14961a41bdb44e60d6226edb07790224ed625007c5"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/DIM1/data/neoforge_data_attachments.dat"
+hash = "95486bd4cbd73d4d98f343e42a5792ef5315214015acca508842844d73247562"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/DIM1/data/raids_end.dat"
+hash = "f018f318263a52bedbcd9c14961a41bdb44e60d6226edb07790224ed625007c5"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/data/neoforge_data_attachments.dat"
+hash = "95486bd4cbd73d4d98f343e42a5792ef5315214015acca508842844d73247562"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/data/raids.dat"
+hash = "f018f318263a52bedbcd9c14961a41bdb44e60d6226edb07790224ed625007c5"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/data/random_sequences.dat"
+hash = "35c673a89523bbf132566d60099b36e26afa8309f9c6b188ceeb975f3e2d1185"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/entities/r.-1.-1.mca"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/entities/r.-1.0.mca"
+hash = "efef878569a94de46ed0e976c29c78ca2fab3763643acc0eea21ca4fcb53dee4"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/entities/r.0.-1.mca"
+hash = "9ba9faab14b0d2353113c5cdf67a1343052ff5c3485adbc2cec099912d9ae5f5"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/entities/r.0.0.mca"
+hash = "34c441b2a479f94817c8c08190febc329ae933bcd38eb9d83b57cdfd6e5743c0"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/level.dat"
+hash = "789db81725ebb19f28ecd65ec32444cff2a41b413e42076c30ebe0b3c362b2e3"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/level.dat_old"
+hash = "f7b6eca5c18f72806114a11fd24dc60c11cbd82065cde9ad275a9b05352c45f2"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/poi/r.-1.-1.mca"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/poi/r.-1.0.mca"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/poi/r.0.-1.mca"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/poi/r.0.0.mca"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/region/r.-1.-1.mca"
+hash = "a2e8efe221b4384b06e5dbb61a56c702e2854838251e0f1935b68f225840c7b5"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/region/r.-1.0.mca"
+hash = "dc861207a2641aa1bf3c398ef36a57e8e82457a85739c915b6519758d8842430"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/region/r.0.-1.mca"
+hash = "9e68eec5bdb0706b78b7dac4614df0cae339e9dfe5b7e50c58b27164d40284dc"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/region/r.0.0.mca"
+hash = "e4ef9a33d157f57a93d9ab6079b35b6aa368c91892a10e6d59fe4e0adf49e34f"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/serverconfig/readme.txt"
+hash = "b1022ab932f8f0ea0cf78d9f312e95b85a4f96f59ca430e63f9a435e512d1186"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/run/world/session.lock"
+hash = "51643361c79ecaef25a8de802de24f570ba25d9c2df1d22d94fade11b4f466cc"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/settings.gradle"
+hash = "e8e93a2d3ab967395614f8bd3a89f8322e1687fca59ba82d45e6df730bf704cd"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/src/main/java/com/gatolocoses/aichat/GatosAiChat.java"
+hash = "2cd79a1efc76cad5b2e1c89dcae08f1f5074bb228ad1fe122ec661265e5826de"
+
+[[files]]
+file = "mods-src/gatos-ai-chat/src/main/resources/META-INF/neoforge.mods.toml"
+hash = "49eb032d472b2718b06ab092f6c8ce75e88b39d0e35e2a5c43c4b02954210603"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/.gradle/9.2.1/checksums/checksums.lock"
+hash = "a03789e6df447c73bd65beef67f129740307fedc2669ab3261a9527280693df0"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/.gradle/9.2.1/checksums/md5-checksums.bin"
+hash = "7660374fe21180753c24017c2b9f2e4c193a2fb95c4a05baf025f52cc8652452"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/.gradle/9.2.1/checksums/sha1-checksums.bin"
+hash = "c71abf9be98fb59947d681f7fbb94c0ef9cab6ccc417ccbedcb8ab8138277512"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/.gradle/9.2.1/executionHistory/executionHistory.bin"
+hash = "a3aec2d9a5504734b0eaadf4c2f002683d055252e892a1dacf72c8a674d3720c"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/.gradle/9.2.1/executionHistory/executionHistory.lock"
+hash = "7141eddcd76c94169b8e8c6952e343aec9f8c274e478f6365d28b882e57b4b09"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/.gradle/9.2.1/expanded/expanded.lock"
+hash = "749c4ffcfe2bb9d4753b78907aba616d17be07746a73683f8bc841eb370d4a73"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/.gradle/9.2.1/fileChanges/last-build.bin"
+hash = "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/.gradle/9.2.1/fileHashes/fileHashes.bin"
+hash = "f28c51d2e33ce6f29466d8b4bfed020cd6a033c50469b420e39f278326e553aa"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/.gradle/9.2.1/fileHashes/fileHashes.lock"
+hash = "e02830f1b893fe89b74e91c4bc96c839df60cfa88e01e5593e8a688bad9dd6d8"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/.gradle/9.2.1/fileHashes/resourceHashesCache.bin"
+hash = "c61a9a5039254d026d7c2853b62471662574abc575fa6c980bdc4ebb171c1a41"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/.gradle/9.2.1/gc.properties"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/.gradle/buildOutputCleanup/buildOutputCleanup.lock"
+hash = "037da76ef17d1958287bcd0c02dc497e4f5c95cef1f1b2c7dac2759fe0c11e05"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/.gradle/buildOutputCleanup/cache.properties"
+hash = "58268d64ddd1478c9176714796ef3a4fe77b70250757e790efcbbd15e9445f99"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/.gradle/buildOutputCleanup/outputFiles.bin"
+hash = "5be5ebdf16bbe923334ac8e8643fe54997cc5b4a1130cee360700cce0ca4b2e7"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/.gradle/file-system.probe"
+hash = "7cfdf40a5f52a95ca33ec606497a39a79cb753a60e33d76179d7b9c5c56e03d6"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/.gradle/vcs-1/gc.properties"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/LICENSE"
+hash = "c8f6f8eba78ad422595dbf64d3669d8b99a77fe100e01d24694a04e68a793e40"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/README.md"
+hash = "7033f064abb1986381dec4ea87d24774932ea65a3de438501355da881623e829"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build.gradle"
+hash = "86eb64c6b50b6aa4014dec369421cd6611c84e907d393d7ecdc038c8f8c242a0"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/classes/java/main/com/gatolocoses/recipeshare/ClientRecipeHandler.class"
+hash = "145c9fe52392683082407970e6a375db14d300a712b29765b23a15210d7e8cbc"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/classes/java/main/com/gatolocoses/recipeshare/ClientSmokeTest.class"
+hash = "3b0f6c33995c991748ceefb9758ea39f5c75162bc5edc151dd89cd739f66e2c5"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/classes/java/main/com/gatolocoses/recipeshare/GatosRecipeShare.class"
+hash = "1606522aedb2c28ac918955c7eca17d799012f35f637d245907ad035427aee35"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/classes/java/main/com/gatolocoses/recipeshare/OpenRecipePayload.class"
+hash = "ac0df4e2bec5703206a7c2563e355958602e070a966f9c8456032804b0391cbb"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/classes/java/main/com/gatolocoses/recipeshare/ShareRecipePayload.class"
+hash = "3689ea6c3081635d5151a901c8b667adc5a1e6145fb7f074318a2155cf009eaf"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/classes/java/main/com/gatolocoses/recipeshare/ShareRecipeWidget.class"
+hash = "5f55d4042efae86f2189823f4bd2b25dcae6926fc88baf5cfe7e1a525d03a906"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/classes/java/main/com/gatolocoses/recipeshare/SharedRecipePayload.class"
+hash = "fc4e9c1d21320ddc7041d112ba6080d15c1d483522ccadcda64926de91eb634d"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/classes/java/main/com/gatolocoses/recipeshare/mixin/GuiGraphicsMixin.class"
+hash = "6addc6970ce453cac5e3f309d1b6e8456b6323e370c289af09b9ae23a5331895"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/classes/java/main/com/gatolocoses/recipeshare/mixin/JourneyMapPermissionsMixin.class"
+hash = "e8b38a7b4dd73afb873c54a64e0fcb675983c5bc1d442e00eae4d2f72ba6f5ff"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/classes/java/main/com/gatolocoses/recipeshare/mixin/JourneyMapTeleportMixin.class"
+hash = "851725fb0368d18d54f7a0a1a8a1a44d636390008f9390b6c32b3639f6d05dc7"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/classes/java/main/com/gatolocoses/recipeshare/mixin/RecipeDisplayMixin.class"
+hash = "dc251ebf8fc3904fb3ecbb1bf4113ce037977f2b413c2feb028f3d02fae3f09b"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/libs/gatos_recipe_share-1.4.0.jar"
+hash = "5601ba1aaa257ae7711f0d7c0999c92889f4469952ae6f361d39dac8d7bee4ef"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/moddev/artifacts/neoforge-21.1.247-client-extra-aka-minecraft-resources.jar"
+hash = "8e9cf6f4b6eafb1c6bf745a67a61dd1736f31865cad409e5b2bec918667dab5e"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/moddev/artifacts/neoforge-21.1.247-merged.jar"
+hash = "5e4cb6487df459c0092bc4319374fcbb9148fab6013c181ad91c089462e91411"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/moddev/artifacts/neoforge-21.1.247-sources.jar"
+hash = "08bbce6d1e7b3c39a3ca131f9415d8a8a049358a64c0a514cfd4a1c503164511"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/moddev/artifacts/neoforge-21.1.247.jar"
+hash = "a8a8b2bd697478ad2432caee2cd3a06d96d89ef6ffc00db12a7edaa282534c9c"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/resources/main/META-INF/neoforge.mods.toml"
+hash = "b60ab43de69a2f998c570e4893bb8023320501733ad6bde01058b80432b23c1e"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/resources/main/gatos_recipe_share.mixins.json"
+hash = "134ef2e9b5adfae6aeb09938670270601abb131428ac8d264e321b7aa412b477"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/tmp/compileJava/previous-compilation-data.bin"
+hash = "dd13c49bdb6616cb5e3be0b465b50b2ef73a9df1a92124dfca1cef9284ebd7c0"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/tmp/createMinecraftArtifacts/nfrt-problem-report.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/tmp/createMinecraftArtifacts/nfrt_artifact_manifest.properties"
+hash = "799eeff55ba6f56f1de4efdb6928969b840735302d3e65632c4e47a699f213a3"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/build/tmp/jar/MANIFEST.MF"
+hash = "566ad1a80220026d05099562645ce968ff0e7c36cde22634332605bb34cc3eff"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/gradle.properties"
+hash = "c2d06bb018c752646f17176d7594edb26024afde12f22312a689218b35e19c28"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/gradle/wrapper/gradle-wrapper.jar"
+hash = "423cb469ccc0ecc31f0e4e1c309976198ccb734cdcbb7029d4bda0f18f57e8d9"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/gradle/wrapper/gradle-wrapper.properties"
+hash = "9efd7948359a68d9c80aa8d5df1717af1415c440b59d493040d3cfbd13885383"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/gradlew"
+hash = "fb68debc1b1acf8ec55dc0d5e5495e1dedd0bd6b61f304bee61613eeb2bd9b92"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/gradlew.bat"
+hash = "fedad02c18e266ec094995a5751b7fe1eb6e74f66bf75db64fae2e50eb22c234"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/banned-ips.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/banned-players.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/config/emi.css"
+hash = "631c92dbdb06aa6377e2d99d86678833c897a88cc3841d6378f717c2ba09b451"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/config/fml.toml"
+hash = "cc127c6067eb9e23289edc1c774afd71456456eef06c688af6731a72d3bba5e5"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/config/neoforge-client.toml"
+hash = "a5f0eb38f8daf8574f7672a8393a0ab5c668d6ec6e7ae43fc8669e928786929d"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/config/neoforge-common.toml"
+hash = "e6f7578cf8c11ade0a47e36bf3863fc96f84cdf4bb679c0fceabb1e8a2f42399"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/config/neoforge-server.toml"
+hash = "0f1415d7fef6d7f6194275501d500b633dd3310aea40d64128edd1b096372f60"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/crash-reports/crash-2026-08-08_14.00.56-server.txt"
+hash = "ebd879968986905654f0aa99542d741ce6bbb79fdcd8b0caecd0bfeb3f9435fb"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/downloads/log.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/emi.json"
+hash = "5e54553e909b7cdda44fdc83f5a496b225a49d0b50debdad28d91d0e5c92302b"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/2026-08-08-1.log.gz"
+hash = "8471638bedd6a239aa8271f84c7c3665aa96cec22f4427dac3422ad4bdfe5222"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/2026-08-08-10.log.gz"
+hash = "0288cf7e8dc84b856d5ba4ad5660baed88122c17bdccbcaedd039be73b64b029"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/2026-08-08-11.log.gz"
+hash = "98ecdc352b0ccbaed24f0945cf8ed3ff62a5f28b55f7432dc8cef46dc2a74f61"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/2026-08-08-12.log.gz"
+hash = "1c1875c0191f5f25505386fa34d32b9d19d2a8fc0b2e3c7c863b1c49d6422ef6"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/2026-08-08-13.log.gz"
+hash = "eed36f54e2ac3c406d71d7f7fabd5e0b9f6ac0186216d63e92262e7ababda69c"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/2026-08-08-2.log.gz"
+hash = "bd2b930616bd661390b42692cd5a277c06755c4024fe4919b3143970a8697396"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/2026-08-08-3.log.gz"
+hash = "882aef05b1792674c4e6b1268f32f31e6d39787c65f37caa7355c3bd85f73868"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/2026-08-08-4.log.gz"
+hash = "910603c5d1e2a4bb865850304c1a57282887a539b51f07af7caceebcd206b8c3"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/2026-08-08-5.log.gz"
+hash = "c0f2e2ed6231d30c8dfe582b0258c90e47b65a404787015e675e2ac21b1bed6e"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/2026-08-08-6.log.gz"
+hash = "5bcb2d528ec5a1ee1a4c02cc0111379ac3c351265313e85ea716502831ed7933"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/2026-08-08-7.log.gz"
+hash = "95f0c3cfc270a2430014cbb9349a94dde994b113920353fdfda1a93410c6f982"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/2026-08-08-8.log.gz"
+hash = "dd65d8e1bb25e9088466ff6c06c13e0a19aa1ff5722973984a1a64c2b28a1e8f"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/2026-08-08-9.log.gz"
+hash = "e628e6bff74cdd9438652c1ba9ec69506f09e530db28588cab19c9474db2f2d3"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/debug-1.log.gz"
+hash = "8471638bedd6a239aa8271f84c7c3665aa96cec22f4427dac3422ad4bdfe5222"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/debug-2.log.gz"
+hash = "bd2b930616bd661390b42692cd5a277c06755c4024fe4919b3143970a8697396"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/debug-3.log.gz"
+hash = "882aef05b1792674c4e6b1268f32f31e6d39787c65f37caa7355c3bd85f73868"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/debug-4.log.gz"
+hash = "910603c5d1e2a4bb865850304c1a57282887a539b51f07af7caceebcd206b8c3"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/debug-5.log.gz"
+hash = "c0f2e2ed6231d30c8dfe582b0258c90e47b65a404787015e675e2ac21b1bed6e"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/debug.log"
+hash = "cf5ebc4874adcc08cde434a603c74d5889a0fb77babbb3b6b724c2809c0a9675"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/logs/latest.log"
+hash = "cf5ebc4874adcc08cde434a603c74d5889a0fb77babbb3b6b724c2809c0a9675"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/ops.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/options.txt"
+hash = "f81cbcd3c9e6f66c529b0ba11dfb1545f26b905f4f1cda6c33109d77a8ad3bb4"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/server.properties"
+hash = "0df386c7b08a7f1475a3dacc289322e6f62685c0dcbc75ec62322197ad6f3186"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/servers.dat"
+hash = "ba2d8a07ba404dd1a6e70439837fa3f8743ad21bf19a073e682e07a8cdc6d68e"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/servers.dat_old"
+hash = "ba2d8a07ba404dd1a6e70439837fa3f8743ad21bf19a073e682e07a8cdc6d68e"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/usercache.json"
+hash = "0ec8c4214448f3ae09d9aa3f1ea8e52b98a762dd34ce0e54331e79aa875f64b9"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/usernamecache.json"
+hash = "4573accdd1c6ca24d4a35e0edc97fa46484e409866e5921a40c2f0402d2b46c8"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/whitelist.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/DIM-1/data/neoforge_data_attachments.dat"
+hash = "95486bd4cbd73d4d98f343e42a5792ef5315214015acca508842844d73247562"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/DIM-1/data/raids.dat"
+hash = "65a55630e7fef20c794482db73532a16d97c1b614e2f105732296ac9d5b4ca81"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/DIM1/data/neoforge_data_attachments.dat"
+hash = "95486bd4cbd73d4d98f343e42a5792ef5315214015acca508842844d73247562"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/DIM1/data/raids_end.dat"
+hash = "65a55630e7fef20c794482db73532a16d97c1b614e2f105732296ac9d5b4ca81"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/advancements/380df991-f603-344c-a090-369bad2a924a.json"
+hash = "eedd5a5059059f235219b7c558086e95e44f25504c2c59bdf6c6f6f82478932e"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/data/neoforge_data_attachments.dat"
+hash = "95486bd4cbd73d4d98f343e42a5792ef5315214015acca508842844d73247562"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/data/raids.dat"
+hash = "65a55630e7fef20c794482db73532a16d97c1b614e2f105732296ac9d5b4ca81"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/data/random_sequences.dat"
+hash = "bbae8b19207b39c662ef1d19289901abed3431bb8ba32f1fe82da1faf69c4b1b"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/entities/r.-1.-1.mca"
+hash = "e3a011839ea089ac948c4ea207386563ef852df42808576b9e10747a31aa77a0"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/entities/r.0.-1.mca"
+hash = "ab5bd1c97bbfa538ce64c187646b19843dbdda20c7137bfbd9eb7fdbb609d4af"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/level.dat"
+hash = "74864a0c2e17c5e0b1dc33a0c7027326c910c1e389eb8b6049bd8d8f54d63618"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/level.dat_old"
+hash = "fe7221362815390d80149e84a5638958bb557a1b553d5cc06cbb2dc1fb9ca43a"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/playerdata/380df991-f603-344c-a090-369bad2a924a.dat"
+hash = "ad3a08134e8ec45f1ca6e495c192113142ba48ea83ee81db5d23159810296ca9"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old"
+hash = "ad3a08134e8ec45f1ca6e495c192113142ba48ea83ee81db5d23159810296ca9"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/poi/r.-1.-1.mca"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/poi/r.0.-1.mca"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/region/r.-1.-1.mca"
+hash = "6a8461b1f086848d0ebcbcd30566cbd2239691cdf9a073316cd812d71be60ab0"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/region/r.-1.-2.mca"
+hash = "e68b9dd40671eedaadd7e05f8f2950ca79f8797bf7b01b2203c84e66c6a891ac"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/region/r.-1.0.mca"
+hash = "5b777df8ec34f366bee8b3f57b3151b4a366ed32e6de7289ec0aa8ddbab8e70a"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/region/r.0.-1.mca"
+hash = "552e8c98d4111f0ffc9e0abeadc47161788befba764fd580c8999576044ff55a"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/region/r.0.-2.mca"
+hash = "1a955262f8dd60577110e45d3063a8a2270eba9be5f238bcd15cb25d37b6e496"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/region/r.0.0.mca"
+hash = "66f8687eaa9ce8409e182f2fa9223c7e084b3b7c56bfeb06f115f7ad8ac41f7f"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/serverconfig/readme.txt"
+hash = "b1022ab932f8f0ea0cf78d9f312e95b85a4f96f59ca430e63f9a435e512d1186"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/session.lock"
+hash = "51643361c79ecaef25a8de802de24f570ba25d9c2df1d22d94fade11b4f466cc"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/run/world/stats/380df991-f603-344c-a090-369bad2a924a.json"
+hash = "e4e1dfbb22662406b47249c9403488ab0b93068fc747e85d31445abd4641af80"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/settings.gradle"
+hash = "31fd676ba41c5b0421fe8ef797abb6b65314d054f8c8a2db27c16b10a4f4a387"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/src/main/java/com/gatolocoses/recipeshare/ClientRecipeHandler.java"
+hash = "f7527a82e992f82c480612e284572cc8aea038359c2aca267e1b8b9099c07dc1"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/src/main/java/com/gatolocoses/recipeshare/ClientSmokeTest.java"
+hash = "c0b1eba027663d2b505a22e36ab55109883ae90db7b9a434e80b8bfd6e9f03b3"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/src/main/java/com/gatolocoses/recipeshare/GatosRecipeShare.java"
+hash = "93dd84d8da10f8261670757bf0075d2c6df89cb709029a2cbc972b83ad1b6517"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/src/main/java/com/gatolocoses/recipeshare/OpenRecipePayload.java"
+hash = "8eb13f2213e994ddecfbb1afdc35a4f812cbb90d7fe90722bd858d627d6c580e"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/src/main/java/com/gatolocoses/recipeshare/ShareRecipePayload.java"
+hash = "7c84a9b2346c225a91b44215daeca94ec8cbff0d4dca14f182685549aab30c3d"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/src/main/java/com/gatolocoses/recipeshare/ShareRecipeWidget.java"
+hash = "35ab6af82409e5fb85600825d073a55f8d254041f295e1c3b1e7007958083857"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/src/main/java/com/gatolocoses/recipeshare/SharedRecipePayload.java"
+hash = "4a723e611187639335029da348c9291c9b99f315219223b0005b4240cc617e09"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/src/main/java/com/gatolocoses/recipeshare/mixin/GuiGraphicsMixin.java"
+hash = "5b37861c7ade1287795b8ab3f50a280647067d59e2ef84a6dab2dff6adb95c78"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/src/main/java/com/gatolocoses/recipeshare/mixin/JourneyMapPermissionsMixin.java"
+hash = "a717e91ed38024b83d06928ae1a8f36ab55cfb96cbe6e316ac0e7d65df4598b8"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/src/main/java/com/gatolocoses/recipeshare/mixin/JourneyMapTeleportMixin.java"
+hash = "05e9415683541029e82de5055f757b04e6e5776a0b680b77c25915e879fe123f"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/src/main/java/com/gatolocoses/recipeshare/mixin/RecipeDisplayMixin.java"
+hash = "b02446807f9fbc818135d2801b0a206e95edd02e2efacef04de5b5ef0b0fd959"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/src/main/resources/META-INF/neoforge.mods.toml"
+hash = "b60ab43de69a2f998c570e4893bb8023320501733ad6bde01058b80432b23c1e"
+
+[[files]]
+file = "mods-src/gatos-recipe-share/src/main/resources/gatos_recipe_share.mixins.json"
+hash = "134ef2e9b5adfae6aeb09938670270601abb131428ac8d264e321b7aa412b477"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "c1f98a1e9d7201f0b6ddc3f705f43a53f7539978f48425de5c1177a310fe7b86"
 metafile = true
@@ -1357,6 +2169,10 @@ metafile = true
 [[files]]
 file = "mods/gatos_ai_chat-1.1.0.jar"
 hash = "8dd08f5187e843508c510c0916df9ba4e39ff8494350cdf257c4894e04e341bc"
+
+[[files]]
+file = "mods/gatos_recipe_share-1.4.0.jar"
+hash = "5601ba1aaa257ae7711f0d7c0999c92889f4469952ae6f361d39dac8d7bee4ef"
 
 [[files]]
 file = "mods/geckolib.pw.toml"
