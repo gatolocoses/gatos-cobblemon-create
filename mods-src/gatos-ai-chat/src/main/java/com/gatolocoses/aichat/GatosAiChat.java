@@ -376,7 +376,7 @@ public final class GatosAiChat {
         HttpRequest request;
         try {
             request = HttpRequest.newBuilder()
-                    .uri(URI.create(BASE_URL.get().replaceAll("/+$", "") + "/api/v1/retrieval/process/web/search"))
+                    .uri(URI.create(BASE_URL.get().replaceAll("/+$", "") + "/v1/retrieval/process/web/search"))
                     .timeout(Duration.ofSeconds(60))
                     .header("Content-Type", "application/json")
                     .header("Authorization", "Bearer " + API_KEY.get())
