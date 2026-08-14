@@ -1110,7 +1110,7 @@ hash = "86b38498522132072a1d64ba5864326d3f9eb2a7caffe253d5996e97d4f89462"
 
 [[files]]
 file = "config/paxi/datapacks/gatos-custom-recipes/data/enderio/recipe/alloy_smelting/blank_ball_lid.json"
-hash = "27ee58a8e674fcbd3748c6044e2920c8615e6cc8476e2cf69bc9ed61bdcf5554"
+hash = "949e39c4f96aad034031905b4f4d0ed89dd489850e908a5429fbc0ce94f696e4"
 
 [[files]]
 file = "config/paxi/datapacks/gatos-custom-recipes/data/enderio/recipe/sag_milling/certus_quartz_crystal.json"
