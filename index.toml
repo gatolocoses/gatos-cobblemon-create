@@ -1337,7 +1337,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "fe6ba31f06abbcbe17a07d16718e3bbaef7a96e83540b3d5c44cd7d9b5af7091"
+hash = "fea376aa7ebd1eab1307c3a7b911c01ec07d9fa39e0cc56852e9a226981cddc1"
 metafile = true
 
 [[files]]
@@ -1386,17 +1386,17 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "b6e0a61fea06f8d6d8e1672cf07b682625c4b74efd548d5093cd9c1fed167eec"
+hash = "4de3e4a1a49e332c1ad313283e0403c4273b628d634c17a9ff0c9da3d6b67f9a"
 metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "18735c1780150e9be2a39e6e094883f76c98ab39a05fddce99dc3b353894360f"
+hash = "f31ba14bcba00c5b1a9d2ff466fd2f666359c4ac56c427889d975eb5b05a964e"
 metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "66a57cc8d304db7381210763955db9be51ca984c29292dc7ede40b40816130d0"
+hash = "c4b3c54fbb7bbebaa1ed3d61bd6fd72663f05ca538d00c0044bfee7064ff9431"
 metafile = true
 
 [[files]]
@@ -1416,7 +1416,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "a0a2036a901c1d61589768d62bc92d0cd630a40e9dfe92f45aefdc835c0c808d"
+hash = "2d8016aab6d4b3410b7a35003aa9d778dad45379c89dc9490cd6c3f3bcec9f6f"
 metafile = true
 
 [[files]]
@@ -1466,7 +1466,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "9cff55b64b62831e1be78c469b6758829f9d15016c6b12ea2d5103c3263f510e"
+hash = "8b237735f64f339d35d40eaceb76cdf137fd05a49b452d2a8c3434cada762e11"
 metafile = true
 
 [[files]]
