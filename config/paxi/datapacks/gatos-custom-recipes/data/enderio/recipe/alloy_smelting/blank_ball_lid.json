@@ -1,0 +1,15 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 2400,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "tag": "createmonballsoverhaul:blastable_ball_lids"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "createmonballsoverhaul:blank_ball_lid"
+  }
+}

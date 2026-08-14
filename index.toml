@@ -1109,6 +1109,10 @@ file = "config/paxi/datapacks/gatos-create-only-poke-balls/pack.mcmeta"
 hash = "86b38498522132072a1d64ba5864326d3f9eb2a7caffe253d5996e97d4f89462"
 
 [[files]]
+file = "config/paxi/datapacks/gatos-custom-recipes/data/enderio/recipe/alloy_smelting/blank_ball_lid.json"
+hash = "27ee58a8e674fcbd3748c6044e2920c8615e6cc8476e2cf69bc9ed61bdcf5554"
+
+[[files]]
 file = "config/paxi/datapacks/gatos-custom-recipes/data/enderio/recipe/sag_milling/certus_quartz_crystal.json"
 hash = "00b5859121e24dab402779ef87a190270e631c93b7192c18fe672443bb87db9d"
 
