@@ -1400,7 +1400,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "94af73eec28b59b314b2c6ef9dfb98f37d7bbcbcb482c278570cc15e44b6a559"
+hash = "6828b28c310ae427da625473c55b79eb0c7ca42acc76591948644af0c04e3933"
 metafile = true
 
 [[files]]
@@ -1420,7 +1420,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "c4b3c54fbb7bbebaa1ed3d61bd6fd72663f05ca538d00c0044bfee7064ff9431"
+hash = "17ed80a0fb8716e279cb04664a7038cfa659f878e51915b61fcd7dd35a7920be"
 metafile = true
 
 [[files]]
