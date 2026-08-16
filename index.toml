@@ -1654,6 +1654,14 @@ hash = "32fe0fe8941110f8fba07ce7768faa1797de6b28e961ab65b483c380fc0a365a"
 metafile = true
 
 [[files]]
+file = "server.properties"
+hash = "c9ed1ebbe40b1e9fc9dd212d4e07407f474086dab41dc787130153df89ec08be"
+
+[[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
 hash = "608b87f75b2387a9fbd340cb18a8238bbbe5a0afc54202634b34f3000246b6e7"
 metafile = true
+
+[[files]]
+file = "user_jvm_args.txt"
+hash = "43d01fe063713c9f5ab736bcfc7a29992a497920bda9b8842dd63bcec299c33c"
