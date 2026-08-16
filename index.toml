@@ -1290,11 +1290,6 @@ hash = "81105a1a363873f3675a861d228abcf0f2a8356f1a17850c06f6d6c47e454634"
 metafile = true
 
 [[files]]
-file = "mods/continuity.pw.toml"
-hash = "2e082857985c7550efdad38a1997b9805051b07fb61b0cd30921e786a8521130"
-metafile = true
-
-[[files]]
 file = "mods/create-cobblemon-balls-overhaul.pw.toml"
 hash = "e7b9c94edbeddb25bff134d66678e6949e5ab3be9f6c5fe0aabc8ea6f0f19988"
 metafile = true
@@ -1367,11 +1362,6 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
-metafile = true
-
-[[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "fea376aa7ebd1eab1307c3a7b911c01ec07d9fa39e0cc56852e9a226981cddc1"
 metafile = true
 
 [[files]]
