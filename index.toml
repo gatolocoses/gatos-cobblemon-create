@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "694ed995f7b4e33e4c2e749127ba747f16a9f4cd5236f8cdbf8a01058a92315c"
+hash = "c75f49d4463cc1d6f1c612e1dc749f4cf51d999f8c4829240a3743a06b1ad4a4"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -1366,7 +1366,7 @@ metafile = true
 
 [[files]]
 file = "mods/gatos-ai-chat.pw.toml"
-hash = "298cebee718eaa398cce49326caa478db5a94deffbaf15635353db1e35ba1128"
+hash = "88dbc472f51fca5a53482aa6d7c72f90ea3cf81b6fe06f96ca378d65d1c6404c"
 metafile = true
 
 [[files]]
@@ -1375,8 +1375,8 @@ hash = "6237e01cff2743ac19b578777c24d7e899869334998d4c1a79a5c579d4345219"
 metafile = true
 
 [[files]]
-file = "mods/gatos_ai_chat-1.1.1.jar"
-hash = "68f954f7dbf881319130179bb2371701681bc4fb0782e8b218850ff0350dd120"
+file = "mods/gatos_ai_chat-1.1.2.jar"
+hash = "4037a4aaf75204d0909e6e3d1b17ad171ff833d57e67920c1286a1a18764f5a5"
 
 [[files]]
 file = "mods/geckolib.pw.toml"
@@ -1476,11 +1476,6 @@ metafile = true
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "e92633222b9275744ba9ae7a90781494f67933924b56ea8287c5dc7553e77e17"
-metafile = true
-
-[[files]]
-file = "mods/packet-fixer.pw.toml"
-hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
 metafile = true
 
 [[files]]

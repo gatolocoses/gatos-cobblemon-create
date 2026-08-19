@@ -31,6 +31,8 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.time.Duration;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -42,6 +44,8 @@ import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @Mod(GatosAiChat.MOD_ID)
 public final class GatosAiChat {
@@ -100,10 +104,26 @@ public final class GatosAiChat {
     }
 
     public GatosAiChat(IEventBus modBus, ModContainer container) {
-        container.registerConfig(net.neoforged.fml.config.ModConfig.Type.SERVER, CONFIG_SPEC);
+        container.registerConfig(net.neoforged.fml.config.ModConfig.Type.COMMON, CONFIG_SPEC);
+        migrateLegacyApiKey();
         NeoForge.EVENT_BUS.addListener(GatosAiChat::registerCommands);
         NeoForge.EVENT_BUS.addListener(GatosAiChat::onChatMessage);
         NeoForge.EVENT_BUS.addListener(GatosAiChat::onPlayerLeave);
+    }
+
+    private static void migrateLegacyApiKey() {
+        try {
+            Path oldFile = net.neoforged.fml.loading.FMLPaths.CONFIGDIR.get().resolve("gatos_ai_chat-server.toml");
+            if (Files.exists(oldFile) && API_KEY.get().isBlank()) {
+                Matcher matcher = Pattern.compile("apiKey\\s*=\\s*\"([^\"]+)\"").matcher(Files.readString(oldFile));
+                if (matcher.find()) {
+                    API_KEY.set(matcher.group(1));
+                    CONFIG_SPEC.save();
+                }
+            }
+        } catch (Exception e) {
+            LOGGER.warn("Could not migrate legacy API key", e);
+        }
     }
 
     private static void registerCommands(RegisterCommandsEvent event) {
