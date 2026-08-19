@@ -1655,7 +1655,7 @@ metafile = true
 
 [[files]]
 file = "server.properties"
-hash = "c9ed1ebbe40b1e9fc9dd212d4e07407f474086dab41dc787130153df89ec08be"
+hash = "a9e5f618f9c791db642c6b70623c8bfa18a7812a13216afd62ab235c98bdaad3"
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
