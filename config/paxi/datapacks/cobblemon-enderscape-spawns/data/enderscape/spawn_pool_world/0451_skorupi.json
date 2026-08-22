@@ -1,0 +1,25 @@
+{
+    "enabled":true,
+    "neededInstalledMods":[],
+    "neededUninstalledMods":[],
+    "spawns":[
+        {
+            "id":"skorupi-enderscape-1",
+            "pokemon":"skorupi",
+            "presets": [
+                "natural",
+                "enderscape"
+            ],
+            "type":"pokemon",
+            "spawnablePositionType":"grounded",
+            "bucket": "common",
+            "level": "8-40",
+            "weight": 5.0,
+            "condition": {
+                "biomes": [
+                    "enderscape:corrupt_barrens"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "morgrem-enderscape-1",
+            "pokemon": "morgrem",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "32-37",
+            "weight": 0.18,
+            "condition": {
+                "biomes": [
+                    "enderscape:celestial_grove"
+                ]
+            }
+        },
+        {
+            "id": "morgrem-enderscape-2",
+            "pokemon": "morgrem",
+            "presets": [
+                "natural",
+                "enderscape",
+                "enderscape_city"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "32-37",
+            "weight": 0.18,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end",
+                    "#cobblemon:is_enderscape_barren",
+                    "enderscape:celestial_grove",
+                    "enderscape:corrupt_barrens",
+                    "enderscape:magnia_crags",
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        }
+    ]
+}

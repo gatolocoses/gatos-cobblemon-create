@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "golurk-enderscape-1",
+            "pokemon": "golurk",
+            "presets": [
+                "natural",
+                "enderscape",
+                "mirestone_ruins"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "43-48",
+            "weight": 6.0,
+            "condition": {
+                "biomes": [
+                    "enderscape:corrupt_barrens"
+                ]
+            }
+        }
+    ]
+}

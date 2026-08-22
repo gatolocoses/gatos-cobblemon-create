@@ -1,0 +1,25 @@
+{
+    "enabled":true,
+    "neededInstalledMods":[],
+    "neededUninstalledMods":[],
+    "spawns":[
+        {
+            "id":"grumpig-enderscape-1",
+            "pokemon":"grumpig",
+            "presets":[
+                "enderscape",
+                "natural"
+            ],
+            "type":"pokemon",
+            "spawnablePositionType":"grounded",
+            "bucket":"common",
+            "level":"32-47",
+            "weight":0.6,
+            "condition": {
+                "biomes": [
+                    "enderscape:celestial_grove"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "enabled":true,
+    "neededInstalledMods":[],
+    "neededUninstalledMods":[],
+    "spawns":[
+        {
+            "id":"drapion-enderscape-1",
+            "pokemon":"drapion",
+            "presets": [
+                "natural",
+                "enderscape"
+            ],
+            "type":"pokemon",
+            "spawnablePositionType":"grounded",
+            "bucket": "common",
+            "level": "40-55",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "enderscape:corrupt_barrens"
+                ]
+            }
+        }
+    ]
+}

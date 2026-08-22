@@ -1,0 +1,35 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "kadabra-enderscape-1",
+            "pokemon": "kadabra",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-40",
+            "weight": 0.75,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end",
+                    "#cobblemon:is_enderscape_barren",
+                    "enderscape:magnia_crags",
+                    "enderscape:magnia_fields"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "enderscape:celestial_grove",
+                    "enderscape:corrupt_barrens",
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "kricketune-enderscape-1",
+            "pokemon": "kricketune",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-48",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        }
+    ]
+}

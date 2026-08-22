@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "illumise-enderscape-1",
+            "pokemon": "illumise",
+            "presets": [
+                "natural",
+                "enderscape"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-43",
+            "weight": 5.0,
+            "condition": {
+                "biomes": [
+                    "enderscape:celestial_grove",
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        }
+    ]
+}

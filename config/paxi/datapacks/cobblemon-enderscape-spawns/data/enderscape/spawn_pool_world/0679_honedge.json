@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "honedge-enderscape-1",
+            "pokemon": "honedge",
+            "presets": [
+                "natural",
+                "enderscape",
+                "mirestone_ruins"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "8-33",
+            "weight": 30.0,
+            "condition": {
+                "biomes": [
+                    "enderscape:corrupt_barrens"
+                ]
+            }
+        }
+    ]
+}

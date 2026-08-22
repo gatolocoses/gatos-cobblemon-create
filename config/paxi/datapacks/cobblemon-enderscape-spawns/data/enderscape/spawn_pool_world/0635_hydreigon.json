@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "hydreigon-enderscape-1",
+            "pokemon": "hydreigon",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "64-69",
+            "weight": 0.25,
+            "condition": {
+                "biomes": [
+                    "enderscape:corrupt_barrens"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "shedinja-enderscape-1",
+            "pokemon": "shedinja",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-46",
+            "weight": 1.7,
+            "condition": {
+                "biomes": [
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        }
+    ]
+}

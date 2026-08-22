@@ -1,0 +1,35 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "solrock-enderscape-1",
+            "pokemon": "solrock",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "21-46",
+            "weight": 1,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end",
+                    "#cobblemon:is_enderscape_barren",
+                    "enderscape:magnia_crags",
+                    "enderscape:magnia_fields"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "enderscape:celestial_grove",
+                    "enderscape:corrupt_barrens",
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        }
+    ]
+}

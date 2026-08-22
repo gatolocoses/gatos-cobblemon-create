@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "spidops-enderscape-1",
+            "pokemon": "spidops",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "15-40",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        }
+    ]
+}

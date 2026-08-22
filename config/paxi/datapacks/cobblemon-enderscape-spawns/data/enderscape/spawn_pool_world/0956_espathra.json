@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "espathra-enderscape-1",
+            "pokemon": "espathra",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "35-48",
+            "weight": 0.96,
+            "condition": {
+                "biomes": [
+                    "enderscape:celestial_grove",
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        }
+    ]
+}

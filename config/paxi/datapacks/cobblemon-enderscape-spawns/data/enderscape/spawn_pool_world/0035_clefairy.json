@@ -1,0 +1,31 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "clefairy-enderscape-1",
+            "pokemon": "clefairy",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-45",
+            "weight": 1.773,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end",
+                    "#cobblemon:is_enderscape_barren",
+                    "enderscape:celestial_grove",
+                    "enderscape:corrupt_barrens",
+                    "enderscape:magnia_crags",
+                    "enderscape:magnia_fields",
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        }
+    ]
+}

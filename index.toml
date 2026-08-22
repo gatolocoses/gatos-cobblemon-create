@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "c75f49d4463cc1d6f1c612e1dc749f4cf51d999f8c4829240a3743a06b1ad4a4"
+hash = "694ed995f7b4e33e4c2e749127ba747f16a9f4cd5236f8cdbf8a01058a92315c"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -363,6 +363,478 @@ hash = "0f1415d7fef6d7f6194275501d500b633dd3310aea40d64128edd1b096372f60"
 [[files]]
 file = "config/notenoughanimations.json"
 hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/cobblemon/spawn_detail_presets/enderscape.json"
+hash = "f80cb74f2db279dbcc905936d18615292c66f0eae6aa584dc1d88863dccdf9d4"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/cobblemon/spawn_detail_presets/enderscape_barren.json"
+hash = "3d4746397a1598a13472a8da2f7fa414d89dd8ef18e312635c560594323b686e"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/cobblemon/spawn_detail_presets/enderscape_city.json"
+hash = "bfe12628be15e8e8a41bc2998349135b102a52269aa2beb9f6813db9f8d360d2"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/cobblemon/spawn_detail_presets/mirestone_ruins.json"
+hash = "74d74158635c4a62accdf36671c034d956c5f4c5fff0b3afe37ac2f5e23c14db"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/cobblemon/spawn_detail_presets/stronghold.json"
+hash = "fb2c70a69ead7e8bb09f3e9faf4d16fc7eab4cbb851ef6d663739b2a91621a8b"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/cobblemon/tags/worldgen/biome/is_enderscape_barren.json"
+hash = "6df39cea49966bf6f642482c26c05f3fe121ff5dc47fc0bb0de8cda646f0f756"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0035_clefairy.json"
+hash = "610c70502193caffd6a259989c8e82a09f64cd050def4e7fab6ca1339f0c38f7"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0036_clefable.json"
+hash = "7cba3936f73f4cc83cf16f7722f8fd7088a4a77049399e4550419d08f434fc3f"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0046_paras.json"
+hash = "d07e1bbd6b3036d54f0a5b0842dafa7a255cfc6ea847d63e0b0d9c2b82033d93"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0047_parasect.json"
+hash = "e378a2dbc71a745ef535b208fa77eccbabdcbfe5254d12a129f1df4de00b0088"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0048_venonat.json"
+hash = "ecbb9da2f3df2d56d3b9cddfee76fdf08d30b8e8d9af5f4cdcd45393a025a8bf"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0049_venomoth.json"
+hash = "cb1c2e54daff761ab13c25f538ea7d27161ce5ab5b989e2a9310526edd221f91"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0063_abra.json"
+hash = "3938ed86230d1b83e8f66492817e4c990e0ec5c60d5db24fdaad98c088d97b4b"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0064_kadabra.json"
+hash = "52140a7d6d059737609866e3b256100e260d1e3639348458a6001664de52d191"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0065_alakazam.json"
+hash = "ca0d3978f81491b24b086c7b9e7989a66b713e0c88faa89e9026041a3e01b24b"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0074_geodude.json"
+hash = "0a248fc00c52ebd1b69123b66b7fcca6a1ed336e58d942f22cb82eb0d61b45e4"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0075_graveler.json"
+hash = "ad7aebce1999cbbebb061bee0423a83990af7a6c58eb6a3190e91355461793da"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0076_golem.json"
+hash = "39328c8dba15160fb5ae32b1bbd72fc477bef4d000a6975946f383553eca7699"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0081_magnemite.json"
+hash = "d42c6d48f4c29dff5cad4505ed5a84a1128d73bb99c3fc85c55dd7ee14c594d9"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0082_magneton.json"
+hash = "8fc65a1e3e94a080774395cbe7e0b5f9bdef51db4cb6d078484cdcfbb4343bbc"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0088_grimer.json"
+hash = "613dd31702d12b013c76e8573af3ca3b0988a1efba1d9df88444ac4d4fc3b9b6"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0089_muk.json"
+hash = "b3a38e8d7c6d05704716e84e3473bab6875125fe238e468fd56e17460ba50b5a"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0092_gastly.json"
+hash = "ce0418628a5c8e0e5d31845a4c42c7c7b6a509510dfe410897c0ad7af101bc55"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0093_haunter.json"
+hash = "f50010505858100f9f1767102d544b7ad78b1df9cb18c3cec74a2778715d5211"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0094_gengar.json"
+hash = "859e5d8d9b75163c7b2b28b89e9cbca5f86013ff777d5bb3a1ca924cac056224"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0165_ledyba.json"
+hash = "77dbbf8fc1e8c46d4827e710ef81cbf003523c8e6b6a4505e92c4605d74692ce"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0166_ledian.json"
+hash = "5e9412aa48168e4e1eea5e89e760e7bfec6f119199656fa4f131d6ca255cda1b"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0167_spinarak.json"
+hash = "bf42c3a97d953b5c1bf767e695fa8a9c81b8fedcd4f4562bf6672179e3cb1edf"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0168_ariados.json"
+hash = "5f7c6f8e05bff5e4948870ad740c802ac84ec88d2b83f65a7511a4eef5cc92d7"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0173_cleffa.json"
+hash = "211816c03620baedd6f6202f6b157548d5a2f85945baf7b1cdc0a6d5658ef6eb"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0200_misdreavus.json"
+hash = "9d9f68054ea82a36d69cf04381d11c8713c74b9c0e3d42277b15ff01de4a4f21"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0201_unown.json"
+hash = "468603ac5abec6655f5b9f8f49711b1028c3621a594babd73526e3418cf247cd"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0280_ralts.json"
+hash = "7d0cfb8fa539527392f8f994ed836c49256ddc0a2f10b6defeb87c9b4cb6349f"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0281_kirlia.json"
+hash = "ef4b8ef09bb940394f16a646bba454621e7cecec0d01e74efc4e2ab2f0c450c6"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0282_gardevoir.json"
+hash = "97fc8db0a984438f30c1d3fcae89f45704b516c1db9c6c3042052b837e0f938f"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0285_shroomish.json"
+hash = "7efd989d1937f48300aa3f3681b53383d1b724d81d3cad3cf9c7ffc565914437"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0286_breloom.json"
+hash = "9952bcfbdeb78ef25905aaf3c2940bb1eee739513fb7c4d653d1640ed5a2f1d0"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0290_nincada.json"
+hash = "e485fda37784ae91b6af772bed9ddb35dc66ebac27b0ca97ed9d0391d37c3cad"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0291_ninjask.json"
+hash = "be350e3ec33213c58bc984468d0645a1034e8d8cd752b6b68b0ee1b5fcf21b38"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0292_shedinja.json"
+hash = "528ef9ce6290e328fc2de60d86b8aaf389874b5897aadcdc2b05af11a52099a8"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0299_nosepass.json"
+hash = "7548375496db342631bdaec4e61846070cb68cb2e85b3dc6673b81a409ef861e"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0313_volbeat.json"
+hash = "5987e8382fc60e55323bc41f55dd13df76064c85e821c988d9c8f4a5acceaec6"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0314_illumise.json"
+hash = "ed89277212627e2aa9c4cae02fe5a9187d77f35e7c14c2cca92fdd981e15eae0"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0325_spoink.json"
+hash = "7ee02acb09989eed09b87cd9a913b9352d4985034ac8a3ca4d62f1ba679906c3"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0326_grumpig.json"
+hash = "af5f5a23251ca9a3cf73fa83910a06385465e2cb3786e02fdd110ec1e3921621"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0337_lunatone.json"
+hash = "8dabe0efc6726384fcf8f91083bfee21efe66f37a8aba2436615186705bbd016"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0338_solrock.json"
+hash = "0173d887348d6400419f38aa43ad7591e52596347d7ae2e55028c64ffd0fdf23"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0343_baltoy.json"
+hash = "bdeb78bfaa78f55f95e1c1bae3233b9f361686388d0cd6564b0f693d6c692e10"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0344_claydol.json"
+hash = "4df6ff87a9f4d3c170430331e114552fe43178c3f7410c471974dbed0eb918c3"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0374_beldum.json"
+hash = "471bc91e6da831c15d4ec502630e1baf379c82ffe6f6d909b000a1fca9ec1b5a"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0375_metang.json"
+hash = "7f9f6e1541a06b4aeafb8c75e61969fe865c8f87a662f7b6f50cc64ef0e71484"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0376_metagross.json"
+hash = "5727c1cb69cf7da3c2563c7977dae31c322868a8fc914996abd743a696a5269e"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0401_kricketot.json"
+hash = "9bf758449e2c9298003f07887d82800f8ce5295d6ace7a39bb346899e9ed8e7c"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0402_kricketune.json"
+hash = "b5c751ef4859f7f6c6dcf68bdde1c8e351876858bc7653da074dbf21307fa8ee"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0429_mismagius.json"
+hash = "0868b5b7d74216e15d8dc34270f81553a8c5319bfea11414db04558b95592165"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0436_bronzor.json"
+hash = "1d386d3ec8246ec319596514988522ca1e772d036f874a684b8b6f3515511d90"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0437_bronzong.json"
+hash = "f16adb9ab39344d1e28485e837ca6a6d12d8e6b3701b60d9c7d28222af0c9a58"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0442_spiritomb.json"
+hash = "ee931b326994bd4a30a58da8cf5fe8ca6343eb80f830913e92a0fe30c07ecebc"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0451_skorupi.json"
+hash = "5d6f58b861badfd44cdd3818a6abef674184ed478679c9f66a2869c93d83c07c"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0452_drapion.json"
+hash = "f82f10d36748ee758054b5b411d970dae236b979b6a1bf9573f79f6cb2cd2496"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0462_magnezone.json"
+hash = "927f2747b9ba351bfaacdb2daa242f98ea9cd8921b5bbb8aebd695e27d3bcb91"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0475_gallade.json"
+hash = "82090c1cadd7166cb9a0a3e330ed30fbcb657f56375679e5a3a6c62d823346a4"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0476_probopass.json"
+hash = "f03d334b662c10b9bcbc40c1452e0f6c21887db53ce065ee461c6a2eed7e8542"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0517_munna.json"
+hash = "e30e18fe26ca522becf768c6d6abb3fe7619c6b23da36bb64017cdffeafa060b"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0518_musharna.json"
+hash = "5c7f15869ba1a268289419f977bf7b82fc8241ac0f1551175ff725668cfb5ea2"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0543_venipede.json"
+hash = "940aa9a8078242a985f5de97ce10b6f62cfa5b943ca58b9a3277779f06280a2f"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0544_whirlipede.json"
+hash = "ffbaedec8b05ac239f2fd41815bfaf9436c65fbdbf2f3754a721e2697b174138"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0545_scolipede.json"
+hash = "92288e53311f469ddeae61c53c6a18a8fbb589880fe8d2db1a0028cbc6ef0206"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0561_sigilyph.json"
+hash = "e4d9613fe41a3a10556db0e77de242b4a2d0eba0b122b61b6343d20a1e9c75b1"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0574_gothita.json"
+hash = "bb951fef80cf111790d0c511fd9cabf88853e5112d8467e22d32b2dbfb0f9201"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0575_gothorita.json"
+hash = "11ec27eab6deec244536d0de9d5d9ced2e7325600d04e8944466cb3f5032c4d5"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0576_gothitelle.json"
+hash = "be146335cabb7adb5b496d843e694b154eb2f4156abc3b0ee632337552a92ed1"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0577_solosis.json"
+hash = "b44d9467d601ce340c5867e82cba8c367dba36561aad9bd54809d5caab8fa22c"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0578_duosion.json"
+hash = "e55f33712318833825cc96c6fcbea898c564c0efb8dd0b10cf4073653f1e845b"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0579_reuniclus.json"
+hash = "cce69361eaac9b03c47dfdd042425fcaa53a37b5dc9fd135822d3a123692d5f1"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0588_karrablast.json"
+hash = "3fbafd8c92d365a942d493f6530ab643b91be9eaf19af41dce1231aecc34dcc8"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0589_escavalier.json"
+hash = "c8db190650e45c022df6ae68c8b4ebaf0fa4d9aaeec09bfc2d119db679b7ca4d"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0590_foongus.json"
+hash = "d5a1d3fa2192d763384955807ecfd7e5c4cc594260aef47d4b1041dbdaab6156"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0591_amoonguss.json"
+hash = "c6a333d7ce5b893355f8bbb8333409a9a0208e0d98c4cd846bb631f2f23f1943"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0602_tynamo.json"
+hash = "535dd974cad2a74e898c23f48cf2e763599f75ec64acb204066388c237f479f7"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0603_eelektrik.json"
+hash = "33d61be895929284aa23eabc5e6f13d509ff1111692e1f6293cd2749d0732c6c"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0604_eelektross.json"
+hash = "346549b94f1b8f59408215d3863df14a5cb432065f0e5c431293855bb00fc5c8"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0605_elgyem.json"
+hash = "bf15bba56399e07106860fedee8a9e9b468e427982bc0dc97310d97411cf7692"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0606_beheeyem.json"
+hash = "6169a3b7cd70bc1cd362101cccf19b4a753892e8b9cbc95e51b39e90eb601d97"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0616_shelmet.json"
+hash = "bb2067b2e48cc720700598434193ec6f0c70d07c50df3fca8375a45be26f5130"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0617_accelgor.json"
+hash = "db7aac6e090b6e2fd2e46b86c0b3f120f2ff5e1b819f1f48808e42eb693098be"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0622_golett.json"
+hash = "a624296138e6c5159ac1993f0d32190be421844c08d143f7427d7200dae39e32"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0623_golurk.json"
+hash = "25ea4fe93b37cec72f950707de6e679fe76d737f6bb5c3f0dc232ccf2aa6f1aa"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0633_deino.json"
+hash = "7b77e8592e1deaeb0f9f902dbfc805d33462b62c790049270f0775ce288bc827"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0634_zweilous.json"
+hash = "ffc0ee95916fdf0ff8d7932c94e3fd961c5a07af6327f9857f62d0485aade546"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0635_hydreigon.json"
+hash = "710e91b4068a8e2a79e0c466ab7c7f55875538a1cd7b2a2bd1f963d432c34fc9"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0679_honedge.json"
+hash = "06fae0f4cad38bc8bf571bac71b73ef41970a1bf2df6a29fd28b7fd61aa8302d"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0680_doublade.json"
+hash = "bf2b01e966d1dea06c636a4b4429dec741b0380ea0a13e599dd9ee0ca324346a"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0681_aegislash.json"
+hash = "d287a869f4224cbd1e315fa58ddf79ec169bd8e5d5d5c1280674d0cd369c1682"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0686_inkay.json"
+hash = "fe2bc0fa4d1af151487199a637ab7045dc30c643d9f7cc8d97546aad764052a5"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0687_malamar.json"
+hash = "88dd822fa64e3264705bf64537b264e02039cb548834b827c106c19ef3ef4fb5"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0742_cutiefly.json"
+hash = "3d5eb180b8301c5e51c07a74613e552519efdada1638fbff74eed8024cb69d2b"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0743_ribombee.json"
+hash = "13e8c7dd3bfcc7aba30620c70f08d8300406d4f95b490cca986c2d811ceaee69"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0755_morelull.json"
+hash = "45cdefbcba9d1a78d460989867c9aad40b5de94ef983c678fffe08200e48dd9d"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0756_shiinotic.json"
+hash = "c8629908f1c8577051a40fcc1a35f203110ec00de750361f2292f62d62c1d2c3"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0856_hatenna.json"
+hash = "8f3b3b12694bcb7cba3595a9f20cc03b5ed5545b6c7a28f845354f3aaba74886"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0857_hattrem.json"
+hash = "9738e6649964c13c944c9df20a2911a240c5a904fefd09afc1dbf35649e5dc58"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0858_hatterene.json"
+hash = "df0c7bf000ccda131813e06c94b0e38210b5d023a54a320fddb91b314041d0b7"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0859_impidimp.json"
+hash = "9545e9817ba1a3ab111f1ea55697ab4cd49ca46f8c33242b1a206dc7c214dd7b"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0860_morgrem.json"
+hash = "d79643d1dc34ee93867e27a2104435f8eba16d6123df7a00182b698115fa8793"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0861_grimmsnarl.json"
+hash = "47dabdc8dddc0b3cd747e18f0a5c0131f34aae5e3f65aa7687855446699abeef"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0917_tarountula.json"
+hash = "5c09f25ac8c800444f3b9b880809adb8bcd2545a278e363bd84f3eb528bd94f4"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0918_spidops.json"
+hash = "cdc06df26a0f4731e32924b9e2f0d64cc5e6cefc3a3a76ec3278cdba179991cb"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0948_toedscool.json"
+hash = "a33172dbf8aef10ce4617f355a87ee5d90590e915fe7c6cc81fe4d493359fc48"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0949_toedscruel.json"
+hash = "4b1bb38ff29d56ccaa216378394803bb6f2e49e16d372e2d07986b6213c1f1f8"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0953_rellor.json"
+hash = "568896a6d262274f65cc9595b4ef5e0924749baee39ba5afeb858641c34b1b7d"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0954_rabsca.json"
+hash = "95223805c809647188f542daa37ea68ee41a81cd7b395a2728c33a7c76c47791"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0955_flittle.json"
+hash = "c5e245ede054cca5ca9e75e190748a9f1b223f9c6021029f63378b36f1c7689d"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0956_espathra.json"
+hash = "7bb286fb4c42b9dd395ea7e947312884e760071add589bff53ed3ab76cd557bd"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0968_orthworm.json"
+hash = "ba7a5005fe613c3313f8602ff4b1b33a403364ac05b9e4b77f94d110a33b5b5b"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/data/enderscape/spawn_pool_world/0999_gimmighoul.json"
+hash = "f4c1277e65c619a49bd069b37a51d9fd350a4628d1a2a1fbf42f55f995bb2128"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/pack.mcmeta"
+hash = "9dce7734d3a836dc586975a871d92fa9286f50d43a94c22b9f8c0e71f30e4176"
+
+[[files]]
+file = "config/paxi/datapacks/cobblemon-enderscape-spawns/pack.png"
+hash = "05b1832894a6d838633f5c80cb7ad56b6b4a278fd6490934071f478fcfa8f797"
 
 [[files]]
 file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/bronze_ore_hammer.json"
@@ -1280,6 +1752,11 @@ hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
 metafile = true
 
 [[files]]
+file = "mods/cobblemonextrastructures.pw.toml"
+hash = "225afd4bdf5f89682d5ad9320216e64e9ae02270031c46e5b334d5fa42e1da60"
+metafile = true
+
+[[files]]
 file = "mods/cobblemore-library.pw.toml"
 hash = "b65f2b09d07b8db21de571c3353a8a2d3386aa0ee8b3f5abb00d736c3286910b"
 metafile = true
@@ -1337,6 +1814,11 @@ metafile = true
 [[files]]
 file = "mods/enderio.pw.toml"
 hash = "bb335808d1873c81f83ec9cf4ca15e8820cfcbd6354beb331a01dc7c2c711ca9"
+metafile = true
+
+[[files]]
+file = "mods/enderscape.pw.toml"
+hash = "dee101b4695257c023df362ae0e99f9ed7ca0f43bf943016f398e301b1678be4"
 metafile = true
 
 [[files]]
@@ -1544,6 +2026,16 @@ hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
 
 [[files]]
+file = "mods/trimmed.pw.toml"
+hash = "28db7535fae8c33b5547fefefdd88ead89c7edd7c1f330a5f370dca76e6706c9"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
+metafile = true
+
+[[files]]
 file = "mods/yungs-api.pw.toml"
 hash = "d9c0c9209bac0b693af2a7c1e47ffb28d366bad19c91df31dc6d345fa75250a1"
 metafile = true
@@ -1561,11 +2053,6 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-dungeons.pw.toml"
 hash = "4c2830674a08ec9f10af13e4d259aa60158bd306a3996d935e678281ec0cb5fd"
-metafile = true
-
-[[files]]
-file = "mods/yungs-better-end-island.pw.toml"
-hash = "902c397d5dfc69b497681ba71aa5b8a8a85479b1ccf25157867e4803c16dd65b"
 metafile = true
 
 [[files]]

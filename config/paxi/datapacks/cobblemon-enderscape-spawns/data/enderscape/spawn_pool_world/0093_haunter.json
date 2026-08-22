@@ -1,0 +1,35 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "haunter-enderscape-1",
+            "pokemon": "haunter",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-41",
+            "weight": 0.75,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end",
+                    "#cobblemon:is_enderscape_barren",
+                    "enderscape:corrupt_barrens",
+                    "enderscape:magnia_crags",
+                    "enderscape:magnia_fields"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "enderscape:celestial_grove",
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gardevoir-enderscape-1",
+            "pokemon": "gardevoir",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-52",
+            "weight": 0.09,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end",
+                    "#cobblemon:is_enderscape_barren",
+                    "enderscape:celestial_grove",
+                    "enderscape:magnia_crags",
+                    "enderscape:magnia_fields"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "enderscape:corrupt_barrens",
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "magneton-enderscape-1",
+            "pokemon": "magneton",
+            "presets": [
+                "natural",
+                "enderscape"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-47",
+            "weight": 3,
+            "condition": {
+                "biomes": [
+                    "enderscape:magnia_crags",
+                    "enderscape:magnia_fields"
+                ]
+            }
+        }
+    ]
+}

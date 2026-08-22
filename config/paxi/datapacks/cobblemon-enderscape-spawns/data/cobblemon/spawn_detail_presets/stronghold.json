@@ -1,0 +1,32 @@
+{
+  "condition": {
+	"structures": [
+	  "minecraft:stronghold",
+          "enderscape:stronghold",
+	  "betterstrongholds:stronghold"
+    ],
+	"maxY": 62,
+	"neededBaseBlocks": [
+      "#minecraft:stone_bricks",
+      "minecraft:smooth_stone",
+      "minecraft:polished_andesite",
+      "minecraft:polished_tuff",
+      "minecraft:tuff_bricks",
+      "minecraft:spruce_planks",
+      "minecraft:coarse_dirt",
+      "minecraft:grass_block"
+	],
+	"neededNearbyBlocks": [
+      "minecraft:stone_bricks",
+      "minecraft:cracked_stone_bricks",
+      "minecraft:mossy_stone_bricks",
+      "minecraft:smooth_stone",
+      "minecraft:polished_andesite",
+      "minecraft:spruce_planks",
+      "minecraft:polished_tuff",
+      "minecraft:tuff_bricks",
+      "minecraft:chiseled_tuff_bricks",
+      "minecraft:chiseled_tuff"
+	]
+  }
+}

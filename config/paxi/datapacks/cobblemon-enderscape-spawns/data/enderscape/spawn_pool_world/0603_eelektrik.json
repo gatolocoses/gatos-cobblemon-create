@@ -1,0 +1,31 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "eelektrik-enderscape-1",
+            "pokemon": "eelektrik",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "29-41",
+            "weight": 0.3,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end",
+                    "#cobblemon:is_enderscape_barren",
+                    "enderscape:celestial_grove",
+                    "enderscape:corrupt_barrens",
+                    "enderscape:magnia_crags",
+                    "enderscape:magnia_fields",
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        }
+    ]
+}

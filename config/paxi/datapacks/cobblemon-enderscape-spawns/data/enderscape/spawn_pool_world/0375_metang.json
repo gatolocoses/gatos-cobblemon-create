@@ -1,0 +1,73 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+           "id": "metang-enderscape-1",
+            "pokemon": "metang",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "20-44",
+            "weight": 2.25,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end",
+                    "#cobblemon:is_enderscape_barren"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "enderscape:celestial_grove",
+                    "enderscape:corrupt_barrens",
+                    "enderscape:magnia_crags",
+                    "enderscape:magnia_fields",
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        },
+        {
+           "id": "metang-enderscape-2",
+            "pokemon": "metang",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "20-44",
+            "weight": 3.6,
+            "condition": {
+                "biomes": [
+                    "enderscape:magnia_crags",
+                    "enderscape:magnia_fields"
+                ]
+            }
+        },
+        {
+           "id": "metang-enderscape-3",
+            "pokemon": "metang",
+            "presets": [
+                "natural",
+                "enderscape",
+                "mirestone_ruins"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "20-44",
+            "weight": 2.25,
+            "condition": {
+                "biomes": [
+                    "enderscape:corrupt_barrens"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "enabled":true,
+    "neededInstalledMods":[],
+    "neededUninstalledMods":[],
+    "spawns":[
+        {
+            "id":"gothorita-enderscape-1",
+            "pokemon":"gothorita",
+            "presets": [
+                "natural",
+                "enderscape",
+                "enderscape_city"
+            ],
+            "type":"pokemon",
+            "spawnablePositionType":"grounded",
+            "bucket": "uncommon",
+            "level": "32-39",
+            "weight": 1.44,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end",
+                    "#cobblemon:is_enderscape_barren",
+                    "enderscape:celestial_grove",
+                    "enderscape:corrupt_barrens",
+                    "enderscape:magnia_crags",
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        }
+    ]
+}

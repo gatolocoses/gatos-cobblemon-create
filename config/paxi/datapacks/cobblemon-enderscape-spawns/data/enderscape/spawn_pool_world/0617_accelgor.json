@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "accelgor-enderscape-1",
+            "pokemon": "accelgor",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "26-50",
+            "weight": 0.3,
+            "condition": {
+                "biomes": [
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        }
+    ]
+}

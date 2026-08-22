@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "whirlipede-enderscape-1",
+            "pokemon": "whirlipede",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-36",
+            "weight": 0.54,
+            "condition": {
+                "biomes": [
+                    "enderscape:celestial_grove",
+                    "enderscape:corrupt_barrens"
+                ]
+            }
+        }
+    ]
+}

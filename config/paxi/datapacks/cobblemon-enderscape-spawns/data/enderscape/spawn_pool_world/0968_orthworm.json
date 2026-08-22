@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "orthworm-enderscape-1",
+            "pokemon": "orthworm",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "23-48",
+            "weight": 4.0,
+            "condition": {
+                "biomes": [
+                    "enderscape:magnia_crags",
+                    "enderscape:magnia_fields"
+                ]
+            }
+        }
+    ]
+}

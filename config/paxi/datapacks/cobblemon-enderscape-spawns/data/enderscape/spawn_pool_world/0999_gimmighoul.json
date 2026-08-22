@@ -1,0 +1,50 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gimmighoul-roaming-enderscape-1",
+            "pokemon": "gimmighoul roaming",
+            "presets": [
+                "natural",
+                "enderscape",
+                "enderscape_city"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "5-40",
+            "weight": 10,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end",
+                    "#cobblemon:is_enderscape_barren",
+                    "enderscape:celestial_grove",
+                    "enderscape:corrupt_barrens",
+                    "enderscape:magnia_crags",
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        },
+        {
+            "id":"gimmighoul-roaming-enderscape-2",
+            "pokemon":"gimmighoul roaming",
+            "presets": [
+                "natural",
+                "enderscape",
+                "mirestone_ruins"
+            ],
+            "type":"pokemon",
+            "spawnablePositionType":"grounded",
+            "bucket": "uncommon",
+            "level": "5-40",
+            "weight": 13.42,
+            "condition": {
+                "biomes": [
+                    "enderscape:corrupt_barrens"
+                ]
+            }
+        }
+    ]
+}

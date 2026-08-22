@@ -1,0 +1,9 @@
+{
+   "condition": {
+       "neededBaseBlocks": [
+           "enderscape:veradite",
+           "enderscape:mirestone",
+           "enderscape:kurodite"
+       ]
+   }
+}

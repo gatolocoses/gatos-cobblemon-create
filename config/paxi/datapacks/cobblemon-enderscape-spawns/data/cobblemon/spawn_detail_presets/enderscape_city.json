@@ -1,0 +1,22 @@
+{
+  "condition": {
+	"structures": [
+	  "enderscape:end_city",
+          "minecraft:end_city"
+    ],
+	"neededBaseBlocks": [
+          "minecraft:end_stone_bricks",
+	  "minecraft:purpur_block",
+	  "minecraft:purpur_pillar",
+          "enderscape:veiled_planks",
+          "enderscape:dusk_purpur_block",
+          "enderscape:dusk_purpur_pillar"
+    ],
+	"neededNearbyBlocks": [
+          "#cobblemon:end_city_blocks",
+          "enderscape:veiled_planks",
+          "enderscape:dusk_purpur_block",
+          "enderscape:dusk_purpur_pillar"
+	]
+  }
+}

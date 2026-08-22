@@ -1,0 +1,52 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "misdreavus-enderscape-1",
+            "pokemon": "misdreavus",
+            "presets": [
+                "natural",
+                "enderscape",
+                "enderscape_city"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end",
+                    "#cobblemon:is_enderscape_barren",
+                    "enderscape:celestial_grove",
+                    "enderscape:corrupt_barrens",
+                    "enderscape:magnia_crags",
+                    "enderscape:veiled_woodlands"
+                    
+                ]
+            }
+        },
+        {
+            "id": "misdreavus-enderscape-2",
+            "pokemon": "misdreavus",
+            "presets": [
+                "natural",
+                "enderscape",
+                "mirestone_ruins"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-44",
+            "weight": 12.5,
+            "condition": {
+                "biomes": [
+                    "enderscape:corrupt_barrens"
+                    
+                ]
+            }
+        }
+    ]
+}

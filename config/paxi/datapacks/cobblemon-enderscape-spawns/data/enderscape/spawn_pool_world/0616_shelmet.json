@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "shelmet-enderscape-1",
+            "pokemon": "shelmet",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "6-31",
+            "weight": 5.7,
+            "condition": {
+                "biomes": [
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        }
+    ]
+}

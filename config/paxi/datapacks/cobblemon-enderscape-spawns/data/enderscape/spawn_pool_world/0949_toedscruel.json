@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "toedscruel-enderscape-1",
+            "pokemon": "toedscruel",
+            "presets": [
+                "enderscape",
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "30-52",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [
+                    "enderscape:celestial_grove"
+                ]
+            }
+        }
+    ]
+}

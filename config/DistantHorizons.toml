@@ -641,7 +641,7 @@ _version = 4
 				# Note:
 				# Some DH settings will be disabled and/or changed to improve 
 				# visuals when DH rendering is disabled.
-				ignoredDimensionCsv = "minecraft:the_end"
+				ignoredDimensionCsv = ""
 				#
 				# Requires a restart to change. 
 				#  

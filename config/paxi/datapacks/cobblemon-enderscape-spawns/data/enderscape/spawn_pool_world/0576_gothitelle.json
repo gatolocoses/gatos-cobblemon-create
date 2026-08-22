@@ -1,0 +1,31 @@
+{
+    "enabled":true,
+    "neededInstalledMods":[],
+    "neededUninstalledMods":[],
+    "spawns":[
+        {
+            "id":"gothitelle-enderscape-1",
+            "pokemon":"gothitelle",
+            "presets": [
+                "natural",
+                "enderscape",
+                "enderscape_city"
+            ],
+            "type":"pokemon",
+            "spawnablePositionType":"grounded",
+            "bucket": "uncommon",
+            "level": "41-49",
+            "weight": 0.16,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end",
+                    "#cobblemon:is_enderscape_barren",
+                    "enderscape:celestial_grove",
+                    "enderscape:corrupt_barrens",
+                    "enderscape:magnia_crags",
+                    "enderscape:veiled_woodlands"
+                ]
+            }
+        }
+    ]
+}

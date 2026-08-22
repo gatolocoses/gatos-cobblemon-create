@@ -1,0 +1,14 @@
+{
+   "condition": {
+       "neededBaseBlocks": [
+           "enderscape:veradite",
+           "enderscape:mirestone",
+           "enderscape:kurodite",
+           "enderscape:alluring_magnia",
+           "enderscape:repulsive_magnia",
+           "enderscape:veiled_end_stone",
+           "enderscape:celestial_overgrowth",
+           "enderscape:corrupt_overgrowth"
+       ]
+   }
+}

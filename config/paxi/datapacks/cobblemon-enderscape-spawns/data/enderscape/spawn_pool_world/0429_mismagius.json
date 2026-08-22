@@ -1,0 +1,52 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "mismagius-enderscape-1",
+            "pokemon": "mismagius",
+            "presets": [
+                "natural",
+                "enderscape",
+                "enderscape_city"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "39-50",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end",
+                    "#cobblemon:is_enderscape_barren",
+                    "enderscape:celestial_grove",
+                    "enderscape:corrupt_barrens",
+                    "enderscape:magnia_crags",
+                    "enderscape:veiled_woodlands"
+                    
+                ]
+            }
+        },
+        {
+            "id": "mismagius-enderscape-2",
+            "pokemon": "mismagius",
+            "presets": [
+                "natural",
+                "enderscape",
+                "mirestone_ruins"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "39-50",
+            "weight": 3.5,
+            "condition": {
+                "biomes": [
+                    "enderscape:corrupt_barrens"
+                    
+                ]
+            }
+        }
+    ]
+}
