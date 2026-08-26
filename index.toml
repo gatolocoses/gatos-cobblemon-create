@@ -1597,6 +1597,14 @@ file = "config/paxi/datapacks/gatos-custom-recipes/pack.mcmeta"
 hash = "f4a113b5b4249e82d7f0f3d0fa5bc0d0eb698431ec0feb53fbdfa4ec4320a542"
 
 [[files]]
+file = "config/paxi/datapacks/gatos-hooh-buff/data/cobblemon/species/generation2/hooh.json"
+hash = "d959d52d3c531e6e95261369ad5c255dadc8a014e41e49bc79e39997de974733"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-hooh-buff/pack.mcmeta"
+hash = "8877914a98376c058786da71b1f856e23557fe827f2443b48185d700d968c409"
+
+[[files]]
 file = "config/placebo.cfg"
 hash = "6bbc71c6dc18b1ba4952e1bc54ed2b98c3a90f04cec4257ec3f7566cdf0c0e2a"
 
