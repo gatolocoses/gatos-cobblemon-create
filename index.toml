@@ -1605,6 +1605,10 @@ file = "config/paxi/datapacks/gatos-hooh-buff/data/cobblemon/species/generation3
 hash = "4f71384be3191742e4443377bdd16ac13cf3b1e9b3c700424c854a0a285da9db"
 
 [[files]]
+file = "config/paxi/datapacks/gatos-hooh-buff/data/cobblemon/species/generation8/corviknight.json"
+hash = "d18477128e1eb488b0c22d359f6e23bc98bc521a8a99f6f8e52be4931a4f28f2"
+
+[[files]]
 file = "config/paxi/datapacks/gatos-hooh-buff/pack.mcmeta"
 hash = "8877914a98376c058786da71b1f856e23557fe827f2443b48185d700d968c409"
 
