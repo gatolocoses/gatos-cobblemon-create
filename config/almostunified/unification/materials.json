@@ -1,7 +1,6 @@
 {
   "mod_priorities": [
     "minecraft",
-    "create",
     "alltheores",
     "enderio"
   ],

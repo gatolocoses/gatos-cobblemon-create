@@ -4,5 +4,5 @@
   "cookingtime": 100,
   "experience": 0.7,
   "ingredient": { "item": "alltheores:zinc_dust" },
-  "result": { "count": 1, "id": "create:zinc_ingot" }
+  "result": { "count": 1, "id": "alltheores:zinc_ingot" }
 }
