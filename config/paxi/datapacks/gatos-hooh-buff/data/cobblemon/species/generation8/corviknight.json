@@ -1,272 +1,20 @@
 {
-  "implemented": true,
-  "nationalPokedexNumber": 823,
-  "name": "Corviknight",
-  "primaryType": "flying",
-  "secondaryType": "steel",
-  "maleRatio": 0.5,
-  "height": 22,
-  "weight": 750,
-  "pokedex": [
-    "cobblemon.species.corviknight.desc"
-  ],
-  "labels": [
-    "gen8"
-  ],
-  "aspects": [],
   "abilities": [
     "pressure",
     "unnerve",
     "h:mirrorarmor"
   ],
-  "eggGroups": [
-    "flying"
-  ],
+  "aspects": [],
+  "baseExperienceYield": 248,
+  "baseFriendship": 50,
+  "baseScale": 1.1,
   "baseStats": {
-    "hp": 98,
     "attack": 87,
     "defence": 105,
+    "hp": 98,
     "special_attack": 53,
     "special_defence": 85,
     "speed": 67
-  },
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 3,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "baseExperienceYield": 248,
-  "experienceGroup": "medium_slow",
-  "catchRate": 45,
-  "eggCycles": 15,
-  "baseFriendship": 50,
-  "baseScale": 1.1,
-  "hitbox": {
-    "height": 4.4,
-    "fixed": false,
-    "width": 2
-  },
-  "riding": {
-    "behaviours": {
-      "AIR": {
-        "key": "cobblemon:air/bird",
-        "rideSounds": [
-          {
-            "muffleEnabled": true,
-            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
-            "playForNonPassengers": false,
-            "playForPassengers": true,
-            "soundLocation": "cobblemon:ride.loop.wind.stereo",
-            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
-          },
-          {
-            "muffleEnabled": true,
-            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
-            "playForNonPassengers": true,
-            "playForPassengers": false,
-            "soundLocation": "cobblemon:ride.loop.wind.mono",
-            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
-          },
-          {
-            "muffleEnabled": true,
-            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
-            "playForNonPassengers": false,
-            "playForPassengers": true,
-            "soundLocation": "cobblemon:ride.loop.plumage.stereo",
-            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
-          },
-          {
-            "muffleEnabled": true,
-            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
-            "playForNonPassengers": true,
-            "playForPassengers": false,
-            "soundLocation": "cobblemon:ride.loop.plumage.mono",
-            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
-          }
-        ],
-        "stats": {
-          "SPEED": "45-45",
-          "ACCELERATION": "45-45",
-          "SKILL": "27-27",
-          "JUMP": "90-90",
-          "STAMINA": "90-90"
-        }
-      },
-      "LAND": {
-        "key": "cobblemon:land/horse",
-        "rideSounds": [],
-        "stats": {
-          "SPEED": "22-22",
-          "ACCELERATION": "70-70",
-          "SKILL": "40-40",
-          "JUMP": "37-37",
-          "STAMINA": "70-70"
-        }
-      }
-    },
-    "seats": [
-      {
-        "offset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "poseOffsets": [
-          {
-            "offset": {
-              "x": 3.7252903e-09,
-              "y": -3.2956975,
-              "z": 0.12137693
-            },
-            "poseTypes": [
-              "STAND"
-            ]
-          },
-          {
-            "offset": {
-              "x": -0.029628474,
-              "y": -3.505073,
-              "z": -0.16433369
-            },
-            "poseTypes": [
-              "WALK"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0,
-              "y": -3.026501,
-              "z": 0.02329135
-            },
-            "poseTypes": [
-              "HOVER"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0,
-              "y": -3.1509643,
-              "z": -0.77240765
-            },
-            "poseTypes": [
-              "FLY"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0,
-              "y": -3.026501,
-              "z": 0.02329135
-            },
-            "poseTypes": [
-              "FLOAT"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0,
-              "y": -3.1509643,
-              "z": -0.77240765
-            },
-            "poseTypes": [
-              "SWIM"
-            ]
-          },
-          {
-            "offset": {
-              "x": 3.7252903e-09,
-              "y": -3.2956975,
-              "z": 0.12137693
-            },
-            "poseTypes": [
-              "GLIDE"
-            ]
-          }
-        ]
-      },
-      {
-        "offset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "poseOffsets": [
-          {
-            "offset": {
-              "x": 3.7252903e-09,
-              "y": -2.5119905,
-              "z": 0.53009856
-            },
-            "poseTypes": [
-              "STAND"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.08413556,
-              "y": -2.8625107,
-              "z": 0.43183827
-            },
-            "poseTypes": [
-              "WALK"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0,
-              "y": -2.218462,
-              "z": 0.61262774
-            },
-            "poseTypes": [
-              "HOVER"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0,
-              "y": -3.0305538,
-              "z": -0.15911621
-            },
-            "poseTypes": [
-              "FLY"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0,
-              "y": -2.218462,
-              "z": 0.61262774
-            },
-            "poseTypes": [
-              "FLOAT"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0,
-              "y": -3.0305538,
-              "z": -0.15911621
-            },
-            "poseTypes": [
-              "SWIM"
-            ]
-          },
-          {
-            "offset": {
-              "x": 3.7252903e-09,
-              "y": -2.5119905,
-              "z": 0.53009856
-            },
-            "poseTypes": [
-              "GLIDE"
-            ]
-          }
-        ]
-      }
-    ]
   },
   "behaviour": {
     "combat": {
@@ -275,7 +23,7 @@
       "willFlee": false
     },
     "herd": {
-      "maxSize": "9",
+      "maxSize": 9,
       "toleratedLeaders": [
         {
           "pokemon": "corviknight",
@@ -301,6 +49,7 @@
       "rouseChance": 0.0042
     }
   },
+  "catchRate": 45,
   "drops": {
     "amount": 6,
     "entries": [
@@ -321,6 +70,54 @@
       }
     ]
   },
+  "eggCycles": 15,
+  "eggGroups": [
+    "flying"
+  ],
+  "evYield": {
+    "attack": 0,
+    "defence": 3,
+    "hp": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "evolutions": [],
+  "experienceGroup": "medium_slow",
+  "forms": [
+    {
+      "aspects": [
+        "gmax"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "height": 140,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0.5,
+      "name": "Gmax",
+      "pokedex": [
+        "cobblemon.species.corviknight-gmax.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "steel",
+      "weight": 0
+    }
+  ],
+  "height": 22,
+  "hitbox": {
+    "fixed": false,
+    "height": 4.4,
+    "width": 2
+  },
+  "implemented": true,
+  "labels": [
+    "gen8"
+  ],
+  "maleRatio": 0.5,
   "moves": [
     "1:steelwing",
     "1:irondefense",
@@ -427,29 +224,80 @@
     "legacy:round",
     "legacy:snore"
   ],
+  "name": "Corviknight",
+  "nationalPokedexNumber": 823,
+  "pokedex": [
+    "cobblemon.species.corviknight.desc"
+  ],
   "preEvolution": "corvisquire",
-  "evolutions": [],
-  "forms": [
-    {
-      "name": "Gmax",
-      "primaryType": "flying",
-      "secondaryType": "steel",
-      "maleRatio": 0.5,
-      "height": 140,
-      "weight": 0,
-      "pokedex": [
-        "cobblemon.species.corviknight-gmax.desc"
-      ],
-      "labels": [
-        "gen8",
-        "gmax"
-      ],
-      "aspects": [
-        "gmax"
-      ],
-      "evolutions": [],
-      "battleOnly": true,
-      "dynamaxBlocked": true
-    }
-  ]
+  "primaryType": "flying",
+  "riding": {
+    "behaviours": {
+      "AIR": {
+        "key": "cobblemon:air/bird",
+        "rideSounds": [
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": false,
+            "playForPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.wind.stereo",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "playForPassengers": false,
+            "soundLocation": "cobblemon:ride.loop.wind.mono",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": false,
+            "playForPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.plumage.stereo",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "playForPassengers": false,
+            "soundLocation": "cobblemon:ride.loop.plumage.mono",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          }
+        ],
+        "stats": {
+          "SPEED": "45-45",
+          "ACCELERATION": "45-45",
+          "SKILL": "27-27",
+          "JUMP": "90-90",
+          "STAMINA": "90-90"
+        }
+      },
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "SPEED": "22-22",
+          "ACCELERATION": "70-70",
+          "SKILL": "40-40",
+          "JUMP": "37-37",
+          "STAMINA": "70-70"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      },
+      {
+        "locator": "seat_2"
+      }
+    ]
+  },
+  "secondaryType": "steel",
+  "weight": 750
 }

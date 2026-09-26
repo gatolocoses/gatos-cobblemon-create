@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Pseudo
 @Mixin(targets = "journeymap.common.util.JourneyMapTeleport", remap = false)
 public class JourneyMapTeleportMixin {
-    @Inject(method = "attemptTeleport", at = @At("HEAD"), cancellable = true)
+    @Inject(method = "attemptTeleport", at = @At("HEAD"), cancellable = true, require = 0)
     private void gatosRecipeShare$blockTeleport(Entity entity, CallbackInfoReturnable<Boolean> callback) {
         if (entity == null) {
             return;

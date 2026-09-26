@@ -1350,15 +1350,15 @@ hash = "f4a113b5b4249e82d7f0f3d0fa5bc0d0eb698431ec0feb53fbdfa4ec4320a542"
 
 [[files]]
 file = "config/paxi/datapacks/gatos-hooh-buff/data/cobblemon/species/generation2/hooh.json"
-hash = "d959d52d3c531e6e95261369ad5c255dadc8a014e41e49bc79e39997de974733"
+hash = "5c8f55f8ae3dff6fdb2edf322d5366dcf22151db9aae176119d03e7549c41b38"
 
 [[files]]
 file = "config/paxi/datapacks/gatos-hooh-buff/data/cobblemon/species/generation3/rayquaza.json"
-hash = "4f71384be3191742e4443377bdd16ac13cf3b1e9b3c700424c854a0a285da9db"
+hash = "13eb4b8b87b8e27ad71e951bbce4ce7ea74965837d17f7ebe0bbc6c8a83bdaad"
 
 [[files]]
 file = "config/paxi/datapacks/gatos-hooh-buff/data/cobblemon/species/generation8/corviknight.json"
-hash = "d18477128e1eb488b0c22d359f6e23bc98bc521a8a99f6f8e52be4931a4f28f2"
+hash = "e23773f11930bf1e6a32be2f5299d8901202a46d46b8f1195cd272fd12177ac7"
 
 [[files]]
 file = "config/paxi/datapacks/gatos-hooh-buff/pack.mcmeta"
@@ -1502,7 +1502,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "3bfaceaab32e37e4be0d09fc4e2081201631f5f93ccd93d2aa1dd081d12ce516"
+hash = "1b474234c41d45bcaaef752a71291e73301530abf2a31cc17a986a0ae5dffa22"
 metafile = true
 
 [[files]]
@@ -1612,7 +1612,7 @@ metafile = true
 
 [[files]]
 file = "mods/gatos-recipe-share.pw.toml"
-hash = "6237e01cff2743ac19b578777c24d7e899869334998d4c1a79a5c579d4345219"
+hash = "94e16a809a6035380825de6ebf1672d9bcdf627966315faad17fed6d457cd59b"
 metafile = true
 
 [[files]]

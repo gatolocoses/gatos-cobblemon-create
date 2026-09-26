@@ -11,7 +11,24 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Pseudo
 @Mixin(targets = "journeymap.common.util.PermissionsManager", remap = false)
 public class JourneyMapPermissionsMixin {
-    @Inject(method = "canTeleport", at = @At("HEAD"), cancellable = true)
+    @Inject(method = "getTeleportOption", at = @At("HEAD"), cancellable = true, require = 0)
+    private void gatosRecipeShare$denyTeleportOption(ServerPlayer player, CallbackInfoReturnable<?> callback) {
+        MinecraftServer server = player.getServer();
+        if (server == null || !server.isDedicatedServer()) {
+            return;
+        }
+        try {
+            Class<?> optionClass = Class.forName("journeymap.common.properties.TeleportOption");
+            @SuppressWarnings({"unchecked", "rawtypes"})
+            Object none = Enum.valueOf((Class) optionClass, "NONE");
+            @SuppressWarnings("rawtypes")
+            CallbackInfoReturnable rawCallback = callback;
+            rawCallback.setReturnValue(none);
+        } catch (Exception ignored) {
+        }
+    }
+
+    @Inject(method = "canTeleport", at = @At("HEAD"), cancellable = true, require = 0)
     private void gatosRecipeShare$denyTeleportPermission(ServerPlayer player, CallbackInfoReturnable<Boolean> callback) {
         MinecraftServer server = player.getServer();
         if (server != null && server.isDedicatedServer()) {

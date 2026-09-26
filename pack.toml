@@ -1,12 +1,12 @@
 name = "Gato's Cobblemon Create"
 author = "gatolocoses"
-version = "1.0.43"
+version = "1.0.44"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "36b421983765e965cd41813f93e0bb91cfa17649ece7d10769c020878f5c3521"
+hash = "8952b588dc5de05661220ba0b386e7dae04216aed2723b25342d26ce4f754da1"
 
 [versions]
 minecraft = "1.21.1"
