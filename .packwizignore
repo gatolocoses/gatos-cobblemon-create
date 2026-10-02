@@ -7,5 +7,6 @@ mods-src/
 mods/gatos_recipe_share-*.jar
 *.mrpack
 *.zip
+!config/paxi/resourcepacks/*.zip
 packwiz-installer-bootstrap.jar
 custom-assets/

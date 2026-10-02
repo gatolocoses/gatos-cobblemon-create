@@ -817,6 +817,1406 @@ file = "config/paxi/datapacks/cobblemon-enderscape-spawns/pack.png"
 hash = "05b1832894a6d838633f5c80cb7ad56b6b4a278fd6490934071f478fcfa8f797"
 
 [[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/function/load.mcfunction"
+hash = "344e361b557910e95a005089d07f3fd816f8d9e7c9ea3f1f2debcd54ae782313"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/function/spawns/check_spawned_entity_1.mcfunction"
+hash = "88e9661a284eadc4224bb7e6ac972b11abea07e40182b27b9a7a2720257f4b49"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/function/spawns/check_spawned_entity_2.mcfunction"
+hash = "0d662bf44147cb2f31e43c4277d0df2bf3b6d5eb1c73dfed4c40464c4d3bdad9"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/function/spawns/house.mcfunction"
+hash = "1857a4e9242ce7e3fd0535b95226c7a784428a556cb307508092b7537ce300e9"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/function/spawns/marker_house.mcfunction"
+hash = "e6d4b7e1739977cf0a6a1c2a9fee1ffe94c929885e539a4f7d4195ad924f8b79"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/function/spawns/marker_tower.mcfunction"
+hash = "22ba0cc5fc53d55732bac7167d97a43a28fe9b756fd04722824b6906c4957483"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/function/spawns/tower.mcfunction"
+hash = "118b9addfa0c89c35fa1cba0cccb8b2f3289f9c5d2c202becf9aeb21c4333889"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/function/tick.mcfunction"
+hash = "e995cd0efb42c25bbfe49c593821c6419351aed708669881d6541dcd2993acbf"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/cherrygrove_city/chest_large.json"
+hash = "2fb24839ac2de3d743e9400dea1b65fe85476e303537c29577855690dde8f531"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/cherrygrove_city/chest_small.json"
+hash = "aa3ba139269386f07a6c9a9b6ac46caa7b2f8db473d00ef5d152596a10e2d358"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/entities/house.json"
+hash = "6dc863e6fce43e20b1bc761e1396de97377cf9e5f63ca5d5ddbb0efd49181222"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/entities/tower.json"
+hash = "857bd215e523d56d440fc92c65134faf146207ebd407fb3337e276b33642ba2c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/floaroma_town/chest_flower.json"
+hash = "23f780da762221b50c06e1bf2864ae3bb59a515dc3c3b5f4430a53e44928478d"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/floaroma_town/chest_large.json"
+hash = "a22506d0e582e8b7d2399d3ab2f49003a3cdebc4fbc67318d6c6b76113c23bf3"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/floaroma_town/chest_small.json"
+hash = "6b26dcb90734b65fa029cd299635e00ce4c80929d2f08c970f89e7b232aa2777"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/lavender_town/chest_large.json"
+hash = "7025b993b3bde2ba4ae1c07fed92e039ef9f51c12bd20bc1371dcbbdace21b70"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/lavender_town/chest_small.json"
+hash = "3dc68d8cd5adfbfae1ab30cbe62ddf5dcb06f75272db79e1f1562e1d9202acbd"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/lavender_town/chest_tower.json"
+hash = "e4256fb1c10e22128c1afa68c20fbe8492419c125401085e4ad30f447f9df9c0"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/lavender_town/chest_tower_top.json"
+hash = "928896e8f806ecfd8b6be16e6aeca5788f906726c2f42372df4106d949092524"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/lentimas_town/chest_mansion.json"
+hash = "19db070a29e4752f5d2401e14820240438bb73e4ca7b8fc6fd993bbeb1bbb434"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/lentimas_town/chest_small.json"
+hash = "a63c3f243f0f110f55c72703ab4973c8e70916d6c6a2a246ba9191bc6d936bbb"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/pacifidlog_town/chest_large.json"
+hash = "bc5575529585a2e7b6b4804a877ea001535c5247af2d23246efff85c848a0d38"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/pacifidlog_town/chest_small.json"
+hash = "45628eef1c7e7ae14e8ef600403862de48d2cfcbb957487b09d21e6fcd1ab521"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/pallet_town/chest_lab.json"
+hash = "8a6b7d494a0fcce57dafd0bd486cd41cff092feefc24a2a718ae53b9b900385f"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/pallet_town/chest_large.json"
+hash = "2fb24839ac2de3d743e9400dea1b65fe85476e303537c29577855690dde8f531"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/pallet_town/chest_small.json"
+hash = "ce2f0b35b39ce05f830494feaad835b86c07c3fb21bd5f73adc1c078f8401903"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/twinleaf_town/chest_large.json"
+hash = "2fb24839ac2de3d743e9400dea1b65fe85476e303537c29577855690dde8f531"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/loot_table/twinleaf_town/chest_small.json"
+hash = "0b6ea686b9a53b54584dea0ee9a5e094051d7d70daf00ec4d79b81d5f5efcf62"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/buildings/center.nbt"
+hash = "711520ff6402d5d3143881546e30cd101464f5fd8927567b004dcaca1a783645"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/buildings/large1.nbt"
+hash = "7b2fd34d4d902a4c40f0357a8ea5726f29586beaec2ff618811fd7d678ed62ec"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/buildings/large2.nbt"
+hash = "2b59837217a8fb879afaf9a7dbca903fb72e9dd03e1913da37fac57717c084e0"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/buildings/mart.nbt"
+hash = "bdd253b022816f29d0e422b860dcf365300e70a377de8e6d55f88790812a95fd"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/buildings/small1.nbt"
+hash = "85890886ce90b35033d19d8828abf3d44a342176801d0c301ceb62afe39fa0a8"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/buildings/small2.nbt"
+hash = "8f4bf4affaae22f02957399d025bae7f1beab76ff281fae8a9981b174f8ca389"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/decor/lamp1.nbt"
+hash = "a3d2aad5e881ad778f69f4ce367664cf55bb0905408aebfad70d78f2229cb6e7"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/decor/lamp2.nbt"
+hash = "83bf5359c642f3a9a51d74a7fb8b1b129dad1130b3e8abaa70ceb8206e53d0f2"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/decor/lamp3.nbt"
+hash = "b817a26f18f153f72a90ca4da1915b9ced67cc534b7cf7d8eda715964610ac56"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/decor/lamp4.nbt"
+hash = "7506d6ca1a2f6156c047a5b0e91d821921c35b298c5026a2f4a8972cfe2146b8"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/decor/tree1.nbt"
+hash = "e1b3fa352eab4279ccb4a57c80f9b738082951b8be87accad39f6ad3b98fdc56"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/decor/tree2.nbt"
+hash = "c693580f8d4b34e9abc45eb720ecd2a884beb654356832ffdf07bda6cf5b2339"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/decor/tree3.nbt"
+hash = "9e02f83df3dea59c371377af5d26f699e200e5eecda821fe6b87c8192c70feb9"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/extras/fence1.nbt"
+hash = "43a926c13eb6a70a4840fceed8ec07288cb20752f87a75169ad8cd2e41a6e744"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/extras/fence2.nbt"
+hash = "fec5889d9ff44990364149dc8a56debbc9cc764a1013248fe3812856a9b9fe57"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/extras/fence3.nbt"
+hash = "663765b7d1bb3ce4a7e8d330c0e246f4cf4104c5554d8d5325abee895f226e0c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/extras/fence4.nbt"
+hash = "9dc5dcd59210ded0d44ae4bd2aaa9028f03f944b1b10a79417334f062c7248a7"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/extras/flower1.nbt"
+hash = "b2665f95260310444f32bd17575143667ddac10babdd2fcad0d10198668e1d7d"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/extras/flower2.nbt"
+hash = "914cb004a64452dccafd5c1b1513eacf287414d971feb9c8391165fe4b5e996a"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/extras/rock1.nbt"
+hash = "d0f72ac7164df5308e172a5d97e012c82c5b6afb90fa7d68239ed874235ad104"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/extras/rock2.nbt"
+hash = "e957c8f691073e75603114fee9d54a920ba266fb9f7fc8c96994d72b31885c52"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/roads/joint_l.nbt"
+hash = "edfb023b9c4aa45df7de8dfb9756efdd068239d7534d93d3061fc078b88b4c5e"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/roads/joint_t.nbt"
+hash = "30e6feeeed2fca0558c09297389bb13f61e6868ad15f53c8a1270f1e56dc1a2f"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/roads/joint_x.nbt"
+hash = "386f2f31b642412a29b9d3afac71e182b43378a6843c33417d72604830dca30e"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/roads/rare.nbt"
+hash = "0fedb74a3aa1244849cda81ef42c58d87b1d0ef1078a4f7640d555071427724f"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/roads/rare2.nbt"
+hash = "ebd7209b896a6ec76b7f1df2983652d8b632c0bc4cf5876717594a74fdd8620f"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/roads/straight.nbt"
+hash = "662f986a7602f112ae75600f6a3fc9dbf71762ad1a18569c87667d2a1e0a65ee"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/cherrygrove_city/town_centers/sign.nbt"
+hash = "f57ef85f8b7a533672326051c3ef346e96f0ce951e6f89d3cfee06db4d088bbf"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/buildings/center.nbt"
+hash = "105ac548534380a1e1a44b422b9d1cdc99310f88398a498be93f783bdca363bb"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/buildings/flower_shop.nbt"
+hash = "78cd778f929c33532ad5b8e38b1538c931631e77a29f13f1436272a8d6f6a19e"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/buildings/large1.nbt"
+hash = "a76066e6f838095d8b0d3ef0480ad28f0345aea6e719fc335553bf6f2ba34bd0"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/buildings/large2.nbt"
+hash = "4f94c907bacb76f64bad268bd4f3b443ad35bf6745140cb2375a15c4f19e469a"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/buildings/mart.nbt"
+hash = "92d404b9de6af894d43668c9468f6b1998ab84c4de2fc9372e4e3b3b7a795574"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/buildings/small1.nbt"
+hash = "bd3acc2a4ab95a899b50fde8d2889551464a797ca9a189c42ebff7a80e0562a3"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/buildings/small2.nbt"
+hash = "d44c2c32284154b1f6c33a97cf0974d7e5f2b9bb2d3a95160038ef84762a4f10"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/decor/lamp1.nbt"
+hash = "7e211c73ced8e6b8569899c89c64329feaa101a99e002b6332d17f591afebfa6"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/decor/lamp2.nbt"
+hash = "9bca75cf2918d06514f21d4eeb9bc38f37a222b7f6e83cd7557531a5b4eb1179"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/decor/lamp3.nbt"
+hash = "6e45ec66fb1908f5327856e917b4880ae42cb11952f8e8a670dfb96e45f79924"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/decor/lamp4.nbt"
+hash = "494dffa92af85017c990cda4720a097f48765106e8551d4f26d08f7ce0df94d2"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/decor/tree1.nbt"
+hash = "ca3d9c83b07a4e134e471964547b024ea8833f5ca0d3f4299d429800a28b4bb1"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/decor/tree2.nbt"
+hash = "cfd88906db2744bce848131355cca1ead5e623f098dbf669a456db66447bd61e"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/decor/tree3.nbt"
+hash = "ce0752f8e3b6a914f934acee00639ece911e42db6d2214ee8992251bcd149131"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/decor/tree4.nbt"
+hash = "b3a1fde2e4326086b8a557c6ed87c615ec5f1137ea8e967a3cdda30e72cf14d5"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/extras/fence1.nbt"
+hash = "640a92c553c55162027b48d1f3d275d43456bb1df12f998337f82a9c21196890"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/extras/fence2.nbt"
+hash = "6318cae6ad19c3aa9c9e96df39c789803fa6b15626a4f2b2d3c8d2edc8a7f0be"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/extras/fence3.nbt"
+hash = "663765b7d1bb3ce4a7e8d330c0e246f4cf4104c5554d8d5325abee895f226e0c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/extras/flower1.nbt"
+hash = "b2665f95260310444f32bd17575143667ddac10babdd2fcad0d10198668e1d7d"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/extras/flower2.nbt"
+hash = "914cb004a64452dccafd5c1b1513eacf287414d971feb9c8391165fe4b5e996a"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/extras/garden1.nbt"
+hash = "6980aca1377e4031ea5f4a7d5aa58a030e518a4ebc4f852ba6d069034baa59d5"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/extras/garden2.nbt"
+hash = "a5cb7c986861d43323505970a81954a1afaf1786f32ef26e5641659abf5bda2c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/extras/windmill.nbt"
+hash = "e0c8d29a599f9e8eb186028e34fd75b862f62678e0200e88b0c934ab857f29ab"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/roads/joint_l.nbt"
+hash = "7e6fd4310b51678099dfaae9d61cce6e3ed219f79c3a5569207a811e1a4d5234"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/roads/joint_t.nbt"
+hash = "c88d24417e66599d1e661cd4a39ec035e9fcf41cecce96c14cb02701ec87fb5e"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/roads/joint_x.nbt"
+hash = "89a983758a6dd3ef611486142476dbb623c811380da6f023149bfeb759059c5a"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/roads/rare.nbt"
+hash = "79d4efddde40948cf7b9324a8cc5aaf7a66e82e5dda219758532be9af0dda2b0"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/roads/rare2.nbt"
+hash = "fb4ecb037a66ca34c80b0ca05894cc80fdd5369ec6b6af73f943e4a99f14171f"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/roads/rare3.nbt"
+hash = "40e34799b0e8faf9baaa4bf32f9ddbacd135312da07788ee621852c0467bd13d"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/roads/straight.nbt"
+hash = "18e83e98517a797727a7198958ee9122da4e20646e91438ae26e3464bb64f5da"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/roads/straight2.nbt"
+hash = "468af2929951cc7e56499385863e36cebda94521549498f6cb8699b784e16535"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/floaroma_town/town_centers/sign.nbt"
+hash = "914085b03d7cf891b38de9e1a1eaad953882b623a1a000a5a648ac0d4f961d31"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/buildings/center.nbt"
+hash = "521f7e716964075d902610b914e695f898765ce21e9d0630eb7de185fa41623b"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/buildings/large1.nbt"
+hash = "8e3ab5819c256f39d7ab8ec0ff863a67b0edfbe1ef6306e4b9b9ad744e221bba"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/buildings/large2.nbt"
+hash = "d526781aa208d6e5812b85af9f90e00d8ad46cd459847a3a8c3c545983e92b97"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/buildings/large3.nbt"
+hash = "ce03cb0470c4538d833a97949413af048531ccda35078a08ee333cd8d7047a45"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/buildings/mart.nbt"
+hash = "a06ddb9836702d7dd26d7152cb332715fb4b75be5faf7e6e84ea75e83e56ad02"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/buildings/pokemon_tower.nbt"
+hash = "4be47d82649f22dd1257edfef8426961400c851a2f3049a0cbf79aef6c4f3000"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/buildings/small1.nbt"
+hash = "f8712926d482776f196714b1a09beef9937ba0005c2ca35528bfecb4a04ae3e3"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/buildings/small2.nbt"
+hash = "00fadbd4bdd902c36a5e356e5566333827aead5568385935e05fb7b59afca9a1"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/buildings/small3.nbt"
+hash = "6ab2bdd3f671053adcf8c6ab0adf5228c9d796c4483553e6e7c411607b4f17ba"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/buildings/small4.nbt"
+hash = "8a7c7ec3346e2ce9336d95e7ddfc730d205aa2091eb2cbafc9f8894100dfaf98"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/decor/bush1.nbt"
+hash = "1af260559268310a77228225384478429df2d96cf18f0ac4b7292eb2d8a7dd78"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/decor/bush2.nbt"
+hash = "e4e0380e76caa543102d7c2790b8611bcc9ae501673b526678f72cb700756503"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/decor/lamp1.nbt"
+hash = "63efcedb528c86f7b78650b7c206eb4b31261bde39f11ca14b74dbae4a308ac9"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/decor/lamp2.nbt"
+hash = "1dee8a2732926a80f41a486bf3a4a338dd1a3080c98c36461c706fd95789cee4"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/decor/lamp3.nbt"
+hash = "3bd4d6f6c009e1e1dd821dee5b1252a354b624540f7626ee883144807bd3aeaa"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/decor/lamp4.nbt"
+hash = "00bc3b07264fd52fd505dd733712fb59e653b43961773241a148ae1517ed474c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/decor/lamp5.nbt"
+hash = "7e95d4a74b9d3b5a0084d4c0bafa31712b4854a8d5c6c5ac3b7dc5e7c3aee9f8"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/decor/lamp6.nbt"
+hash = "5222fdb2113afaa2e8892b7bd27767a4453494e768a366317ffec73698203da0"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/decor/landmark1.nbt"
+hash = "27a0e58924837e8f93988cb15a02c38b24bede25d4863a78cb34c99bc91ec2a9"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/decor/landmark2.nbt"
+hash = "49ea604e3a16b438aa64ce4c74577637c97954fe6dfc2e304bb12207bf24c2c7"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/decor/stone1.nbt"
+hash = "cf2e4ef0660472099910a410f9ec48f41821ef6da9bc756bd3ed1519abb562c2"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/decor/stone2.nbt"
+hash = "69f316bb7f40752f157ae43d80c082a804ff1de6a123d324e12620fb274c00f9"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/decor/tree1.nbt"
+hash = "b7248da7b9ea66df7673f55b83b084d127ee725f2335811f6687b2ada0737839"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/extras/fence1.nbt"
+hash = "68d4dd6f2aa98b4d77b442e396d769f8b04876d85bdad0e927ff51668f0b7c8c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/extras/fence2.nbt"
+hash = "ef0bd6d93f15ba91bd968d5fb86ce50f91b9e84bf79cb586cbb83779ca52c77e"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/extras/fence3.nbt"
+hash = "f67a44c6c57f2014e6c4502f676d06bb1324da04ee904f2fe6e2d98602b6ba3d"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/extras/flower1.nbt"
+hash = "262713cbed7dc84fdcef173df4502c25eebe5b6d25d7729fafc43e7648ab9539"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/extras/flower2.nbt"
+hash = "1ab517e0cd30a55f5b0d710921f854882a1710947f3412e80102531577807a85"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/extras/gate.nbt"
+hash = "c6b7866bda278d4a2a719ad2c8539d9c6504965c72ac726a13897c66cc9938b5"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/extras/landmarks1.nbt"
+hash = "deb3f993642fdeafa5e2b6c330b47205427880259a176d0e05d16cf1f158f6c1"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/extras/landmarks2.nbt"
+hash = "6080101f01c9a75f90b076ba8c50b7abaa0e16868fdc7c4613568bc7c43a912c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/extras/rock1.nbt"
+hash = "b0fa1c3f24bad2062a089a9ee395a33285ce55ec3284bad1b8ea7c945f826e8e"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/extras/rock2.nbt"
+hash = "e747d563d68dad04adae19ce8f4892fb479edfacec54127ca5957af7c5548749"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/roads/joint_l.nbt"
+hash = "328408a2a925810108109dfb6dd4665bddafc39ba45f7aec9b684001fb20b233"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/roads/joint_t.nbt"
+hash = "21789eb4793a0f6936c32789db6d4cabf17de89a2dbf3f5a4f3c3a4364d27ad6"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/roads/joint_x.nbt"
+hash = "1f2dce55e46fe42b0003d1c481565c3f3b50be3b966a6d0af2915a2c1c9ec08a"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/roads/rare.nbt"
+hash = "ccd1998dabf3a839ec2386b74c65794da519b5df4d7f8c4ab5de05d14cccaa8d"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/roads/rare2.nbt"
+hash = "992746071eaf9635d004693e56345a54744e54bf012af203481caf6cea80a63a"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/roads/rare3.nbt"
+hash = "315e3e79fbedfca1a3f09e08275521493dc1f27c3fec9d80e05f473598d62b45"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/roads/straight.nbt"
+hash = "f8b39e12cb60b266fa7a1520a4641ac08c509a26120b37bc9fffaae7e9d77209"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lavender_town/town_centers/sign.nbt"
+hash = "a69762611a6a21d92303e81b6b7d4783a495036cb6ec0f64d00beebe6f36ad4e"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/buildings/center.nbt"
+hash = "d6d6fe59a94012cee476eb3e6f9238291da28c544f2d845bc516335a96c3b27f"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/buildings/large1.nbt"
+hash = "362f5940d58566c2eee4fb4fb19226fbfb8975c5aa281bf631dfe7ed85385fe2"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/buildings/small1.nbt"
+hash = "ef1d2bd9c758ff6dc8d6fb997638d762a749ab1c75b534bcd26b49d96ac13383"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/buildings/small2.nbt"
+hash = "467e2f939e24fa22ed497be760a9c1ca64f2a3ac73ff06173621d079531fd56f"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/buildings/strange_house.nbt"
+hash = "550f62211fcb0cd10652c62b7cf7efc7abaa4ba00e565f86bed169db6095932c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/decor/lamp1.nbt"
+hash = "ecfe9e169a164fd40504d69fd446f0bcfed9354f7f96e3e63897c69745848e39"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/decor/lamp2.nbt"
+hash = "494b481e89fccf38ada24c8e37b68302c688fed336ab851f09dc09b45eeaa2a8"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/decor/lamp3.nbt"
+hash = "2d25ddf0ba3f19819c219e19454fc18689cc1376e72c5909730c59979750c0b1"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/decor/lamp4.nbt"
+hash = "a28dba9c20f086c04271da2d9d198132d7b68f4bbd0536f9280137e55cc73473"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/decor/tree1.nbt"
+hash = "b7248da7b9ea66df7673f55b83b084d127ee725f2335811f6687b2ada0737839"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/decor/tree2.nbt"
+hash = "55640dfa2e19f8d13c2423e396e3b3aed1f98b8ed430fc62639f05154c6c95ff"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/extras/rock1.nbt"
+hash = "699099e3c3393127b321ba12bb2fc6f87fe0995853396b03dc2fd276b3b8ffc2"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/extras/rock2.nbt"
+hash = "048f995df3537da2c3a20a3d3d8472ea8cf5d5bafed852dae8787d6649d338a5"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/extras/roots.nbt"
+hash = "9002a97b1549b9d9c7e737bee1e61a04060e4176ec000b337889b8743746d384"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/extras/watertower.nbt"
+hash = "71c45c87e419542f6ad03a8e0f9d9c72a04a6106e187014bfed45ce0366fd035"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/roads/joint_l.nbt"
+hash = "199588a8d732223201de8758801a9fe4ffe381bf45e131a526dc4652c2e1f510"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/roads/joint_t.nbt"
+hash = "bdfcf8bb40d973ad7bce96c07984dc5fcdde275cc67b67eaec37a2427700131d"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/roads/joint_x.nbt"
+hash = "81ca61fac54aca5b4f3cdb2a223f91b81680c5ef53410fa07639aa3fcedffcdb"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/roads/rare.nbt"
+hash = "0f89c06ab57485fb5c873cf43ad6f42b3f0c269d944fbe911e7366189d03d9d2"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/roads/rare2.nbt"
+hash = "80bc417cc0c7dc4b9bb98b52ad359837d9fff665a5345670d462045804dee0f6"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/roads/rare3.nbt"
+hash = "a3c5ba9e90dc8091c637f96d638df265cc2a7c77486463978f6a9e5523d3b46a"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/roads/rare4.nbt"
+hash = "40b4ce50c1e1e0c8f039dc9c5b17807c0199af28f5ecba969fa55eedeea94b7a"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/roads/rare5.nbt"
+hash = "7348ea6d52e14ae39f53291e6b67fbecee9ac7adc5177aa6df71b95eba79f8b2"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/roads/straight.nbt"
+hash = "33a7e3ed056652efe0a5b1b0b8faa50e7287bcef3669a745c167f9cbdfd7a27b"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/lentimas_town/town_centers/sign.nbt"
+hash = "451262150590e6a99a42a8a0100e741bd27132cd326797508f5d92f6959320f0"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/buildings/large1.nbt"
+hash = "6df4c2821bd8b34b9b261f5e2e03a4a53c86ff70b58d4ab0b2e5a578c08345a9"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/buildings/small1.nbt"
+hash = "33c601b204fdeb43fcf7a0cc8ae4098c33dad3a93a6ac65496ada265304dc8b0"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/buildings/small2.nbt"
+hash = "7aa9b7d137653d85701d9037b3e1b67ba3eb5b17f12ba8294e2dd052d817addb"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/buildings/small3.nbt"
+hash = "93dd88e6cfcc4a1f63901d5a66a517b7e06c6fa38a17b58e575fd4541b2fa7e4"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/decor/lamp1.nbt"
+hash = "d3e78625bcc71f0e75e4cf865d7cbe47fcffd66a9099e5562b5673412c0587be"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/decor/lamp2.nbt"
+hash = "dc14a87817bfb1f0068fe415116f027ab4d88a9a1040da40f2d1325956474a3e"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/decor/lamp3.nbt"
+hash = "f6c4a60b125023e17c4a338ae1d47997f6cd6e6db68f5e3d8de6fdad11828f27"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/decor/lamp4.nbt"
+hash = "d51c77afbcc1091f912641cc6673887093c9b96a6e3535e18172d6341af1b549"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/extras/bench.nbt"
+hash = "0a1d03b4287bf65b7e05872ef4137573d0aa61647b9a5bfee2a44b0a1108a1a7"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/extras/flower1.nbt"
+hash = "cf56bc9eeac5cc386e9251f993fff69ee5ccc911567d339a3f2105f407efedef"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/extras/flower2.nbt"
+hash = "f1922cb5d6ddec36e49c6877c4ca9985469bea5f2319f2bb6c577adf1c225fea"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/extras/pier1.nbt"
+hash = "214384e32ea42e67eed531267e81b570e057f89ff794c5c3b130f7cd8c5970cd"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/extras/pier2.nbt"
+hash = "134595454c3ea27e3347e08e4034a90fde91663aef505065c542dce7c1ce5050"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/extras/pier3.nbt"
+hash = "8b1466aa8451e31c0951669dee6fc5da75e489afb314ecb92a1a6ea68253ccb3"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/extras/rock1.nbt"
+hash = "e836508bef23d0b52409b9e3f4a124a0fe50774cd5db4f0fe93ab2b72a6a57fb"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/extras/rock2.nbt"
+hash = "626800fd36b4741c0f18e7fe9aabddfe561bebb09158ef45139c9254e5b942fe"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/extras/ship1.nbt"
+hash = "bec383f2f88c71cb1b69bb25aa4a3ffea4d52187fc0b4d5d29206c6cb26a3b51"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/extras/ship2.nbt"
+hash = "52cdcdf5a0a93a9ecf9995e76e43f24f36526da0f0f29aaa186e0aa6d8145c7e"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/roads/joint_l.nbt"
+hash = "7838ca56e389bb788182b8cbb19bfdd49f2596d403c54bb3cb1828aee4b86a8f"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/roads/joint_t.nbt"
+hash = "ebed71fff101512fabdf59f7c542df9260d5bbc8868f5d8726e5ed03ce03f48b"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/roads/joint_x.nbt"
+hash = "729f93323a8d82ddec6ff9a6d4d705cd61fe738e3c03ca2eedd9df2c84d6b786"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/roads/straight.nbt"
+hash = "8bc3a848d9edf8aacc7c7f46adea3c1457cb7b0dac9ba4c0d4c7ccaaf0d3ee6b"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pacifidlog_town/town_centers/sign.nbt"
+hash = "fc37385467ba64d0c6a8727135b622d83335cfa60ba13a9daad0f1da36ad5d00"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/buildings/large1.nbt"
+hash = "5c9c0e571ade264a594245da6aa4bbfb04954cb56b10ab60ad59572fb45c673d"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/buildings/large2.nbt"
+hash = "ef756189eedf937b6e7f3f256af8015b29424e6a2a3ac91f4556a0a1ed5ea351"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/buildings/small1.nbt"
+hash = "fec0e26b40fc51030d14b2f690697a0e258c5c709e5a2b3e69b0e90fa13ff168"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/buildings/small2.nbt"
+hash = "68671ed640805378c99afb2c7d9b8bb2c69d7e21f88cbf53a173307dcfa47a2d"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/buildings/small3.nbt"
+hash = "1967a3e3148ab85052093ab278feea7407fb352a3cf1828aa1a05a9fc2ef40b6"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/decor/lamp1.nbt"
+hash = "7e211c73ced8e6b8569899c89c64329feaa101a99e002b6332d17f591afebfa6"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/decor/lamp2.nbt"
+hash = "9bca75cf2918d06514f21d4eeb9bc38f37a222b7f6e83cd7557531a5b4eb1179"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/decor/lamp3.nbt"
+hash = "6096e77c4ba78d789bb5d3614f72b146e70e735170076e8b52b71f964e247baf"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/decor/lamp4.nbt"
+hash = "de664d19ccd4ac21507d66d6d657062d3a20104f5f950b71e1112decc9393dd3"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/decor/tree1.nbt"
+hash = "b194f1a27c87888df6d9b2f78538e858db40912d734a77a5a7b6b7567c6291db"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/decor/tree2.nbt"
+hash = "cfd88906db2744bce848131355cca1ead5e623f098dbf669a456db66447bd61e"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/decor/tree3.nbt"
+hash = "f1791389dfb446e3b11eb298968cabf0e0eb41808018f572e1bf556f7b5d1484"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/extras/fence1.nbt"
+hash = "a8b97688b64f6bf118d3962e7f328b23077ec01acd721911f5971fb499f46ab7"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/extras/fence2.nbt"
+hash = "ad47f042b21b7e685ce3c2782cb8e4f926f081b1202ae5cd664fa8db0e76341b"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/extras/fence3.nbt"
+hash = "47499651d568202450fbff372d1aefeaaeaf176eeb6c0a4dd61438dd389e3ec1"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/extras/flower1.nbt"
+hash = "ebea63b929ee7f45db82477c7e74c4e614acd7ae54e33514d6cd86abd5cf2c9f"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/extras/flower2.nbt"
+hash = "38ad5a2159d9c3f0f0a71e618c099be275ed89b571b94025398a1cb6bfa219be"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/extras/pool.nbt"
+hash = "565698b54155bab07f8a8aed9a02f48d8a4cb07b85e87d7e26cc2e5eaca0fb2b"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/extras/rock1.nbt"
+hash = "d0f72ac7164df5308e172a5d97e012c82c5b6afb90fa7d68239ed874235ad104"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/rare_structures/lab.nbt"
+hash = "076dcc52ad06ab944c57e6ddaed8148e836b435ec543f6d535e6b6716592569e"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/roads/joint_l.nbt"
+hash = "3b307781ea94103aa3a97fdf0afd3cc74b735fc436053d81e384dcc9f45bbf40"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/roads/joint_t.nbt"
+hash = "f77a88e234b32a7ba6a71f8c412fa755e4862ab52f152afb55af17b5aacfa2ba"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/roads/joint_x.nbt"
+hash = "d20641616016948b09d8f3abdef0b0dda9a3c413082c0dc13efc25be7e7a197f"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/roads/rare.nbt"
+hash = "8f597e07d519def63408914be2948443f7b2f59351e70b98931954adbd8c1384"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/roads/straight.nbt"
+hash = "6e882e08f4368ff12442a8693bae47e6767c42ca759f764cff6e70d0d310d6a5"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pallet_town/town_centers/sign.nbt"
+hash = "003e2ee6f1408b5ab5225a9fcd31842db959b8ed9807b9905ee747b5fd30aaad"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pokecenter/pokecenter.nbt"
+hash = "5c08b2d2b8a660e5261c9bc4cb3e70b1b4b1792238ede21f61cc994974d4ea9a"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/pokemart/pokemart.nbt"
+hash = "8dd3dad097456d73596acd6e3391b480cb4233f5a9b5903167406d71d57b5ba0"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/buildings/large1.nbt"
+hash = "036232044b61f7db8cded48cd154f0e2501289a14dd3ec59c6e1df490f81b287"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/buildings/large2.nbt"
+hash = "f8d25b8ac0674da5e4eb92fbb5b2f8520a53105b50be98055e28d1e444e2f6dd"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/buildings/small1.nbt"
+hash = "131bd8a3d50dfc647d1665e02925f2845d68871e8e117d6a9f2aea85cfcb5887"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/buildings/small2.nbt"
+hash = "7cb7f418a07f7b86833a8b42a5918286035e8748296f8d564d57f95fc404227c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/decor/lamp1.nbt"
+hash = "7e211c73ced8e6b8569899c89c64329feaa101a99e002b6332d17f591afebfa6"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/decor/lamp2.nbt"
+hash = "9bca75cf2918d06514f21d4eeb9bc38f37a222b7f6e83cd7557531a5b4eb1179"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/decor/lamp3.nbt"
+hash = "6096e77c4ba78d789bb5d3614f72b146e70e735170076e8b52b71f964e247baf"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/decor/lamp4.nbt"
+hash = "de664d19ccd4ac21507d66d6d657062d3a20104f5f950b71e1112decc9393dd3"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/decor/tree1.nbt"
+hash = "525f483faf3c0f4d91a2de635d8d98467a62cfaa951006fa7e0f267b60a7d555"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/decor/tree2.nbt"
+hash = "214be70b43907cd7b0bd41ece749a1532f964c3a7cdb4dde9ccc187e927785cf"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/extras/fence1.nbt"
+hash = "32f733d2194eb161b35c3e60a9628a04621326fe1b8d0207708e11f30f629e69"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/extras/fence2.nbt"
+hash = "8c1bc11df89213901698b8a1ebb9e77cf1b0f4a989bb404a2f6e6f4e4d9e189a"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/extras/flower1.nbt"
+hash = "262713cbed7dc84fdcef173df4502c25eebe5b6d25d7729fafc43e7648ab9539"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/extras/pool.nbt"
+hash = "e610bcda0349b4b5c6b5202b1a7b24871146f80875cf4d559271224dbcaf5a4d"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/extras/rock1.nbt"
+hash = "1f15da244fd0b1c5601df505d79af812e1459e85dfff0329b4b5acc1ebe119d0"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/extras/rock2.nbt"
+hash = "8fc19f6027835597be4e4849dffae9245090b1ad6ffa2676720827426df35059"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/roads/joint_l.nbt"
+hash = "bff9eaa782633dbe4cd2f3a88d72bce8a3d07a4b47bcaef6617cdb3fd4968bbf"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/roads/joint_t.nbt"
+hash = "cc0b8f56e285600dd5d538df03d384abdeb3ca44d4f6ff68ecc23710c9e5809c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/roads/joint_x.nbt"
+hash = "234073b11faee08759842a6d6f310b3b39f3e04c8c0443aaa2b39a2c34fd72d3"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/roads/straight.nbt"
+hash = "3e70be2f80641d25d2336fd61d7acb5e277a4736ab4474f7371c3d02d7fcad82"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/twinleaf_town/town_centers/sign.nbt"
+hash = "d896d6cb662f25e658b6329d6dcd23a995c42a3c4e66f4c494f34cd7ae984acc"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/villagers/nurse/nurse.nbt"
+hash = "6d7d1249dc2fddd338575a9df69cd47d87a75bcf6ae4ac99850f9e13035a63b4"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/villagers/oak/oak.nbt"
+hash = "0c022a26b5623491ed9f5b7e226a5986a02018dea7060c76ad35905d10be4d76"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/villagers/scientist/scientist.nbt"
+hash = "62853b7f69b5c8a659f798e8677df9be888a51eb77e8f8e13a54bb0cbd3657e2"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/villagers/shopkeeper/shopkeeper_flower.nbt"
+hash = "b205b2b6df202ad683bd3fc4c8b701965716e2ffd1f5a4c2b855b23d106d2c1c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/villagers/shopkeeper/shopkeeper_main.nbt"
+hash = "961924d723055feac6b7c66123417827c655c8b2b26ff7cf6a8f1a5053d50797"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/villagers/shopkeeper/shopkeeper_second1.nbt"
+hash = "02ad6dd5601e3fb546ad9a4ca5a28b0eb5c83c367b04e501c81ec10270979e21"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/villagers/shopkeeper/shopkeeper_second10.nbt"
+hash = "8488a0b9d15560f90fec4ce3c45a72f7af00970cf86c4a3143e145d176812a57"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/villagers/shopkeeper/shopkeeper_second2.nbt"
+hash = "e2c4a1190334c4b68051d0a58a57372c5da23bc8bdee0b6667d69ca8d9427fb3"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/villagers/shopkeeper/shopkeeper_second3.nbt"
+hash = "206188f0ebb8874ea47e0d1974d023fae58ec942709baff5c122c10dc70677a1"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/villagers/shopkeeper/shopkeeper_second4.nbt"
+hash = "77c14986a634af30699c6d07f6099d7c61db660dd987481eefa4d20cab83613c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/villagers/shopkeeper/shopkeeper_second5.nbt"
+hash = "144ef224b324e2e6ce61543ee842cc4567d4a6e8ff0327f737b0a86c6ee62ad0"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/villagers/shopkeeper/shopkeeper_second6.nbt"
+hash = "4cb54732d10f9eccbfc065065b1ee26e72e4c09165d908af8448427f44d16405"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/villagers/shopkeeper/shopkeeper_second7.nbt"
+hash = "6791c25f2fdf13c2517309082196064ef3ea7600705868f9eb700d648ce49376"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/villagers/shopkeeper/shopkeeper_second8.nbt"
+hash = "a3338f6f62991ebb804f0ca4e3030d810c16c417afba801e0baf29e2cf1b8353"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/structure/villagers/shopkeeper/shopkeeper_second9.nbt"
+hash = "af4d63de6a08eebcd1c0b02fd20a792fe98fa7400f6822c147e7a91c34288c45"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/tags/worldgen/biome/has_structure/cherrygrove_city.json"
+hash = "02e45ab2c8aa8be14b7d87363b0f01784cb538feca78ba9fa2daac9f5f89cfc1"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/tags/worldgen/biome/has_structure/floaroma_town.json"
+hash = "b6313d34ca82956f68c0527c4a02aa40f0329fdda572d87b2330eb0d97fb5a75"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/tags/worldgen/biome/has_structure/lavender_town.json"
+hash = "cbff40da48b9ca5f8998d9e057ffc535fbea439074a6eda8732d65cb749edc8b"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/tags/worldgen/biome/has_structure/lentimas_town.json"
+hash = "868d33fe4e67cf0bd1f467212c65fffbf5679ce13fd80c0afbf35e330affd785"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/tags/worldgen/biome/has_structure/pacifidlog_town.json"
+hash = "892562a0515923868445279b700bf115eb8a2fdc920ccac741248c3fb456992d"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/tags/worldgen/biome/has_structure/pallet_town.json"
+hash = "85edbd7d8f980c991438f17b328e17df5d657be59669f42e26df23b941450d92"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/tags/worldgen/biome/has_structure/pokecenter.json"
+hash = "9602fee2f1402d00b0856097b83df8545ce869e36e05272cd9b4c2b9667c3535"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/tags/worldgen/biome/has_structure/pokemart.json"
+hash = "9602fee2f1402d00b0856097b83df8545ce869e36e05272cd9b4c2b9667c3535"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/tags/worldgen/biome/has_structure/twinleaf_town.json"
+hash = "c534355dc867f3f1d66dbbce9d2d0863dc8254505a546187d65a567bc68ce195"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure/cherrygrove_city.json"
+hash = "bd2531c4b51cecb17300ff064e0151e774d9f565d37723f1b5e58943f8a88bc4"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure/floaroma_town.json"
+hash = "58a750140d5a620b62702563c718c66645971e1694533cd8e55fc9878009e852"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure/lavender_town.json"
+hash = "474d7597a70f23d8d444f5cd46d7b92586f90cbb2e53090ce76fa2bb742f4d55"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure/lentimas_town.json"
+hash = "3f8f3cb0c1986637cec58db5da14acbf9a870f8b2d12500623ad6f6a63f87789"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure/pacifidlog_town.json"
+hash = "fe1e21da534ce8543c40cc13840cead2f8898466b52a736b15de1289b7d24756"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure/pallet_town.json"
+hash = "ac6d517ccf5f41a174a65564cfb21eaa74a78796a264db0647dfdeec8ab7d62c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure/pokecenter.json"
+hash = "c73a2475d62ea75b9059466f657053621405a71fdc4bec2c863e8350e9fdd3a2"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure/pokemart.json"
+hash = "b79fb5ba6eb5daff9a58dfdb0d3e5daa9fda07d89c3b3fc8dbd197d8f5722d58"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure/twinleaf_town.json"
+hash = "6bc632e86b796d4c8fa85fe7b2aaa33de9afa91ecc0a656ad522296fb19cb0df"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure_set/cherrygrove_city.json"
+hash = "3eb28a85da766d768c1b348fbc8e140374daf37fb859eb361f3aad46f76aeda7"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure_set/floaroma_town.json"
+hash = "ac0486dae4bd8e5bb3e6285026bd464ec6fd1834635aa047737c19f54f1ca348"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure_set/lavender_town.json"
+hash = "67318bf519025c44c1511199ae4334ab3f75efb3dc123b5aad53cf4866640226"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure_set/lentimas_town.json"
+hash = "9f16e527b92504d053c3e45982092c8df65dde1783975022b10a300e0414ce6c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure_set/pacifidlog_town.json"
+hash = "cde5244cdd4e1e4a17c969c94a0e07a318a9e4c7966dd7af88a8f37779ebe861"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure_set/pallet_town.json"
+hash = "22719eb4ef271db1a76884575979f0607477980188b546d49310f33a2c148ad2"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure_set/pokecenter.json"
+hash = "b909bbf616e90a8a93f5cb40c2eada24da5b57df3c2014209697bfd33826dc25"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure_set/pokemart.json"
+hash = "ef18e08aa32e59e5f9b9c96bf011ee0f211935f8d8368f03446128cfd41e0c3c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/structure_set/twinleaf_town.json"
+hash = "5e9610d12d7b5f5749b0b7e74c6f360ed444ef2a268658658d0066a5156034df"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/cherrygrove_city/buildings.json"
+hash = "3bb38b97b69d9f56cd342a94d2d697d99c2d085d9fa1d5ef82cd630c9557a1a2"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/cherrygrove_city/center.json"
+hash = "83ac96c67ed4f4f93dfd97e8785c06a3f8afe2d8d227fed68b5b98ce692994fd"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/cherrygrove_city/decor.json"
+hash = "18df20245bf875346031c2ded2411d4e8e8332d33c29fd97ca08c3b48b434565"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/cherrygrove_city/extras.json"
+hash = "ad0a07fdae19566b45e0adf79a833289c6b4002c87e6d05ed34bb1f38c1a0314"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/cherrygrove_city/mart.json"
+hash = "476aba6ffdf5c783eaad6d62053a6c85d509a42e874ab1f5e9384696d12d67a6"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/cherrygrove_city/rare_road.json"
+hash = "a4d15fbea0024cccddda024d4a850666e9541565d0f13e9fd20635054f90956a"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/cherrygrove_city/rare_road2.json"
+hash = "61658cab226e6b6c253fa96e18f43f4dafa3e8c0828d33566507b87633c5653b"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/cherrygrove_city/roads.json"
+hash = "e52e08dfbfdc244ac68146af6773e836d073f493d3ea26ec281d89c0ea57e692"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/cherrygrove_city/town_centers.json"
+hash = "2d2f6460733ead114b77e8332a1a50469af29892f4715caae37474f42310f6d2"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/floaroma_town/buildings.json"
+hash = "a1e1753f83e576659057a5870459b59f407f5e378bb69bf9a321e9d3d0838459"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/floaroma_town/center.json"
+hash = "1b7a5fa7273b358f0f76bc81140053b2f4d73f68934f4dc4e84cdd8ef2002e18"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/floaroma_town/decor.json"
+hash = "010e9e5da4151cf9cd75c85d4ec30b10c26aae5d3e036d275aa1b6799b2024dd"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/floaroma_town/extras.json"
+hash = "4657aaae90361e68e28e9c2d1fa706770a0ad83b8462841ad16dccfa638632ca"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/floaroma_town/flower_shop.json"
+hash = "eed269e64d16a2e0118d41bdce1b263788dbe4d810b5f71b29b76c65f55a4fe6"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/floaroma_town/mart.json"
+hash = "0284597d943d96dcddd95da515de22dfc414384449f11785fccb79bfa28ba1f2"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/floaroma_town/rare_road.json"
+hash = "cddbc81da266291ce4bda594f9b623f942f69af8f66c418d36990837852ab0c5"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/floaroma_town/rare_road2.json"
+hash = "15fbf3a1e1089b6b133d870f82e829ac63c1c83c3edcf505dcd1e2d455b9e466"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/floaroma_town/rare_road3.json"
+hash = "d8acf90d06e465a5bc2cf9a8309b8a69c7c5f8cf3ae15e9b62c804a23da7dcbe"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/floaroma_town/roads.json"
+hash = "1152a59ee37a147d986c764f25373dfbd93cd178ace7943085527f7b45c810c3"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/floaroma_town/town_centers.json"
+hash = "63353cac041a36eadca858cddfcd32f43d7fe7cd43af43eb8eb7867c55701b6b"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lavender_town/buildings.json"
+hash = "d0ba49f984a4e6cfe545e92b827a1bcf49ec6d81b2415a44f41325d535496292"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lavender_town/center.json"
+hash = "71d8dba16322b8695025b428196b2912b388800df1afe8a193a622949005ca65"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lavender_town/decor.json"
+hash = "79c8aaa3673fa9fecbbeeb7e1cb9a97afbbbead52618392c210c6cdddff8fcd0"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lavender_town/extras.json"
+hash = "f5d47a4b2f850417383b61957a5fbc5b819a5292b1f50bf472af4059e8fe7ae8"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lavender_town/mart.json"
+hash = "be0f9e0421c21aba77622a0e8f8d2b9e7a09a01d76801d87585ea27c629a77d0"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lavender_town/pokemon_tower.json"
+hash = "65a9310221dc8cd64987494385607592c596f5948d6566e4f0ab81017f72fcd3"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lavender_town/rare_road.json"
+hash = "475b7f4a73e24b7fe8117fe34af3d9a0d0005d2e4ee16865f6b3442d173c94c0"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lavender_town/rare_road2.json"
+hash = "d37facfa70a356b5e8a0d4f3e7323c1ebddc2aee1d9d5ee830d3d531ab43fc05"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lavender_town/rare_road3.json"
+hash = "9bf1f2acfc26cc9a86ebe28d3ed829ad5b495985d0dc45a63186c24e987ebe73"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lavender_town/roads.json"
+hash = "c154199cb72957a1b955b5ee3025eaaf0579dc5d89c93d129bd2398408579dd1"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lavender_town/town_centers.json"
+hash = "3fd648eb28ed4ee556aeb27e6f0da9ff79f73d5cc4957534cd9463216f52ee9d"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lentimas_town/buildings.json"
+hash = "222471bbe07ced6513b536b7554d54606c5931131a64d25a1e4b6e7d4c375c43"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lentimas_town/center.json"
+hash = "f67ba15ae21418b868201f7fe6f39abdee4566629029050b012def5a0d3a5293"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lentimas_town/decor.json"
+hash = "812ec1fce34c47859938f5fd6f5187fb9d8a5f245c9b2e7e3923cf7924b6efc7"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lentimas_town/extras.json"
+hash = "e21063702003fcd271fc6fe1b8f65604bba528dba5e91717f62801eecc3033cb"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lentimas_town/rare_road.json"
+hash = "e90fe1e8a23c436ef5f5d12adfd36c32191aefac99f5270fb728f18b8a0152b5"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lentimas_town/rare_road2.json"
+hash = "72b45f289cbab74992c92cf7e1ef6b28416048bad172731a8add261afbdb754e"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lentimas_town/rare_road3.json"
+hash = "559cdb6827c3716df55866f9f83614c8e64d2028d21979f71902d8d4f36717b9"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lentimas_town/rare_road4.json"
+hash = "d2551a9511156f1f2e1aa8465920ebc9383b5bf1c0eb06b985020d0bb8db9fa9"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lentimas_town/rare_road5.json"
+hash = "c0f716704d388c3f10ffb7814d4eb53274f2118a17f7cf2659264f822b85a352"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lentimas_town/roads.json"
+hash = "469f63d6014531ddb7d47119831e38ab81fa695e34f71575a58af7e361282b6b"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lentimas_town/strange_house.json"
+hash = "a9d554735f2a4516966e9de93b950036cb0033ccb8dd9e9a8cf9c8b45c9cd688"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/lentimas_town/town_centers.json"
+hash = "66b0640158e606694bb130637840bb45164ebd12929a4974142029f4e34d636a"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/pacifidlog_town/buildings.json"
+hash = "d0606599d26fed7731899f3b3c1c39d1c42e716e2a767f6930348000977b0f2e"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/pacifidlog_town/decor.json"
+hash = "4712f955b46e797d8b4c77aa3b09fed3ac693f8fd47efeb56392bf62b79ca545"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/pacifidlog_town/extras.json"
+hash = "99e45a15fddd4ff0b7c55acb1c712f54ae0067653cb69f3e8c0f66274bc80254"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/pacifidlog_town/roads.json"
+hash = "115f0a00ea7747e107fc38f00a15ed1ee29234cf68758669c6ec9534ff821c4e"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/pacifidlog_town/town_centers.json"
+hash = "2e2c7aa1482e90c2c6862895f61896696b95d5ea3ed28ca9a4cffd91b52d2a2f"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/pallet_town/buildings.json"
+hash = "5647a95cd6b61166ac1583f910fb15e3ff39492fce4f3b9ac3be82467746c192"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/pallet_town/decor.json"
+hash = "705c1ee98b5ee28bd25f5e2434a834a3ba374218010d51dab72112e2be67aa83"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/pallet_town/extras.json"
+hash = "306cff427bf3c0b97870c789a277ae65ac151d251a54f610a4f9b37fd6ab52c5"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/pallet_town/rare_road.json"
+hash = "22be835699f15f958e85016c9a057395d1f9b7bf2c7e162ab193d07f87991f4c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/pallet_town/rare_structures.json"
+hash = "dcd68fa994fddcbce0508f5d4c286030775fc5c81f00ec0c014b816d8c0df6d4"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/pallet_town/roads.json"
+hash = "d31a807f65e3a4642ca63cd6101196dfd0c112e79d4d503acd7148bddf206e70"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/pallet_town/town_centers.json"
+hash = "46a499a8eef6dc76060d649e7ed5b59a83348ccc816d800c981f723067f43672"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/pokecenter/pokecenter.json"
+hash = "75bb6b0036daa3e43ae195d8564d326d7a431b38f6ae48356faabdd3b2425157"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/pokemart/pokemart.json"
+hash = "9f87cfc705356d7823847cc3c3037c07582cc8c28c5483b1a9c63d2acf50a69d"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/twinleaf_town/buildings.json"
+hash = "2d66b7276d5928f64a35e0e1ef9d293362c8933975b4429bf25727422e797bff"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/twinleaf_town/decor.json"
+hash = "e8f82abd12d15370ea3cb63548f56c6d6928d929f3767e41604f19fea018e75a"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/twinleaf_town/extras.json"
+hash = "39322fe1dbb5409e39dfd98b3d6ab963d2cd718e0969191d3341a3c4b021f27c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/twinleaf_town/roads.json"
+hash = "13f7e42d62177ce17a85db7297d10eb2794840af6afff1b034b373ab2e6a14ce"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/twinleaf_town/town_centers.json"
+hash = "bfb93a77fdf0307c87b4725aad276cf76a46641074012df7277155fd184fe323"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/villagers/nurse.json"
+hash = "131f6c9f2cce86d0d08dde49e0058e398d73a72bd0d49f03f6449432d402c32d"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/villagers/oak.json"
+hash = "f90790b82f2e6098874f25d7ee367ae4aaa6812753165d0752f7ad348310bc4b"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/villagers/scientist.json"
+hash = "e61890d9e9c053b646e285a0fc82e9b03f259aecc8fed4f75b69b7cd8b0e6335"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/villagers/shopkeeper_flower.json"
+hash = "06177d4cb6763e9f23b822e4e1e137f2563852378383850ca987a02ec974c967"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/villagers/shopkeeper_main.json"
+hash = "3bcc37a3f2cbe92adfc626e6f81271b8b71bba19a89ec7ad4c7d4ff09ce65fe3"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/cobbletowns/worldgen/template_pool/villagers/shopkeeper_second.json"
+hash = "f96c28e7e347232d721a698c4f8d5c699738be049677fa549d147cc2a4edbb93"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/minecraft/loot_table/cobblemon/apricorn_ball_loot.json"
+hash = "6874f1ea205a1a26958631a5d3fd06118a90ea7e1df95c64bc6b8d50d8efd801"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/minecraft/loot_table/cobblemon/apricorn_loot.json"
+hash = "a7c6c83b3df5be46f15181942b9309302a9948657a2f186bbf4e43e3995e8c8c"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/minecraft/loot_table/cobblemon/basic_loot.json"
+hash = "9c991859cbc6d3d479e19d1ff8bfc4cee765946235fd550bd6b46d56d4a9c1b4"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/minecraft/loot_table/cobblemon/evo_item_loot.json"
+hash = "7bdb0679410362fed06ee7943c4b09288a95503da55f7f20651cd52a8f6d12d2"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/minecraft/loot_table/cobblemon/held_item_1_loot.json"
+hash = "1af8bb89308bd4cd15929114b29c8f8618d12408a33e996c22f7b09bd41753e0"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/minecraft/loot_table/cobblemon/held_item_2_loot.json"
+hash = "9e36060cfb0050bd0bb6c3ac3090073e599962b67229320a30337b33c4f6bf39"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/minecraft/loot_table/cobblemon/special_ball_loot.json"
+hash = "8d094ebf3dc15357d5685af09622999a3b53aa571d6c58c360bc35248c7525ef"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/minecraft/loot_table/cobblemon/status_healing_loot.json"
+hash = "e47d495c3aaa8900b1ea2d4f30ea38ee9f257298eda719b2d6543bb3326587e1"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/minecraft/loot_table/cobblemon/vitamin_loot.json"
+hash = "e2271f65198d054ccab7b96a8293b657eba17ce728dc2b10012f3822d212aae8"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/minecraft/loot_table/cobblemon/x_item_loot.json"
+hash = "7d63b15eaeb72e27a38e8a8f77a90d270d41209f31486f25e302cbfd52e03b3f"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/minecraft/tags/function/load.json"
+hash = "b2b2727b2307984958030ea5d276e7b3a8de7de5c8e3a6c2231634b3ddaa5aa4"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/data/minecraft/tags/function/tick.json"
+hash = "b9bf1a898a5bd63e21174b25843cd2ec3d228dd2480631104524ff4fd214a352"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/pack.mcmeta"
+hash = "e109605343913de73195032f0bda6a6d886bfaee046bff36c8dcdff1a8ea0a20"
+
+[[files]]
+file = "config/paxi/datapacks/cobbletowns/pack.png"
+hash = "0be3e89ac6d95dca8179f675aed8154bc4382cc11de065b8cc2a68aa25865824"
+
+[[files]]
 file = "config/paxi/datapacks/gatos-alltheores-integration/data/alltheores/recipe/bronze_ore_hammer.json"
 hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
 
@@ -1363,6 +2763,18 @@ hash = "e23773f11930bf1e6a32be2f5299d8901202a46d46b8f1195cd272fd12177ac7"
 [[files]]
 file = "config/paxi/datapacks/gatos-hooh-buff/pack.mcmeta"
 hash = "8877914a98376c058786da71b1f856e23557fe827f2443b48185d700d968c409"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-no-vanilla-villages/data/minecraft/worldgen/structure_set/village.json"
+hash = "70a6e167c539acb7a46150397e59cc21b2e5fc7c63df5116a17f6aaf0df5abbc"
+
+[[files]]
+file = "config/paxi/datapacks/gatos-no-vanilla-villages/pack.mcmeta"
+hash = "f42f1f104df3d1e9714b503024d6b2bece92d4c6fdf53168bd49902e5ee6f52b"
+
+[[files]]
+file = "config/paxi/resourcepacks/CobbleFolk-Skins-CF-1.1.0.zip"
+hash = "e998e42aece9440e6c71230e831a7eff80362c08375cea8d74ad580e7a2453b6"
 
 [[files]]
 file = "config/placebo.cfg"
